@@ -14,7 +14,7 @@ const { Content, Sider } = Layout;
 const Sidebar = () => {
   return (
     <Layout>
-      <Sider
+      <Sider width={250}
         className='sider-style'
         breakpoint="lg"
         collapsedWidth="0">
