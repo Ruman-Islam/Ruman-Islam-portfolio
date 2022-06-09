@@ -16,7 +16,7 @@ const Contacts = () => {
     };
 
     if (state.succeeded) {
-        return <p style={style}>Thanks for joining!</p>;
+        return <p style={style}>Thanks for email me. I will contact to you soon!</p>
     }
 
     return (
