@@ -12,6 +12,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 999;
 }
 .logo {
     display: flex;
@@ -21,6 +22,9 @@
 .site-layout-background {
     background: #10121B;
     min-height: 100vh;
+}
+.site-layout{
+    margin-left: 200px !important;
 }
 
 .ant-layout-sider-zero-width-trigger {

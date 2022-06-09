@@ -6,7 +6,8 @@ import {
   HomeOutlined,
   ProjectOutlined,
   ContactsOutlined,
-  ReadOutlined
+  ReadOutlined,
+  UnorderedListOutlined
 } from '@ant-design/icons';
 const { Content, Sider } = Layout;
 
@@ -23,24 +24,24 @@ const Sidebar = () => {
         </div>
         <Menu theme='dark' className='menu-style' mode="inline" defaultSelectedKeys={['1']}>
           <Menu.Item key='1' icon={<HomeOutlined />}>
-            <NavLink to='/home'>Home</NavLink>
+            <NavLink className='text-xl' to='/about-me'>Home</NavLink>
           </Menu.Item>
           <Menu.Item key='2' icon={<ProjectOutlined />}>
-            <NavLink to='/projects'>Projects</NavLink>
+            <NavLink className='text-xl' to='/skills'>Skills</NavLink>
           </Menu.Item>
-          <Menu.Item key='3' icon={<ContactsOutlined />}>
-            <NavLink to='/contacts'>Contacts</NavLink>
+          <Menu.Item key='3' icon={<UnorderedListOutlined />}>
+            <NavLink className='text-xl' to='/projects'>Projects</NavLink>
           </Menu.Item>
-          <Menu.Item key='4' icon={<ReadOutlined />}>
-            <NavLink to='/blog'>Blog</NavLink>
+          <Menu.Item key='4' icon={<ContactsOutlined />}>
+            <NavLink className='text-xl' to='/contacts'>Contacts</NavLink>
+          </Menu.Item>
+          <Menu.Item key='5' icon={<ReadOutlined />}>
+            <NavLink className='text-xl' to='/blog'>Blog</NavLink>
           </Menu.Item>
         </Menu>
       </Sider>
       <Layout
-        className="site-layout"
-        style={{
-          marginLeft: 200,
-        }}>
+        className="site-layout">
         <Content
           className='site-layout-background'
         >
