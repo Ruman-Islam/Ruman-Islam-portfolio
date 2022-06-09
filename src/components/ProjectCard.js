@@ -6,10 +6,7 @@ const { Meta } = Card;
 const ProjectCard = ({ img, name, description, liveLink, gitClient, gitServer }) => {
     return (
         <Card
-            className='hover:transform hover:scale-105 duration-500'
-            style={{
-                width: 400,
-            }}
+            className='hover:transform hover:scale-105 duration-500 w-80 md:w-96'
             cover={
                 <img
                     alt="example"

@@ -1,7 +1,7 @@
 import { Layout, Menu } from 'antd';
 import React from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
-import profileImage from '../../assets/profile-image.png';
+import profileImage from '../assets/profile-image.png';
 import {
   HomeOutlined,
   ProjectOutlined,

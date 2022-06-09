@@ -19,7 +19,7 @@ const Skills = () => {
     return (
         <div className="w-10/12 py-10 flex flex-col h-full md:h-[100vh] 
         justify-center items-center mx-auto">
-            <h1 className="text-white text-5xl mb-5 mt-[-20px]">Skills</h1>
+            <h1 className="text-white text-3xl md:text-5xl mb-5 mt-[-20px]">Skills</h1>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                 {allSkills?.map(skill =>
                     <SkillCard
