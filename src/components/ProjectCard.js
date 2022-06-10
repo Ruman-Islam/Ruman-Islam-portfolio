@@ -1,33 +1,33 @@
 import React from 'react';
-import { GithubOutlined, SelectOutlined } from '@ant-design/icons';
-import { Card, Tooltip } from 'antd';
+import { Card } from 'antd';
+import { useNavigate } from 'react-router-dom';
 const { Meta } = Card;
 
-const ProjectCard = ({ img, name, description, liveLink, gitClient, gitServer }) => {
+const ProjectCard = ({ project: { id, img, name, description } }) => {
+    const navigate = useNavigate();
+
     return (
         <Card
             className='hover:transform hover:scale-105 duration-500 w-80 md:w-96'
             cover={
                 <img
+                    className='h-56'
                     alt="example"
                     src={img}
                 />
             }
             actions={[
-                <Tooltip title="Live Site">
-                    <a target="_blank" rel="noopener noreferrer" href={liveLink}><SelectOutlined /></a>
-                </Tooltip>,
-                <Tooltip title="Client repository">
-                    <a target="_blank" rel="noopener noreferrer" href={gitClient}><GithubOutlined /></a>
-                </Tooltip>,
-                <Tooltip title="Server repository">
-                    <a target="_blank" rel="noopener noreferrer" href={gitServer}><GithubOutlined /></a>
-                </Tooltip>
+                <button
+                    onClick={(() => navigate(`/project-detail/${id}`))}
+                    className='text-xl flex ml-auto mr-3 text-sky-500'>
+                    <span>read more</span>
+                </button>
             ]}
         >
             <Meta
                 title={name}
                 description={description}
+                className='h-32'
             />
         </Card>
     );

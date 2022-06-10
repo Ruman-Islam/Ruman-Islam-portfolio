@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "PLEX",
+        "title": "Manufacturer website",
+        "img": "https://i.ibb.co/6n4nWdP/Screenshot-52.png",
+        "screenshots" : [
+            "https://i.ibb.co/p3B90Hh/Screenshot-55.png",
+            "https://i.ibb.co/Kq9pgC1/Screenshot-53.png",
+            "https://i.ibb.co/1TpsJy2/Screenshot-54.png"
+        ],
+        "description": "Login system, Separate dashboard for user & admin, user settings. Super admin, add/remove admin, manage products & users, protected route. Book and cancel orders, Purchase and pay through stripe.",
+        "liveLink": "https://plex-4449f.firebaseapp.com/",
+        "gitClient": "https://github.com/Ruman-Islam/plex-client",
+        "gitServer": "https://github.com/Ruman-Islam/plex-server"
+    },
+    {
+        "id": 2,
+        "name": "Shelter",
+        "title": "Warehouse management system",
+        "img": "https://i.ibb.co/z4LPdp2/warehouse.png",
+        "description": "This website is for only admin. They can manage and update products. Login system, secured API with JWT, dashboard, separate vendor. CRUD operation, user settings, top sellers and products dynamically.",
+        "liveLink": "https://warehouse-47f11.web.app/",
+        "gitClient": "https://github.com/Ruman-Islam/warehouse-management-client",
+        "gitServer": "https://github.com/Ruman-Islam/warehouse-management-server"
+    },
+    {
+        "id": 3,
+        "name": "Photometry",
+        "title": "Independent service provider",
+        "img": "https://i.ibb.co/CnZ3MzP/photometry-1.png",
+        "description": "This is an individual service provider who provides photography in various event if available date. Admin, Landing page, login system, shipping form, cart etc.",
+        "liveLink": "https://dream-weaver-91b28.web.app/",
+        "gitClient": "https://github.com/Ruman-Islam/dream-weaver-client",
+        "gitServer": "https://github.com/Ruman-Islam/dream-weaver-server"
+    }
+]

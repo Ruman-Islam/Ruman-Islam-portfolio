@@ -24,15 +24,56 @@
     min-height: 100vh;
 }
 .site-layout{
-    margin-left: 200px !important;
+    margin-left: 250px !important;
 }
 
 .ant-layout-sider-zero-width-trigger {
     top: 0;
 }
 
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+  color: silver;
+  font-size: 2.5rem;
+}
+
+.ant-carousel .slick-prev {
+    position: absolute;
+    left: -20px;
+    z-index: 55;
+}
+.ant-carousel .slick-next {
+    position: absolute;
+    right: 0px;
+    z-index: 55;
+}
+
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-next:hover,
+.ant-carousel .slick-prev:focus,
+.ant-carousel .slick-next:focus {
+  color: white;
+}
+
+
 @media only screen and (max-width: 576px) {
     .site-layout{
         margin-left: 0 !important;
     }
+    .ant-carousel .slick-prev,
+    .ant-carousel .slick-next {
+        color: silver;
+        font-size: 1.5rem;
+    }
+    .ant-carousel .slick-prev {
+        position: absolute;
+        left: -20px;
+        z-index: 55;
+    }
+    .ant-carousel .slick-next {
+        position: absolute;
+        right: -15px;
+        z-index: 55;
+    }
+    
 }
