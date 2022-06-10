@@ -24,7 +24,7 @@ const Sidebar = () => {
         </div>
         <Menu theme='dark' className='menu-style' mode="inline" defaultSelectedKeys={['1']}>
           <Menu.Item key='1' icon={<HomeOutlined />}>
-            <NavLink className='text-lg' to='/about-me'>Home</NavLink>
+            <NavLink className='text-lg' to='/intro'>Home</NavLink>
           </Menu.Item>
           <Menu.Item key='2' icon={<ProjectOutlined />}>
             <NavLink className='text-lg' to='/skills'>Skills</NavLink>

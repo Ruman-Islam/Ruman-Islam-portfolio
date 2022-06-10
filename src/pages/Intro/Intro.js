@@ -2,10 +2,12 @@ import React from 'react';
 import profileImage from '../../assets/profile-image.png';
 import { FilePdfFilled } from '@ant-design/icons';
 import resume from '../../assets/Ruman-Islam.pdf';
+import PageTitle from '../../components/PageTitle';
 
-const AboutMe = () => {
+const Intro = () => {
     return (
         <div className='p-2 xl:px-20 text-center xl:text-left'>
+            <PageTitle title="Intro" />
             <div className='flex flex-col-reverse xl:flex-row justify-around items-center text-white'>
                 <div className='w-full xl:w-5/12'>
                     <h1 className='text-white text-4xl xl:text-7xl'>Ruman Islam</h1>
@@ -25,4 +27,4 @@ const AboutMe = () => {
     );
 };
 
-export default AboutMe;
+export default Intro;

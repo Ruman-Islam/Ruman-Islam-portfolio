@@ -1,5 +1,6 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+import PageTitle from '../../components/PageTitle';
 
 const Contacts = () => {
     const [state, handleSubmit] = useForm('xzbowgvq');
@@ -21,7 +22,8 @@ const Contacts = () => {
 
     return (
         <div className='flex flex-col justify-center items-center h-[100vh]'>
-            <h1 className='text-white text-3xl md:text-5xl mb-5 mt-[-20px]"'>Connect With Me</h1>
+            <PageTitle title="Contact" />
+            <h1 className='text-white text-3xl md:text-5xl mb-5 mt-[-20px]'>Connect With Me</h1>
             {state.errors.length > 0 && (
                 <p style={error}>You cannot Submit Empty Form </p>
             )}
@@ -61,9 +63,6 @@ const Contacts = () => {
                         </button>
                     </div>
                 </form>
-                <p className="text-center text-gray-500 text-xs">
-                    &copy;2020 Acme Corp. All rights reserved.
-                </p>
             </div>
         </div>
     );
