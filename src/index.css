@@ -161,8 +161,8 @@ body::-webkit-scrollbar {
 }
 
 .flicker {
-    width: 400px;
-    height: 400px;
+    width: 100px;
+    height: 100px;
     background-color: #f1c40f;
     border-radius: 50%;
     position: relative;

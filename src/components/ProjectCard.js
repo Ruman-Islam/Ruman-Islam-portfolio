@@ -5,7 +5,7 @@ const ProjectCard = ({ project, project: { id, img, name, description } }) => {
     const navigate = useNavigate();
 
     return (
-        <div className='flex flex-col 2xl::flex-row justify-between items-center'>
+        <div className='flex flex-col 2xl:flex-row justify-between items-center'>
             <div
                 data-aos="fade-right"
                 data-aos-delay="200"
@@ -17,7 +17,7 @@ const ProjectCard = ({ project, project: { id, img, name, description } }) => {
                 data-aos="fade-left"
                 data-aos-delay="200"
                 data-aos-duration="2000"
-                className='p-2 md:p-10 w-full md:w-11/12'>
+                className='p-2 md:p-10 w-full md:w-12/12'>
                 <div>
                     <h1 className='text-[40px] text-white font-bold'>{name}</h1>
                     <p className='text-[#7F8487]'>{description}</p>

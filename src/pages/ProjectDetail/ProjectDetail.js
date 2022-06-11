@@ -54,7 +54,7 @@ const ProjectDetail = () => {
                         </div>
                     </div>
                 </div>
-                <div className='my-10 border border-slate-500'>
+                <div className='my-10'>
                     <Carousel swipeToSlide draggable arrows
                         nextArrow={<DoubleRightOutlined />} prevArrow={<DoubleLeftOutlined />}>
                         {project?.screenshots?.map(ss =>
