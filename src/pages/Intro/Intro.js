@@ -10,9 +10,9 @@ const Intro = () => {
             <PageTitle title="Intro" />
             <div className='flex flex-col-reverse md:flex-row justify-around items-center text-white'>
                 <div
-                    data-aos="fade-right"
+                    data-aos="fade-up"
                     data-aos-delay="200"
-                    data-aos-duration="2000"
+                    data-aos-duration="1000"
                     className='basis-6/12'>
                     <div>
                         <h1 className='text-[#3BCF91] text-2xl pl-1'>Hi! I'm</h1>
@@ -29,9 +29,9 @@ const Intro = () => {
                     </div>
                 </div>
                 <div
-                    data-aos="fade-left"
+                    data-aos="fade-down"
                     data-aos-delay="200"
-                    data-aos-duration="2000"
+                    data-aos-duration="1000"
                     className='basis-5/12'>
                     <img src={profileImage} alt="" />
                 </div>

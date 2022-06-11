@@ -24,12 +24,12 @@ const Projects = () => {
     }
 
     return (
-        <div className='w-full md:w-9/12 py-10 flex flex-col h-full 
+        <div className='w-full md:w-11/12 2xl:w-9/12 py-10 flex flex-col h-full 
         justify-center items-center mx-auto px-2 md:px-0'>
             <PageTitle title="Projects" />
-            <h1 className="text-white font-semibold text-3xl md:text-5xl uppercase mb-2">Projects</h1>
+            <h1 className="text-white font-semibold text-3xl md:text-4xl 2xl:text-5xl uppercase mb-2">Projects</h1>
             <hr className='border-[#7F8487] w-full mb-10' />
-            <div className='grid grid-cols-1 gap-5 '>
+            <div className='grid grid-cols-1'>
                 {projects?.map(project =>
                     <ProjectCard
                         project={project} key={project.id}

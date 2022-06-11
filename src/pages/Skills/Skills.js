@@ -10,18 +10,18 @@ import PageTitle from '../../components/PageTitle';
 const allSkills = [
     { img: html, language: 'HTML', features: ['HTML5', 'Semantic HTML', 'JSX'] },
     { img: css, language: 'CSS', features: ['CSS3', 'Bootstrap', 'Tailwind', 'MaterialUI'] },
-    { img: js, language: 'JavaScript', features: ['ES5', 'ES6', 'DOM', 'TypeScript'] },
-    { img: react, language: 'React JS', features: ['Hooks', 'Context API', 'React Router', 'Redux JS'] },
+    { img: js, language: 'JavaScript', features: ['ES5', 'ES6', 'DOM'] },
+    { img: react, language: 'React JS', features: ['Hooks', 'Context API', 'React Router'] },
     { img: nodeJs, language: 'Back-end (Basic)', features: ['Node JS', 'Express JS', 'MongoDB', 'REST API'] },
     { img: others, language: 'Others (Tools)', features: ['Git and Github', 'VS Code', 'NPM', 'Postman'] }
 ]
 
 const Skills = () => {
     return (
-        <div className="w-10/12 py-10 flex flex-col h-full md:h-[100vh] 
+        <div className="w-10/12 py-10 flex flex-col h-full 
         justify-center items-center mx-auto">
             <PageTitle title="Skills" />
-            <h1 className="text-white text-3xl md:text-5xl mb-5 mt-[-20px]">Skills</h1>
+            <h1 className="text-white text-3xl md:text-4xl 2xl:text-5xl mb-5 mt-[-20px]">Skills</h1>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                 {allSkills?.map(skill =>
                     <SkillCard
