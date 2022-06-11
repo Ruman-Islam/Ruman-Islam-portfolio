@@ -13,7 +13,7 @@ const allSkills = [
     { img: js, language: 'JavaScript', features: ['ES5', 'ES6', 'DOM', 'TypeScript'] },
     { img: react, language: 'React JS', features: ['Hooks', 'Context API', 'React Router', 'Redux JS'] },
     { img: nodeJs, language: 'Back-end (Basic)', features: ['Node JS', 'Express JS', 'MongoDB', 'REST API'] },
-    { img: others, language: 'JavaOthers (Tools)Script', features: ['Git and Github', 'VS Code', 'NPM', 'Postman'] }
+    { img: others, language: 'Others (Tools)', features: ['Git and Github', 'VS Code', 'NPM', 'Postman'] }
 ]
 
 const Skills = () => {

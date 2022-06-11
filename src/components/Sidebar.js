@@ -7,7 +7,8 @@ import {
   ProjectOutlined,
   ContactsOutlined,
   ReadOutlined,
-  UnorderedListOutlined
+  UnorderedListOutlined,
+  UserOutlined,
 } from '@ant-design/icons';
 const { Content, Sider } = Layout;
 
@@ -15,16 +16,17 @@ const { Content, Sider } = Layout;
 const Sidebar = () => {
   return (
     <Layout>
-      <Sider width={250}
+      <Sider width={200}
         className='sider-style'
         breakpoint="lg"
         collapsedWidth="0">
-        <div className="logo">
-          <img src={profileImage} alt="" />
+        <div className='logo'>
+          <img className='w-20' src={profileImage} alt="" />
+          <h1 className='text-[#3CCF91]'>Mr. Ruman</h1>
         </div>
         <Menu theme='dark' className='menu-style' mode="inline" defaultSelectedKeys={['1']}>
           <Menu.Item key='1' icon={<HomeOutlined />}>
-            <NavLink className='text-lg' to='/intro'>Home</NavLink>
+            <NavLink className='text-lg' to='/intro'>Intro</NavLink>
           </Menu.Item>
           <Menu.Item key='2' icon={<ProjectOutlined />}>
             <NavLink className='text-lg' to='/skills'>Skills</NavLink>
@@ -37,6 +39,9 @@ const Sidebar = () => {
           </Menu.Item>
           <Menu.Item key='5' icon={<ReadOutlined />}>
             <NavLink className='text-lg' to='/blog'>Blog</NavLink>
+          </Menu.Item>
+          <Menu.Item key='6' icon={<UserOutlined />}>
+            <NavLink className='text-lg' to='/about-me'>About me</NavLink>
           </Menu.Item>
         </Menu>
       </Sider>

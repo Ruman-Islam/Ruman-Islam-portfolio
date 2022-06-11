@@ -1,22 +1,35 @@
 import React, { useEffect, useState } from 'react';
 import ProjectCard from '../../components/ProjectCard';
 import PageTitle from '../../components/PageTitle';
+import { SyncOutlined } from '@ant-design/icons';
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         fetch('https://raw.githubusercontent.com/Ruman-Islam/portfolio/main/public/projects.json')
             .then(res => res.json())
-            .then(data => setProjects(data))
+            .then(data => {
+                setProjects(data)
+                setLoading(false)
+            })
+
     }, [])
 
+    if (loading) {
+        return <div className='flex justify-center items-center h-[100vh]'>
+            <SyncOutlined className='text-[#3CCF91] text-[50px]' spin />
+        </div>
+    }
+
     return (
-        <div className='w-10/12 py-10 flex flex-col h-full md:h-[100vh] 
-        justify-center items-center mx-auto'>
+        <div className='w-full md:w-9/12 py-10 flex flex-col h-full 
+        justify-center items-center mx-auto px-2 md:px-0'>
             <PageTitle title="Projects" />
-            <h1 className="text-white text-3xl md:text-5xl mb-5 mt-[-20px]">Projects</h1>
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
+            <h1 className="text-white font-semibold text-3xl md:text-5xl uppercase mb-2">Projects</h1>
+            <hr className='border-[#7F8487] w-full mb-10' />
+            <div className='grid grid-cols-1 gap-5 '>
                 {projects?.map(project =>
                     <ProjectCard
                         project={project} key={project.id}

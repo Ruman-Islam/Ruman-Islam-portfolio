@@ -23,7 +23,7 @@ const ProjectDetail = () => {
     return (
         <div className='w-8/12 mx-auto'>
             <div className='py-10'>
-                <div className='flex justify-between'>
+                <div className='flex justify-between flex-col md:flex-row'>
                     <div>
                         <h1 className='text-[#CACACA] text-5xl font-bold'>{project?.name}</h1>
                         <h1 className='text-[#8A8A8A] text-xl font-bold mt-2 mb-2'>{project?.title}</h1>
@@ -31,16 +31,16 @@ const ProjectDetail = () => {
                     <div className='flex flex-col'>
                         <a target="_blank" rel="noopener noreferrer" href={project?.liveLink}
                             className='ml-2 uppercase text-white px-5 py-2 text-md font-semibold
-                         bg-[#00877A] flex justify-center items-center rounded-sm
+                         bg-[#3BCF91] flex justify-center items-center rounded-sm
                           hover:text-white hover:scale-105'>
                             <SelectOutlined />
                             <span className='ml-1'>Visit the website</span>
                         </a>
-                        <div className='flex justify-between mt-3'>
+                        <div className='flex flex-col md:flex-row justify-between mt-3'>
                             <a target="_blank" rel="noopener noreferrer" href={project?.gitClient}
                                 className='ml-2 uppercase text-white px-5 py-2 text-md font-semibold
                          bg-[#00877A] flex justify-center items-center rounded-sm
-                          hover:text-white hover:scale-105'>
+                          hover:text-white hover:scale-105 mb-3 md:mb-0'>
                                 <GithubOutlined />
                                 <span className='ml-1'>Client</span>
                             </a>
@@ -69,15 +69,15 @@ const ProjectDetail = () => {
                 <div>
                     <h1 className='text-[#CACACA] text-4xl font-semibold border-[#CACACA]
                      border-t-0 border-l-0 border-r-0 border-b leading-loose'>Overview</h1>
-                    <p className='text-[#8A8A8A] text-xl mt-5 text-justify'>{project?.overview}</p>
+                    <p className='text-[#8A8A8A] text-xl mt-5'>{project?.overview}</p>
                 </div>
                 <div className='my-5'>
                     <h1 className='text-[#CACACA] text-4xl font-semibold border-[#CACACA]
                      border-t-0 border-l-0 border-r-0 border-b leading-loose'>Features</h1>
-                    <ul className='list-disc pl-5'>
+                    <ul className='list-disc text\\-[#3BCF91] pl-5'>
                         {project?.features?.map((ft, index) =>
                             <li key={index}
-                                className='text-[#8A8A8A] text-xl leading-loose'>
+                                className='text-[#8A8A8A] text-xl leading-loose '>
                                 {ft}
                             </li>)}
                     </ul>
@@ -85,12 +85,12 @@ const ProjectDetail = () => {
                 <div>
                     <h1 className='text-[#CACACA] text-4xl font-semibold border-[#CACACA]
                      border-t-0 border-l-0 border-r-0 border-b leading-loose'>Technology Used</h1>
-                    <ul className='my-5 list-disc pl-5'>
+                    <ul className='my-5 grid grid-cols-1 md:grid-cols-4 gap-3'>
                         {project?.technology?.map((tech, index) =>
                             <li
-                                className='text-xl text-[#8A8A8A] ml-2'
+                                className='text-xl text-white px-5 py-1 bg-[#06283D]'
                                 key={index}>
-                                {tech},
+                                {tech}
                             </li>)}
                     </ul>
                 </div>

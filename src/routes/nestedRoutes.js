@@ -3,6 +3,7 @@ import Contacts from "../pages/Contacts/Contacts";
 import Blog from "../pages/Blog/Blog";
 import Intro from "../pages/Intro/Intro";
 import Skills from "../pages/Skills/Skills";
+import AboutMe from "../pages/AboutMe/AboutMe";
 import ProjectDetail from "../pages/ProjectDetail/ProjectDetail";
 
 export const nestedRoutes = [
@@ -12,5 +13,6 @@ export const nestedRoutes = [
     { path: 'intro', name: 'Intro', Component: Intro },
     { path: 'skills', name: 'Skills', Component: Skills },
     { path: 'blog', name: 'Blog', Component: Blog },
+    { path: 'about-me', name: 'AboutMe', Component: AboutMe },
     { name: 'Intro', Component: Intro }
 ]
