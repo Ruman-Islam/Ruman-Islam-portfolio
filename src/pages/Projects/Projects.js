@@ -4,17 +4,17 @@ import PageTitle from '../../components/PageTitle';
 import { SyncOutlined } from '@ant-design/icons';
 
 const Projects = () => {
-    const [projects, setProjects] = useState([]);
     const [loading, setLoading] = useState(true);
+    const [projects, setProjects] = useState([]);
 
     useEffect(() => {
-        fetch('https://raw.githubusercontent.com/Ruman-Islam/portfolio/main/public/projects.json')
+        const url = `https://raw.githubusercontent.com/Ruman-Islam/portfolio/main/public/projects.json?token=GHSAT0AAAAAABTKZKK7PBPUGOSRA52XHUBEYWAUHHA`;
+        fetch(url)
             .then(res => res.json())
             .then(data => {
                 setProjects(data)
                 setLoading(false)
             })
-
     }, [])
 
     if (loading) {
