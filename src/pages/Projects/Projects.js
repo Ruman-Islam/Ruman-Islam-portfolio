@@ -8,7 +8,7 @@ const Projects = () => {
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
-        const url = `https://raw.githubusercontent.com/Ruman-Islam/portfolio/main/public/projects.json?token=GHSAT0AAAAAABTKZKK7PBPUGOSRA52XHUBEYWAUHHA`;
+        const url = `https://raw.githubusercontent.com/Ruman-Islam/portfolio/main/public/projects.json?token=GHSAT0AAAAAABTKZKK7FQAQIBGSH3ABN54IYWAUOOQ`;
         fetch(url)
             .then(res => res.json())
             .then(data => {
