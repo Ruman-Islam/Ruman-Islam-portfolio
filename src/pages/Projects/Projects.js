@@ -5,7 +5,7 @@ const Projects = () => {
 
     return (
         <div className='w-full py-10 flex flex-col h-full 
-        justify-center items-center mx-auto px-2 md:px-0'>
+        justify-center items-center mx-auto px-2 md:px-28 2xl:px-2'>
             <PageTitle title="Projects" />
             <div style={{ borderBottom: '1px solid hsla(0,0%,100%,.05)' }}
                 className='text-white text-center w-6/12 py-5'>

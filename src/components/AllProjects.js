@@ -12,18 +12,18 @@ const AllProjects = () => {
             .then(res => res.json())
             .then(data => {
                 setProjects(data)
-                setLoading(false)
+                setLoading(false);
             })
     }, [])
 
     if (loading) {
-        return <div className='flex justify-center items-center h-[100vh]'>
+        return <div className='flex justify-center items-center h-[80vh]'>
             <SyncOutlined className='text-[#3CCF91] text-[50px]' spin />
         </div>
     }
 
     return (
-        <div className='w-full md:w-11/12 2xl:w-9/12 py-10 flex flex-col h-full 
+        <div className='w-full md:w-11/12 2xl:w-9/12 py-5 flex flex-col h-full 
         justify-center items-center mx-auto px-2 md:px-0'>
             <PageTitle title="Projects" />
             <div className='grid grid-cols-1'>

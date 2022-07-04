@@ -4,16 +4,44 @@ import css from '../assets/css.png';
 import js from '../assets/js.png';
 import react from '../assets/react.png';
 import nodeJs from '../assets/nodeJs.png';
-import others from '../assets/terminal.png';
+import tailwind from '../assets/tailwind-css.png';
+import bootstrap from '../assets/Bootstrap.png';
+import express from '../assets/express.png';
+import git from '../assets/git.png';
+import firebase from '../assets/firebase-logo-vector.svg';
+import heroku from '../assets/heroku-logo.png';
+import npm from '../assets/npm.png';
+import mongodb from '../assets/mongodb.png';
+import axios from '../assets/axios.png';
+import reactQuery from '../assets/react-query.png';
+import netlify from '../assets/netlify.svg';
+import postman from '../assets/Postman_(software).png';
+import daisyui from '../assets/logo-4.svg';
+import vscode from '../assets/Visual_Studio.png';
+import antDesign from '../assets/ant-design.png';
 import PageTitle from './PageTitle';
 
 const allSkills = [
-    { img: html, language: 'HTML', features: ['HTML5', 'Semantic HTML', 'JSX'] },
-    { img: css, language: 'CSS', features: ['CSS3', 'Bootstrap', 'Tailwind', 'MaterialUI'] },
-    { img: js, language: 'JavaScript', features: ['ES5', 'ES6', 'DOM'] },
-    { img: react, language: 'React JS', features: ['Hooks', 'Context API', 'React Router'] },
-    { img: nodeJs, language: 'Back-end (Basic)', features: ['Node JS', 'Express JS', 'MongoDB', 'REST API'] },
-    { img: others, language: 'Others (Tools)', features: ['Git and Github', 'VS Code', 'NPM', 'Postman'] }
+    { img: html },
+    { img: css },
+    { img: js },
+    { img: react },
+    { img: nodeJs },
+    { img: tailwind },
+    { img: bootstrap },
+    { img: express },
+    { img: git },
+    { img: firebase },
+    { img: heroku },
+    { img: npm },
+    { img: mongodb },
+    { img: axios },
+    { img: reactQuery },
+    { img: netlify },
+    { img: postman },
+    { img: daisyui },
+    { img: vscode },
+    { img: antDesign }
 ]
 
 const Skills = () => {
@@ -21,13 +49,12 @@ const Skills = () => {
         <div className="w-10/12 flex flex-col h-full mt-10
         justify-center items-center mx-auto">
             <PageTitle title="Skills" />
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-                {allSkills?.map(skill =>
+            <p className="text-[24px] font-bold mb-5">Technologies I know and familiar with</p>
+            <div className="grid grid-cols-2 md:grid-cols-10 gap-5">
+                {allSkills?.map((skill, index) =>
                     <SkillCard
-                        key={skill?.language}
+                        key={index}
                         img={skill?.img}
-                        language={skill?.language}
-                        features={skill?.features}
                     />
                 )}
             </div>

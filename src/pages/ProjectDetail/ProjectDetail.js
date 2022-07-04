@@ -25,7 +25,7 @@ const ProjectDetail = () => {
             <div className='py-10'>
                 <div className='flex justify-between flex-col md:flex-row'>
                     <div>
-                        <h1 className='text-[#CACACA] text-5xl font-bold'>{project?.name}</h1>
+                        <h1 className='text-white text-5xl font-bold'>{project?.name}</h1>
                         <h1 className='text-[#8A8A8A] text-xl font-bold mt-2 mb-2'>{project?.title}</h1>
                     </div>
                     <div className='flex flex-col'>
@@ -67,23 +67,23 @@ const ProjectDetail = () => {
                     </Carousel>
                 </div>
                 <div>
-                    <h1 className='text-[#CACACA] text-4xl font-semibold border-[#CACACA]
+                    <h1 className='text-white text-4xl font-semibold border-[#CACACA]
                      border-t-0 border-l-0 border-r-0 border-b leading-loose'>Overview</h1>
-                    <p className='text-[#8A8A8A] text-xl mt-5'>{project?.overview}</p>
+                    <p className='text-[#919DAE] text-xl mt-5'>{project?.overview}</p>
                 </div>
                 <div className='my-5'>
-                    <h1 className='text-[#CACACA] text-4xl font-semibold border-[#CACACA]
+                    <h1 className='text-white text-4xl font-semibold border-[#CACACA]
                      border-t-0 border-l-0 border-r-0 border-b leading-loose'>Features</h1>
                     <ul className='list-disc text\\-[#3BCF91] pl-5'>
                         {project?.features?.map((ft, index) =>
                             <li key={index}
-                                className='text-[#8A8A8A] text-xl leading-loose '>
+                                className='text-[#919DAE] text-xl leading-loose '>
                                 {ft}
                             </li>)}
                     </ul>
                 </div>
                 <div>
-                    <h1 className='text-[#CACACA] text-4xl font-semibold border-[#CACACA]
+                    <h1 className='text-white text-4xl font-semibold border-[#CACACA]
                      border-t-0 border-l-0 border-r-0 border-b leading-loose'>Technology Used</h1>
                     <ul className='my-5 grid grid-cols-1 md:grid-cols-4 gap-3'>
                         {project?.technology?.map((tech, index) =>
