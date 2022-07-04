@@ -2,7 +2,7 @@ import React from 'react';
 import {
     UserOutlined
 } from '@ant-design/icons';
-import profileImage from '../../assets/profile-image.png';
+import profileImage from '../../assets/profileImage.png';
 import PageTitle from '../../components/PageTitle';
 
 const AboutMe = () => {

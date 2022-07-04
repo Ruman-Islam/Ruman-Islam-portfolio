@@ -27,7 +27,7 @@ const Contacts = () => {
             <h1
                 data-aos="fade-right"
                 data-aos-delay="200"
-                data-aos-duration="2000"
+                data-aos-duration="1500"
                 className='text-white text-3xl md:text-5xl mb-5 mt-[-20px] hidden md:block'>Connect With Me</h1>
             {state.errors.length > 0 && (
                 <p style={error}>You cannot Submit Empty Form </p>
@@ -37,7 +37,7 @@ const Contacts = () => {
                 <div
                     data-aos="fade-left"
                     data-aos-delay="200"
-                    data-aos-duration="2000"
+                    data-aos-duration="1500"
                     className='text-white w-full text-center md:text-left'>
                     <h1 className='text-white text-[30px]'>Contact Info</h1>
                     <hr className='border-[#7F8487] border-1 w-8/12 mb-10 hidden md:block' />
@@ -85,7 +85,7 @@ const Contacts = () => {
                 <form onSubmit={handleSubmit}
                     data-aos="fade-left"
                     data-aos-delay="200"
-                    data-aos-duration="2000"
+                    data-aos-duration="1500"
                     className="rounded px-8 pt-6 pb-8 mb-4 w-full">
                     <div className="mb-4">
                         <input className="shadow appearance-none border-0 rounded w-full py-2 px-3 text-white leading-tight outline-none focus:shadow-outline bg-[#06283D]" id="subject" type="text" name='subject' placeholder="Subject" />

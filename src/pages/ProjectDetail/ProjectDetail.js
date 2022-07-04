@@ -11,7 +11,7 @@ const ProjectDetail = () => {
     const { id } = useParams();
 
     useEffect(() => {
-        fetch('https://raw.githubusercontent.com/Ruman-Islam/portfolio/main/public/projects.json?token=GHSAT0AAAAAABTKZKK7FQAQIBGSH3ABN54IYWAUOOQ')
+        fetch('/projects.json')
             .then(res => res.json())
             .then(data => {
                 const project = data?.find(pg => +pg.id === +id);

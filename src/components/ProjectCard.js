@@ -26,10 +26,10 @@ const ProjectCard = ({ project, project: { id, img, name, description } }) => {
                     <h1 className='text-[20px] 2xl:text-[23px] font-semibold text-white mb-2'>Technology Used</h1>
                     <hr className='border-[#7F8487] border-1 w-full mb-2' />
                     <div className='text-[14px] 2xl:text-[18px] flex justify-around'>
-                        <span className='px-5 md:px-10 2xl:px-12 py-1 rounded text-white bg-[#29303D]'>HTML</span>
-                        <span className='px-5 md:px-10 2xl:px-12 py-1 rounded text-white bg-[#29303D]'>CSS</span>
-                        <span className='px-5 md:px-10 2xl:px-12 py-1 rounded text-white bg-[#29303D]'>JS</span>
-                        <span className='px-5 md:px-10 2xl:px-12 py-1 rounded text-white bg-[#29303D]'>MERN</span>
+                        <span className='px-5 md:px-8 py-1 rounded text-white bg-[#29303D]'>HTML</span>
+                        <span className='px-5 md:px-8 py-1 rounded text-white bg-[#29303D]'>CSS</span>
+                        <span className='px-5 md:px-8 py-1 rounded text-white bg-[#29303D]'>JS</span>
+                        <span className='px-5 md:px-8 py-1 rounded text-white bg-[#29303D]'>MERN</span>
                     </div>
                     <hr className='border-[#7F8487] border-1 w-full mt-2' />
                     <div className='mt-5 text-white'>

@@ -1,11 +1,11 @@
-import SkillCard from "../../components/SkillCard";
-import html from '../../assets/html.png';
-import css from '../../assets/css.png';
-import js from '../../assets/js.png';
-import react from '../../assets/react.png';
-import nodeJs from '../../assets/nodeJs.png';
-import others from '../../assets/terminal.png';
-import PageTitle from '../../components/PageTitle';
+import SkillCard from "./SkillCard";
+import html from '../assets/html.png';
+import css from '../assets/css.png';
+import js from '../assets/js.png';
+import react from '../assets/react.png';
+import nodeJs from '../assets/nodeJs.png';
+import others from '../assets/terminal.png';
+import PageTitle from './PageTitle';
 
 const allSkills = [
     { img: html, language: 'HTML', features: ['HTML5', 'Semantic HTML', 'JSX'] },
@@ -18,10 +18,9 @@ const allSkills = [
 
 const Skills = () => {
     return (
-        <div className="w-10/12 py-10 flex flex-col h-full 
+        <div className="w-10/12 flex flex-col h-full mt-10
         justify-center items-center mx-auto">
             <PageTitle title="Skills" />
-            <h1 className="text-white text-3xl md:text-4xl 2xl:text-5xl mb-5 mt-[-20px]">Skills</h1>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                 {allSkills?.map(skill =>
                     <SkillCard
