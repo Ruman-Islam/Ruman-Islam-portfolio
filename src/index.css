@@ -51,7 +51,7 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
 
 /* dashboard sidebar */
 .menu-style, .sider-style {
-  background-color: #111827 !important;
+  background-color: #1E2A3A !important;
 }
 .menu-style {
   width: 200px;
@@ -86,15 +86,14 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
 
 
 .display-container {
-  width: 99%;
-  height: 370px;
+  height: 340px;
   position: relative;
   color: #F3F3F3;
 }
 
 .display-banner-image {
-  height: 150px;
-  background-image: url('./assets/banner.jpg');
+  height: 100%;
+  background-color: hsla(0,0%,100%,.05);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -103,7 +102,7 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
   width: 140px;
   height: 140px;
   position: absolute;
-  top: 80px;
+  top: 50px;
   left: 55px;
 }
 .display-img-container .display-img-wrapper {

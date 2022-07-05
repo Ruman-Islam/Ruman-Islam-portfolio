@@ -9,8 +9,8 @@ export const nestedRoutes = [
     { path: 'project-detail/:id', name: 'ProjectDetail', Component: ProjectDetail },
     { path: 'projects', name: 'Projects', Component: Projects },
     { path: 'contacts', name: 'Contacts', Component: Contacts },
-    { path: 'intro', name: 'Intro', Component: Intro },
+    { path: '/', name: 'Intro', Component: Intro },
     { path: 'blog', name: 'Blog', Component: Blog },
     { path: 'about-me', name: 'AboutMe', Component: AboutMe },
-    { name: 'Intro', Component: Intro }
+    { name: '/', Component: Intro }
 ]
