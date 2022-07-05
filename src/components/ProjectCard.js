@@ -6,10 +6,10 @@ const ProjectCard = ({ project, project: { id, img, name, description } }) => {
     const { pathname } = useLocation();
 
     return (
-        <div style={{ borderBottom: '1px solid hsla(0,0%,100%,.05)' }}
-            className='flex flex-col md:flex-row justify-between items-center h-full'>
+        <div className='flex flex-col md:flex-row justify-between
+         items-center h-full light-border-bottom'>
             <div
-                className='p-2 w-full md:w-10/12 2xl:w-12/12'>
+                className={`p-2 w-full md:w-10/12 ${pathname.includes('/projects') ? '2xl:w-8/12' : '2xl:w-12/12'}`}>
                 <img className='w-full' src={img} alt="" />
             </div>
             <div
@@ -19,12 +19,13 @@ const ProjectCard = ({ project, project: { id, img, name, description } }) => {
                     <p className='text-[#7F8487]'>{description}</p>
                 </div>
                 <div>
-                    <h1 className='text-[18px] 2xl:text-[20px] font-semibold text-white'>Technology Used</h1>
+                    <h1 className={`text-[18px] 2xl:text-[20px] font-semibold text-white
+                     ${pathname.includes('/projects') ? 'my-2' : 'my-1'}`}>Technology Used</h1>
                     <div className='text-[14px] 2xl:text-[16px] flex justify-between'>
-                        <span className={`px-5 ${pathname.includes('projects') ? 'md:px-8 2xl:px-16' : 'md:px-8'} py-1 rounded text-white bg-[#29303D]`}>HTML</span>
-                        <span className={`px-5 ${pathname.includes('projects') ? 'md:px-8 2xl:px-12' : 'md:px-8'} py-1 rounded text-white bg-[#29303D]`}>CSS</span>
-                        <span className={`px-5 ${pathname.includes('projects') ? 'md:px-8 2xl:px-12' : 'md:px-8'} py-1 rounded text-white bg-[#29303D]`}>JS</span>
-                        <span className={`px-5 ${pathname.includes('projects') ? 'md:px-8 2xl:px-12' : 'md:px-8'} py-1 rounded text-white bg-[#29303D]`}>MERN</span>
+                        <span className={`px-5 ${pathname.includes('/projects') ? 'md:px-10 2xl:px-16' : 'md:px-8'} py-1 rounded text-white bg-[#29303D]`}>HTML</span>
+                        <span className={`px-5 ${pathname.includes('/projects') ? 'md:px-10 2xl:px-16' : 'md:px-8'} py-1 rounded text-white bg-[#29303D]`}>CSS</span>
+                        <span className={`px-5 ${pathname.includes('/projects') ? 'md:px-10 2xl:px-16' : 'md:px-8'} py-1 rounded text-white bg-[#29303D]`}>JS</span>
+                        <span className={`px-5 ${pathname.includes('/projects') ? 'md:px-10 2xl:px-12' : 'md:px-8'} py-1 rounded text-white bg-[#29303D]`}>MERN</span>
                     </div>
                     <div className='mt-3 text-white project'>
                         <a

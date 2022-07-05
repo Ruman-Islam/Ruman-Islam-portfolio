@@ -9,9 +9,7 @@ const MyWorks = () => {
         <div className='about text-left mt-5 py-5'>
             <h1 className='title text-left'>Some Of My Works</h1>
             <div className='horizontal-line'></div>
-            <div className='grid grid-cols-1'>
-                <AllProjects />
-            </div>
+            <AllProjects />
             <div className='w-full flex justify-center mt-8'>
                 <div onClick={() => navigate('/projects')}
                     className='border border-[#54B689] hover:bg-[#54B689] hover:text-white duration-300 flex items-center text-[#54B689] px-3 py-1'>
