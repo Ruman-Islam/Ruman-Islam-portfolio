@@ -3,12 +3,12 @@ import React from 'react';
 const ResumeProjectCard = ({ name, liveLink, clientLink, serverLink, techItems, features }) => {
 
     return (
-        <div className='resume-project-card light-border-bottom'>
+        <div className='resume-project-card'>
             <div className='project-title'>
                 <h3 className='project-name'>{name}</h3>
                 <p className='project-links'>
-                    <a href={liveLink}>Livesite</a> <span style={{ marginRight: '5px' }}>|</span>
-                    <a href={clientLink}>Client</a> <span style={{ marginRight: '5px' }}>|</span>
+                    <a href={liveLink}>Livesite</a><span style={{ marginRight: '.6rem', marginLeft: '.6rem' }}>|</span>
+                    <a href={clientLink}>Client</a><span style={{ marginRight: '.6rem', marginLeft: '.6rem' }}>|</span>
                     <a href={serverLink}>Server</a>
                 </p>
             </div>

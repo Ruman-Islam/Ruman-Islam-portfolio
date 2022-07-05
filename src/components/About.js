@@ -6,7 +6,7 @@ import resume from '../assets/Ruman-Islam.pdf';
 const About = () => {
 
     return (
-        <div className='flex w-full flex-col-reverse md:flex-row text-center md:text-left
+        <div className='flex w-full flex-col-reverse md:flex-row
          justify-between items-center text-white py-8'>
             <div className='basis-7/12'>
                 <div className='about'>
@@ -26,7 +26,7 @@ const About = () => {
                 </div>
             </div>
             <div className='basis-5/12'>
-                <img className='w-8/12 m-auto' src={profileImage} alt="" />
+                <img className='w-5/12 md:w-8/12 m-auto mb-5' src={profileImage} alt="" />
             </div>
         </div>
     );

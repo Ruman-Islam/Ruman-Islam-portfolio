@@ -64,10 +64,13 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
   top: 0;
   left: 0;
   z-index: 999;
+  overflow-y: auto !important;
 }
+
 .ant-layout-sider-zero-width-trigger{
   background-color: #54b689;
-  position: absolute;
+  position: fixed;
+  left: 0;
 }
 .sider-style::-webkit-scrollbar {
   width: .1em;
@@ -78,8 +81,9 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
   min-height: 100vh;
 }
 .site-layout{
-  margin-left: 250px;
+  margin-left: 250px !important;
 }
+
 
 .display-container {
   width: 99%;
@@ -275,7 +279,8 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
 
 /* About me route styles */
 .about-me-container {
-  padding: 0 16rem;
+  padding: 1rem 16rem;
+  width: 100%;
   height: 100%;
 }
 .about-me-container .online-resume-container {
@@ -313,7 +318,7 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
   color: #CBDCEB;
 }
 .contact-items-container .contact-item a:hover,
- p:hover, .company-experience a:hover, p:hover {
+ p:hover, .company-experience a:hover, p:hover, .company a:hover {
   text-decoration: underline;
 }
 .resume-description {
@@ -338,6 +343,7 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
 }
 .resume-detail-container .experience-container {
   flex-basis: 65%;
+  padding-right: 2.3rem;
 }
 .resume-detail-container .skill-container {
   flex-basis: 35%;
@@ -371,7 +377,6 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 2.3rem;
   margin: 1.8rem 0 .5rem;
 }
 .company .project-features {
@@ -394,7 +399,7 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
 
 /* Resume project card */
 .resume-project-card {
-  padding-bottom: .5rem;
+  padding-bottom: 1rem;
 }
 .resume-project-card .designation, .working-date {
   color: #fff;
@@ -406,7 +411,6 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 2.3rem;
   margin: 1.8rem 0 .5rem;
 }
 .resume-project-card .project-features {
@@ -446,95 +450,8 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
   padding: 5px 10px;
   color: #fff;
 }
-
-@keyframes blinking {
-   0%{
-   box-shadow: 0 0 0 0 #fff4, 0 0 0 0 #fff4;
-   }
-   80%{
-    box-shadow: 0 0 0 10px #fff0, 0 0 0 20px #fff0;
-   }
-   100%{
-    box-shadow: 0 0 0 0 #fff0, 0 0 0 0 #fff0;
-   }
-}
-
-
-.ripple {
-    display: flex;
-}
-
-.ripple li {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    animation: ripple 1.6s ease-in-out infinite;
-}
-
-@keyframes ripple {
-    0%, 40%, 100%{
-        transform: scale(0.2);
-    }
-    20%{
-        transform: scale(0.8);
-    }
-}
-
-.ripple li:nth-child(1)
-{
-    animation-delay: -1.8s;
-    background-color: #ffff00;
-    box-shadow: 0 0 20px #ffff00;
-}
-.ripple li:nth-child(2)
-{
-    animation-delay: -1.4s;
-    background-color: #12B0E8;
-    box-shadow: 0 0 20px #12B0E8;
-}
-.ripple li:nth-child(3)
-{
-    animation-delay: -1.2s;
-    background-color: #1FAA59;
-    box-shadow: 0 0 20px #1FAA59;
-}
-.ripple li:nth-child(4)
-{
-    animation-delay: -1s;
-    background-color: #E21717;
-    box-shadow: 0 0 20px #E21717;
-}
-
-.flicker {
-    width: 100px;
-    height: 100px;
-    background-color: #f1c40f;
-    border-radius: 50%;
-    position: relative;
-    display: block;
-    margin: 50px auto;
-}
-
-.flicker::before,
-.flicker::after {
-   position: absolute;
-   content: '';
-   width: 100%;
-   height: 100%;
-   left: 0;
-   right: 0;
-   top: 0;
-   bottom: 0;
-   border: 2px solid #f1c40f;
-   border-radius: 50%;
-   animation: flicker 2s linear infinite;
-}
-
-@keyframes flicker {
-    100%{
-        transform: scale(2);
-        opacity: 0;
-    }
+.company a {
+  color: #CBDCEB;
 }
 
 li::marker {
@@ -542,42 +459,60 @@ li::marker {
 }
 
 .social-icon-container {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    /* position: absolute;
-    top: 50%;
-    left: 50%; */
-    /* transform: translate(-50%, -50%); */
-  }
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
   
-  .social-icon-container li {
-    list-style: none;
-    margin: 0 10px;
-  }
+.social-icon-container li {
+  list-style: none;
+  margin: 0 10px;
+}
   
-  .social-icon-container li a {
-    position: relative; 
-    display: block;
-    width: 30px;
-    height: 30px;
-    text-align: center; 
-    transition: .5s;
-  }
+.social-icon-container li a {
+  position: relative; 
+  display: block;
+  width: 30px;
+  height: 30px;
+  text-align: center; 
+  transition: .5s;
+}
   
-  .social-icon-container li a:hover {
-    color: #1FAA59;
-    text-shadow: 0 0 5px #1FAA59;
-  }
+.social-icon-container li a:hover {
+  color: #1FAA59;
+  text-shadow: 0 0 5px #1FAA59;
+}
 
-  .skillCard {
-    background: linear-gradient(#1E2A3A, #1E2A3A) padding-box, linear-gradient(90deg, #54B689, #1FAA59) border-box;
-    border-width: 2px;
-    border-style: solid;
-    border-color: transparent;
-    border-radius: 1.4em;
-  }
+.skillCard {
+  background: linear-gradient(#1E2A3A, #1E2A3A) padding-box, linear-gradient(90deg, #54B689, #1FAA59) border-box;
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 1.4em;
+}
 
+@keyframes blinking {
+  0%{
+  box-shadow: 0 0 0 0 #fff4, 0 0 0 0 #fff4;
+  }
+  80%{
+   box-shadow: 0 0 0 10px #fff0, 0 0 0 20px #fff0;
+  }
+  100%{
+   box-shadow: 0 0 0 0 #fff0, 0 0 0 0 #fff0;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+    .about-me-container {
+      padding: 1rem 8rem;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .site-layout{
+      margin-left: 0 !important;
+    }
+}
 @media only screen and (max-width: 576px) {
     .site-layout{
         margin-left: 0 !important;
@@ -598,9 +533,42 @@ li::marker {
         z-index: 55;
     }
     
-}
-@media only screen and (min-width: 1280px) {
-  .sider-style {
-    overflow: auto !important;
-  }
+    /* About me */
+    .about-me-container {
+      padding: .9rem;
+    }
+    .online-resume-wrapper .resume-header, .resume-description {
+      flex-wrap: wrap;
+    }
+    .resume-header .person-name {
+      font-size: 2rem;
+    }
+    .resume-description .resume-image-container {
+      width: 130px;
+      height: 130px;
+      margin: 1rem 0;
+    }
+    .resume-description {
+      justify-content: center;
+    }
+    .resume-description p{
+      text-align: center;
+      margin: 0;
+    }
+    .company .company-experience{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .resume-detail-container {
+      flex-wrap: wrap;
+    }
+    .resume-project-card .project-title {
+      flex-wrap: wrap;
+    }
+    .resume-detail-container .experience-container,  .resume-detail-container .skill-container {
+      flex-basis: 100%;
+    }
+    .resume-detail-container .skill-container {
+      margin-top: 1.5rem;
+    }
 }

@@ -6,7 +6,6 @@ const SkillExperties = () => {
             <span>JavaScript (ES6) </span>
             <span>REST AP</span>
             <span>React</span>
-            <span>React</span>
             <span>React Router</span>
             <span>React Hook</span>
             <span>React Hook</span>

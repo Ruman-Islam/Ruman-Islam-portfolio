@@ -7,6 +7,7 @@ import AOS from 'aos';
 import 'antd/dist/antd.css';
 import 'aos/dist/aos.css';
 
+
 const App = () => {
   useEffect(() => {
     AOS.init();

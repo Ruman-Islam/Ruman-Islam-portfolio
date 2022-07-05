@@ -1,6 +1,5 @@
 import React from 'react';
 import PageTitle from '../../components/PageTitle';
-import ResumeButton from '../../components/ResumeButton';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { faSquarePhone, faSquareEnvelope, faLocationPin } from '@fortawesome/free-solid-svg-icons'
@@ -8,44 +7,14 @@ import ResumeProjectCard from '../../components/ResumeProjectCard';
 import SkillExperties from '../../components/SkillExperties';
 import SkillComfortable from '../../components/SkillComfortable';
 import SkillTools from '../../components/SkillTools';
+import EducationCard from '../../components/EducationCard';
+import CourseCard from '../../components/CourseCard';
+import {
+    projects, education1,
+    education2, education3,
+    course1, course2
+} from '../../data/data';
 
-const projects = [
-    {
-        name: "PLEX - Manufacturer website",
-        liveLink: "https://plex-4449f.firebaseapp.com/",
-        clientLink: "https://github.com/Ruman-Islam/plex-client",
-        serverLink: "https://github.com/Ruman-Islam/plex-server",
-        features: [
-            "Login system, Separate dashboard for user & admin, user settings.",
-            "Super admin, add/remove admin, manage products & users, protected route.",
-            "Book and cancel orders, Purchase and pay through stripe."
-        ],
-        techItems: ["HTML", "CSS", "JS", "MERN"]
-    },
-    {
-        name: "SHELTER - Warehouse Management",
-        liveLink: "https://warehouse-47f11.web.app/home",
-        clientLink: "https://github.com/Ruman-Islam/warehouse-management-client",
-        serverLink: "https://github.com/Ruman-Islam/warehouse-management-server",
-        features: [
-            "This website is for only admin. They can manage and update products.",
-            "Login system, secured API with JWT, dashboard, separate vendor.",
-            "CRUD operation, user settings, top sellers and products dynamically."
-        ],
-        techItems: ["HTML", "CSS", "JS", "MERN"]
-    },
-    {
-        name: "PHOTOMETRY - Independent Service Provider",
-        liveLink: "https://dream-weaver-91b28.web.app/",
-        clientLink: "https://github.com/Ruman-Islam/dream-weaver-client",
-        serverLink: "https://github.com/Ruman-Islam/dream-weaver-server",
-        features: [
-            "This is an individual service provider who provides photography in various event.",
-            "Landing page, login system, shipping form, cart, contact form etc."
-        ],
-        techItems: ["HTML", "CSS", "JS", "MERN"]
-    }
-]
 
 const AboutMe = () => {
 
@@ -96,7 +65,7 @@ const AboutMe = () => {
 
                         <br />
 
-                        <div className='resume-detail-container'>
+                        <div className='resume-detail-container light-border-bottom'>
                             <div className='experience-container'>
                                 <div>
                                     <p className='experience-title'>WORKING EXPERIENCE</p>
@@ -122,7 +91,9 @@ const AboutMe = () => {
                                         </div>
                                     </div>
                                 </div>
+
                                 <br /> <br />
+
                                 <div>
                                     <p className='experience-title'>PROJECTS</p>
                                     {projects?.map((project, index) =>
@@ -149,15 +120,29 @@ const AboutMe = () => {
                                         <SkillTools />
                                     </div>
                                 </div>
+
+                                <br /><br />
+
+                                <div>
+                                    <p className='skill-title'>EDUCATION</p>
+                                    <EducationCard {...education1} />
+                                    <EducationCard  {...education2} />
+                                    <EducationCard  {...education3} />
+                                </div>
+
+                                <br /><br />
+
+                                <div>
+                                    <p className='skill-title'>COURSE</p>
+                                    <CourseCard {...course1} />
+                                    <CourseCard {...course2} />
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
             </div>
-            <br />
-            <br />
-            <br />
-            <br />
         </div>
 
     );
