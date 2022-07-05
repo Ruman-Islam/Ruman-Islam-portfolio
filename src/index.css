@@ -380,6 +380,16 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
 }
 .skill-experties {
   color: #CBDCEB;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill-experties span {
+  background-color:#4B5769;
+  border-radius: 5px;
+  padding: 5px 5px;
+  color: #fff;
+  margin: 3px 3px 3px 0;
+  font-size: .7rem;
 }
 
 /* Resume project card */

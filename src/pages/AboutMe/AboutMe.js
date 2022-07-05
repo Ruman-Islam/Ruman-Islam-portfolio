@@ -6,6 +6,8 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { faSquarePhone, faSquareEnvelope, faLocationPin } from '@fortawesome/free-solid-svg-icons'
 import ResumeProjectCard from '../../components/ResumeProjectCard';
 import SkillExperties from '../../components/SkillExperties';
+import SkillComfortable from '../../components/SkillComfortable';
+import SkillTools from '../../components/SkillTools';
 
 const projects = [
     {
@@ -132,8 +134,19 @@ const AboutMe = () => {
                                 <div>
                                     <p className='skill-title'>SKILLS</p>
                                     <div className='company'>
-                                        <h3 className='designation' style={{ lineHeight: '3', marginBottom: '-10px' }}>Expertise:</h3>
+                                        <h3 className='designation'
+                                            style={{ lineHeight: '3', marginBottom: '-10px' }}>Expertise</h3>
                                         <SkillExperties />
+                                    </div>
+                                    <div className='company'>
+                                        <h3 className='designation'
+                                            style={{ lineHeight: '3', marginBottom: '-10px' }}>Comfortable</h3>
+                                        <SkillComfortable />
+                                    </div>
+                                    <div className='company'>
+                                        <h3 className='designation'
+                                            style={{ lineHeight: '3', marginBottom: '-10px' }}>Tools</h3>
+                                        <SkillTools />
                                     </div>
                                 </div>
                             </div>
