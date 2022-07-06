@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import ProjectCard from '../components/ProjectCard';
-import PageTitle from '../components/PageTitle';
 import { SyncOutlined } from '@ant-design/icons';
 
 const AllProjects = () => {
@@ -25,7 +24,6 @@ const AllProjects = () => {
     return (
         <div className='w-full md:w-11/12 2xl:w-9/12 py-5 flex flex-col h-full 
         justify-center items-center mx-auto px-2 md:px-0'>
-            <PageTitle title="Projects" />
             <div className='grid grid-cols-1'>
                 {projects?.map(project =>
                     <ProjectCard

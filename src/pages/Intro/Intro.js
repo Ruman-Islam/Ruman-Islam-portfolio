@@ -7,9 +7,9 @@ import WhatIDo from '../../components/WhatIDo';
 import WhatNext from '../../components/WhatNext';
 
 const Intro = () => {
+
     return (
         <div className='p-2 2xl:px-52 md:px-20 flex flex-col h-full'>
-            <PageTitle title="Intro" />
             <div className='light-border-bottom'>
                 <About />
             </div>
@@ -29,6 +29,7 @@ const Intro = () => {
             <div >
                 <WhatNext />
             </div>
+            <PageTitle title="Home" />
         </div>
     );
 };
