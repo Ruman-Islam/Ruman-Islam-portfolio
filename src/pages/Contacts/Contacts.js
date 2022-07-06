@@ -25,9 +25,6 @@ const Contacts = () => {
         <div className='flex flex-col justify-center items-center h-[100vh]'>
             <PageTitle title="Contact" />
             <h1
-                data-aos="fade-right"
-                data-aos-delay="200"
-                data-aos-duration="1500"
                 className='text-white text-3xl md:text-5xl mb-5 mt-[-20px] hidden md:block'>Connect With Me</h1>
             {state.errors.length > 0 && (
                 <p style={error}>You cannot Submit Empty Form </p>
@@ -35,9 +32,6 @@ const Contacts = () => {
             <hr className='border-[#7F8487] border w-8/12 mb-10 hidden md:block' />
             <div className="w-full md:w-8/12 flex justify-between flex-col md:flex-row px-2">
                 <div
-                    data-aos="fade-left"
-                    data-aos-delay="200"
-                    data-aos-duration="1500"
                     className='text-white w-full text-center md:text-left'>
                     <h1 className='text-white text-[30px]'>Contact Info</h1>
                     <hr className='border-[#7F8487] border-1 w-8/12 mb-10 hidden md:block' />
@@ -47,7 +41,7 @@ const Contacts = () => {
                     </div>
                     <div className='flex items-center my-4 text-[18px] justify-center md:justify-start'>
                         <PhoneOutlined className='text-[#3CCF91] mr-2' />
-                        <span>+8801536160661</span>
+                        <span>+880 153616-0661</span>
                     </div>
                     <div className='flex items-center my-4 text-[18px] justify-center md:justify-start'>
                         <EnvironmentOutlined className='text-[#3CCF91] mr-2' />
@@ -84,19 +78,16 @@ const Contacts = () => {
                     </div>
                 </div>
                 <form onSubmit={handleSubmit}
-                    data-aos="fade-left"
-                    data-aos-delay="200"
-                    data-aos-duration="1500"
                     className="rounded px-8 pt-6 pb-8 mb-4 w-full">
                     <div className="mb-4">
-                        <input className="shadow appearance-none border-0 rounded w-full py-2 px-3 text-white leading-tight outline-none focus:shadow-outline bg-[#06283D]" id="subject" type="text" name='subject' placeholder="Subject" />
+                        <input autocomplete="off" className="shadow appearance-none border-0 rounded w-full py-2 px-3 text-white leading-tight outline-none focus:shadow-outline bg-[#06283D]" id="subject" type="text" name='subject' placeholder="Subject" />
                     </div>
                     <ValidationError prefix="Name" field="name" errors={state.errors} />
                     <div className="mb-4">
-                        <input className="shadow appearance-none border-0 rounded w-full py-2 px-3 text-white leading-tight outline-none focus:shadow-outline bg-[#06283D]" id="username" name='username' type="text" placeholder="Username" />
+                        <input autocomplete="off" className="shadow appearance-none border-0 rounded w-full py-2 px-3 text-white leading-tight outline-none focus:shadow-outline bg-[#06283D]" id="username" name='username' type="text" placeholder="Username" />
                     </div>
                     <div className="mb-4">
-                        <input className="shadow appearance-none border-0 rounded w-full py-2 px-3 text-white leading-tight outline-none focus:shadow-outline bg-[#06283D]" id="email" name='email' type="text" placeholder="Email" />
+                        <input autocomplete="off" className="shadow appearance-none border-0 rounded w-full py-2 px-3 text-white leading-tight outline-none focus:shadow-outline bg-[#06283D]" id="email" name='email' type="text" placeholder="Email" />
                     </div>
                     <div className="mb-4">
                         <textarea

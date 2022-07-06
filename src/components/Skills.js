@@ -50,7 +50,7 @@ const Skills = () => {
         justify-center items-center mx-auto">
             <PageTitle title="Skills" />
             <p className="text-[24px] font-bold mb-5">Technologies I know and familiar with</p>
-            <div className="grid grid-cols-2 md:grid-cols-10 gap-5">
+            <div className="grid grid-cols-2 md:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-10 gap-5">
                 {allSkills?.map((skill, index) =>
                     <SkillCard
                         key={index}

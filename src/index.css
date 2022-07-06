@@ -1,9 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 body {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -121,7 +121,8 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
 }
 
 .social-icon-container {
-  width: 160px;
+  width: 170px;
+  height: 50px;
   margin: 20px auto 0 !important;
   display: flex;
   align-content: center;
@@ -139,9 +140,12 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
   font-size: 15px;
   color: hsla(0,0%,100%,.94902);
   display: flex;
-  align-content: center;
   justify-content: center;
   align-items: center;
+}
+.social-icon:hover {
+  background-color: hsla(0,0%,100%,.05);
+  transition: .3s ease-in-out;
 }
 
 .ant-layout-sider-zero-width-trigger {
@@ -217,6 +221,10 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
   font-size: 1rem;
   border-radius: 4px;
 }
+.resume-btn:hover {
+  background: hsla(0,0%,100%,.05);
+  transition: .3s ease-in-out;
+}
 
 .resume-btn-download {
   background: #2F435C;
@@ -226,11 +234,6 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
   color: #fff;
   margin-top: 1px;
   margin-left: 5px;
-}
-
-.resume-btn:hover {
-  background: #44A076;
-  transition: .2s ease-in-out;
 }
 
 .about a {
@@ -272,7 +275,7 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
 .resume-btn-blinking {
   animation: blinking;
   animation-duration: 2s;
-  animation-delay: 1s;
+  animation-delay: 2s;
   animation-iteration-count: infinite;
 }
 
@@ -327,7 +330,7 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
   padding: 0 0 1.2rem ;
 }
 .resume-description p{
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
   color: #fff;
   font-size: .9rem;
 }
@@ -549,10 +552,6 @@ li::marker {
     }
     .resume-description {
       justify-content: center;
-    }
-    .resume-description p{
-      text-align: center;
-      margin: 0;
     }
     .company .company-experience{
       flex-direction: column;

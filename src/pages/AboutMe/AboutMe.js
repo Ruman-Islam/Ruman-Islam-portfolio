@@ -33,7 +33,7 @@ const AboutMe = () => {
                             <div className='contact-items-container'>
                                 <div className='contact-item'>
                                     <FontAwesomeIcon icon={faSquarePhone} className='item' />
-                                    <a href="tel:+8801536160661">(+880) 1536-160661</a>
+                                    <a href="tel:+8801536160661">+880 153616-0661</a>
                                 </div>
                                 <div className='contact-item'>
                                     <FontAwesomeIcon icon={faSquareEnvelope} className='item' />
@@ -53,11 +53,11 @@ const AboutMe = () => {
                         <br />
 
                         <div className='resume-description light-border-bottom'>
-                            <div>
+                            {/* <div>
                                 <div className='resume-image-container profile-img-container'>
                                     <div className='profile-img-wrapper'></div>
                                 </div>
-                            </div>
+                            </div> */}
                             <div>
                                 <p>A self-motivated, ambitious and enthusiastic web designer and developer with highly interested in JavaScript, HTML5, CSS3, and front-end web development with modern web tech like React.js. To work in Software industry with modern web technologies of different local and multinational Software/IT agency of Bangladesh and grow rapidly with increasing skills and responsibilities. Check out my project project portfolio and online resume.</p>
                             </div>
