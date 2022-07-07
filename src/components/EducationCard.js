@@ -7,9 +7,9 @@ const EducationCard = ({ degree, institution, session, gpa }) => {
                 style={{ lineHeight: '3', marginBottom: '-10px' }}>
                 {degree}
             </h3>
-            <p>{institution}</p>
-            <p>Session : {session}</p>
-            <p>GPA : {gpa}</p>
+            <p className='gray-text'>{institution}</p>
+            <p className='gray-text'>Session : {session}</p>
+            <p className='gray-text'>GPA : {gpa}</p>
         </div>
     );
 };

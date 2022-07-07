@@ -69,7 +69,7 @@ const ProjectDetail = () => {
                 <div>
                     <h1 className='text-white text-4xl font-semibold border-[#CACACA]
                      border-t-0 border-l-0 border-r-0 border-b leading-loose'>Overview</h1>
-                    <p className='text-[#919DAE] text-xl mt-5'>{project?.overview}</p>
+                    <p className='gray-text text-xl mt-5 no-underline'>{project?.overview}</p>
                 </div>
                 <div className='my-5'>
                     <h1 className='text-white text-4xl font-semibold border-[#CACACA]

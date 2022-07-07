@@ -43,10 +43,17 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
   background-repeat: no-repeat;
   background-size: contain;
 }
-.person-designation:hover, .about p:hover,
-.resume-description p:hover, .person-name:hover,
-.my-articles p:hover, .display-container p:hover, .resume-detail-container p:hover {
+
+.resume-detail-container p:hover,
+.no-underline:hover {
   text-decoration: none;
+}
+.gray-text, .company a {
+  color: #919DAE;
+}
+.display-flex {
+  display: flex;
+  align-items: center;
 }
 
 /* dashboard sidebar */
@@ -124,10 +131,7 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
   width: 170px;
   height: 50px;
   margin: 20px auto 0 !important;
-  display: flex;
-  align-content: center;
   justify-content: space-evenly;
-  align-items: center;
 }
 
 .social-icon {
@@ -139,9 +143,7 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
   background-color: #54b689;
   font-size: 15px;
   color: hsla(0,0%,100%,.94902);
-  display: flex;
   justify-content: center;
-  align-items: center;
 }
 .social-icon:hover {
   background-color: hsla(0,0%,100%,.05);
@@ -206,16 +208,11 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
 }
 
 .resume-btn-container {
-  display: flex;
   justify-content: center;
-  align-items: center;
   margin-top: 1rem;
 }
 
 .resume-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: #54b689;
   padding: .3rem 1rem;
   font-size: 1rem;
@@ -291,9 +288,8 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
 }
 .online-resume-wrapper .resume-header {
   color: #fff;
-  display: flex;
   justify-content: space-between;
-  padding: 0 0 2rem;
+  padding: 0 0 1.2rem ;
 }
 .resume-person-title .person-name {
   color: #fff;
@@ -306,8 +302,6 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
   font-weight: 400;
 }
 .contact-items-container .contact-item {
-  display: flex;
-  align-items: center;
   color: #CBDCEB;
   font-size: 1rem;
   margin: .2rem 0;
@@ -324,9 +318,6 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
   text-decoration: underline;
 }
 .resume-description {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 0 0 1.2rem ;
 }
 .resume-description p{
@@ -341,17 +332,16 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
 }
 .resume-detail-container {
   width: 100%;
-  display: flex;
 }
-.resume-detail-container .experience-container {
+.experience-container {
   flex-basis: 65%;
   padding-right: 2.3rem;
 }
-.resume-detail-container .skill-container {
+.skill-container {
   flex-basis: 35%;
 }
-.experience-container .experience-title,
- .skill-container .skill-title {
+.experience-title,
+.skill-container .skill-title {
   color: #fff !important;
   font-size: 1.2rem;
   font-weight: 700;
@@ -360,7 +350,7 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
   padding-left: 1rem;
 }
 .experience-container .experience-title::before,
- .skill-container .skill-title::before {
+.skill-container .skill-title::before {
   content: '';
   width: 100%;
   height: 100%;
@@ -376,9 +366,7 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
   font-size: 1.1rem;
 }
 .company .company-experience{
-  display: flex;
   justify-content: space-between;
-  align-items: center;
   margin: 1.8rem 0 .5rem;
 }
 .company .project-features {
@@ -387,16 +375,14 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
 }
 .skill-experties {
   color: #CBDCEB;
-  display: flex;
   flex-wrap: wrap;
 }
 .skill-experties span {
   background-color:#4B5769;
   border-radius: 5px;
-  padding: 5px 5px;
+  padding: 2px 8px;
   color: #fff;
-  margin: 3px 3px 3px 0;
-  font-size: .7rem;
+  margin: 2px;
 }
 
 /* Resume project card */
@@ -410,9 +396,7 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
   font-size: 1.1rem;
 }
 .resume-project-card .project-title{
-  display: flex;
   justify-content: space-between;
-  align-items: center;
   margin: 1.8rem 0 .5rem;
 }
 .resume-project-card .project-features {
@@ -440,36 +424,11 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
   color: #fff;
   line-height: 2;
 }
-.resume-project-technology {
-  display: flex;
-  justify-content: space-between;
-  width: 200px;
-  font-size: .8rem;
-}
-.resume-project-technology .tech-item{
-  background-color:#4B5769;
-  border-radius: 5px;
-  padding: 5px 10px;
-  color: #fff;
-}
-.company a {
-  color: #CBDCEB;
-}
 
 li::marker {
 	color: #1FAA59;
 }
 
-.social-icon-container {
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-  
-.social-icon-container li {
-  list-style: none;
-  margin: 0 10px;
-}
   
 .social-icon-container li a {
   position: relative; 
@@ -491,6 +450,16 @@ li::marker {
   border-style: solid;
   border-color: transparent;
   border-radius: 1.4em;
+}
+
+.email-confirm-container {
+  height: 100%;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+.error-confirm-text {
+  color: red;
+  text-align: center;
 }
 
 @keyframes blinking {
@@ -563,7 +532,8 @@ li::marker {
     .resume-project-card .project-title {
       flex-wrap: wrap;
     }
-    .resume-detail-container .experience-container,  .resume-detail-container .skill-container {
+    .resume-detail-container .experience-container,
+    .resume-detail-container .skill-container {
       flex-basis: 100%;
     }
     .resume-detail-container .skill-container {

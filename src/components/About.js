@@ -6,17 +6,17 @@ import resume from '../assets/Ruman-Islam.pdf';
 const About = () => {
 
     return (
-        <div className='flex w-full flex-col-reverse md:flex-row
+        <div className='display-flex flex-col-reverse md:flex-row
          justify-between items-center text-white py-8'>
             <div className='basis-7/12'>
                 <div className='about'>
                     <h1 className='text-white text-4xl md:text-6xl font-extrabold'>Ruman Islam</h1>
-                    <h2 className='text-white text-2xl pl-1 mt-2 mb-5'>Front-end Web Developer</h2>
-                    <p className='text-[16px] text-[#919DAE]'>A self-motivated, ambitious and enthusiastic web designer and developer with highly interested in JavaScript, HTML5, CSS3, and front-end web development with modern web tech like React.js. To work in Software industry with modern web technologies of different local and multinational Software/IT agency of Bangladesh and grow rapidly with increasing skills and responsibilities. Check out my project <NavLink to='/projects'>project portfolio</NavLink> and <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1m1d_a3cao5woTDYLhhdO7x4hW3D5RZ9i/view?usp=sharing">online resume</a>.</p>
+                    <h2 className='text-white text-2xl pl-1 mt-2 mb-5'>Front-End Developer</h2>
+                    <p className='text-[16px] gray-text no-underline'>A self-motivated, ambitious and enthusiastic web designer and developer with highly interested in JavaScript, HTML5, CSS3, and front-end web development with modern web tech like React.js. To work in software industry with modern web technologies of different local and multinational Software/IT agency of Bangladesh and world-wide and grow rapidly with increasing skills and responsibilities. Check out my project <NavLink to='/projects'>project portfolio</NavLink> and <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1m1d_a3cao5woTDYLhhdO7x4hW3D5RZ9i/view?usp=sharing">online resume</a>.</p>
                 </div>
                 <div className='flex mt-5 flex-col md:flex-row'>
                     <button className='resume-btn mr-0 md:mr-2 mb-2 md:mb-0'>
-                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="briefcase" className="svg-inline--fa fa-briefcase fa-w-16 w-4 mr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z"></path></svg>
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="briefcase" className="svg-inline--fa fa-briefcase fa-w-16 w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z"></path></svg>
                         <NavLink to='/projects'>View Projects</NavLink>
                     </button>
                     <button className='resume-btn resume-btn-download'>

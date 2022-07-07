@@ -2,7 +2,7 @@ import React from 'react';
 
 const SkillComfortable = () => {
     return (
-        <div className='skill-experties'>
+        <div className='skill-experties display-flex'>
             <span>Ant Design</span>
             <span>Daisy UI</span>
             <span>React Hook Form</span>

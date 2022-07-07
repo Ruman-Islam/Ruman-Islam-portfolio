@@ -2,7 +2,7 @@ import React from 'react';
 
 const SkillExperties = () => {
     return (
-        <div className='skill-experties'>
+        <div className='skill-experties display-flex'>
             <span>JavaScript (ES6) </span>
             <span>REST AP</span>
             <span>React</span>

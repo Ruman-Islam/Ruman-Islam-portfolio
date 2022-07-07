@@ -16,7 +16,7 @@ const ProjectCard = ({ project, project: { id, img, name, description } }) => {
                 className='p-2 md:p-5 2xl:p-10 w-full md:w-10/12 2xl:w-12/12'>
                 <div>
                     <h1 className='text-[30px] 2xl:text-[35px] text-white font-bold'>{name}</h1>
-                    <p style={{ textDecoration: 'none' }} className='text-[#7F8487]'>{description}</p>
+                    <p style={{ textDecoration: 'none' }} className='gray-text'>{description}</p>
                 </div>
                 <div>
                     <h1 className={`text-[18px] 2xl:text-[20px] font-semibold text-white
