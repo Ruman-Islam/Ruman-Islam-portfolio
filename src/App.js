@@ -4,12 +4,14 @@ import { HelmetProvider } from "react-helmet-async";
 import Home from "./pages/Home/Home";
 import 'antd/dist/antd.css';
 import NotFound from "./pages/NotFound/NotFound";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 const App = () => {
 
   return (
     <HelmetProvider>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />}>
           {nestedRoutes.map(({ path, name, Component }, index) => (
