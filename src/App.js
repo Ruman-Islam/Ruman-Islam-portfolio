@@ -3,6 +3,7 @@ import { nestedRoutes } from "./routes/nestedRoutes";
 import { HelmetProvider } from "react-helmet-async";
 import Home from "./pages/Home/Home";
 import 'antd/dist/antd.css';
+import NotFound from "./pages/NotFound/NotFound";
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
           {nestedRoutes.map(({ path, name, Component }, index) => (
             <Route key={index} path={path} index={name === 'Intro'} element={<Component />} />))}
         </Route>
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </HelmetProvider>
   );

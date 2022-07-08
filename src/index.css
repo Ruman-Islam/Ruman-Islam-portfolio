@@ -461,6 +461,19 @@ li::marker {
   color: red;
   text-align: center;
 }
+.not-found {
+  background: #10121B;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+}
+.not-found h1, button{
+  color: #fff;
+}
+.not-found h1{
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
 
 @keyframes blinking {
   0%{
