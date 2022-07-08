@@ -63,7 +63,7 @@ body::-webkit-scrollbar-thumb, .sider-style::-webkit-scrollbar-thumb {
 .menu-style {
   width: 200px;
   margin-top: 1.2rem;
-  margin-left: 1rem;
+  margin-left: 2.5rem !important;
 }
 .sider-style {
   height: 100%;

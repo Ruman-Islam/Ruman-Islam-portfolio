@@ -1,6 +1,7 @@
 import p1 from '../assets/article1.png';
 import p2 from '../assets/article2.png';
 import p3 from '../assets/article3.png';
+import { faHouseUser, faUser, faLaptopCode, faBlog, faAddressCard } from '@fortawesome/free-solid-svg-icons';
 
 
 const projects = [
@@ -96,6 +97,14 @@ const articles = [
     },
 ]
 
+const menuItems = [
+    { key: '1', icon: faHouseUser, routeName: 'Home', route: '/' },
+    { key: '2', icon: faUser, routeName: 'About me', route: '/about-me' },
+    { key: '3', icon: faLaptopCode, routeName: 'Projects', route: '/projects' },
+    { key: '4', icon: faBlog, routeName: 'Blog', route: '/blog' },
+    { key: '5', icon: faAddressCard, routeName: 'Contacts', route: '/contacts' }
+]
+
 export {
     projects,
     education1,
@@ -103,5 +112,6 @@ export {
     education3,
     course1,
     course2,
-    articles
+    articles,
+    menuItems
 };
