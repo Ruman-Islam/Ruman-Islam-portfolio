@@ -18,8 +18,8 @@ const Sidebar = () => {
         <DisplayContainer />
         <MenuContainer />
         <ResumeButton />
-        <p className='no-underline mt-24 text-center'>
-          Design &amp; Build by -<br /> <span className='text-[#54B67F] text-[15px]'>Ruman Islam</span> | © {year} All rights reserved
+        <p className='no-underline mt-36 text-center'>
+          <span className='text-[#54B67F] text-[15px]'>Ruman Islam</span> | © {year}
         </p>
         <br />
       </Sider>

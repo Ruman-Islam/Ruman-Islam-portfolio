@@ -10,12 +10,12 @@ const MyArticles = () => {
 
     return (
         <div className='flex flex-col text-white'>
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-2 justify-items-center'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-5 justify-items-center'>
                 {pathname === '/' ?
                     articles?.slice(0, 3)?.map((article, index) =>
-                        <div key={index} className="text-white w-12/12 article">
+                        <div key={index} className="text-white article">
                             <a target='_blank' rel='noreferrer' href={article.link}>
-                                <div className='w-full h-44'>
+                                <div className='w-full h-44 overflow-hidden'>
                                     <img className='w-full h-full' src={article.img} alt="" />
                                 </div>
                                 <div className='bg-[#1E2A3A] p-3'>
@@ -30,9 +30,9 @@ const MyArticles = () => {
                             </a>
                         </div>) :
                     articles?.map((article, index) =>
-                        <div key={index} className="text-white w-12/12 article">
+                        <div key={index} className="text-white article">
                             <a target='_blank' rel='noreferrer' href={article.link}>
-                                <div className='w-full h-44'>
+                                <div className='w-full h-44 overflow-hidden'>
                                     <img className='w-full h-full' src={article.img} alt="" />
                                 </div>
                                 <div className='bg-[#1E2A3A] p-3'>

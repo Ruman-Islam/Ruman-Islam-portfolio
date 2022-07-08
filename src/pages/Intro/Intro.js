@@ -3,6 +3,7 @@ import About from '../../components/About';
 import MyArticles from '../../components/MyArticles';
 import MyWorks from '../../components/MyWorks';
 import PageTitle from '../../components/PageTitle';
+import ScrollUpBtn from '../../components/ScrollUpBtn';
 import WhatIDo from '../../components/WhatIDo';
 import WhatNext from '../../components/WhatNext';
 
@@ -10,6 +11,7 @@ const Intro = () => {
 
     return (
         <div className='p-2 2xl:px-52 md:px-20 flex flex-col h-full'>
+            <PageTitle title="Home" />
             <div className='light-border-bottom'>
                 <About />
             </div>
@@ -29,7 +31,7 @@ const Intro = () => {
             <div >
                 <WhatNext />
             </div>
-            <PageTitle title="Home" />
+            <ScrollUpBtn />
         </div>
     );
 };

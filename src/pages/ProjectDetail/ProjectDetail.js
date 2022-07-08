@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { SelectOutlined, DoubleRightOutlined, DoubleLeftOutlined, GithubOutlined } from '@ant-design/icons';
+import ScrollUpBtn from '../../components/ScrollUpBtn';
 import { Carousel } from 'antd';
 const contentStyle = {
     background: '#F2F3F3',
@@ -57,9 +58,9 @@ const ProjectDetail = () => {
                 <div className='my-10'>
                     <Carousel swipeToSlide draggable arrows
                         nextArrow={<DoubleRightOutlined />} prevArrow={<DoubleLeftOutlined />}>
-                        {project?.screenshots?.map(ss =>
+                        {project?.screenshots?.map((ss, index) =>
                             <>
-                                <div style={contentStyle} className='flex w-full
+                                <div key={index} style={contentStyle} className='flex w-full
                              justify-center items-center cursor-grabbing'>
                                     <img className='w-full h-[50vh]' src={ss} alt="" />
                                 </div>
@@ -95,6 +96,7 @@ const ProjectDetail = () => {
                     </ul>
                 </div>
             </div>
+            <ScrollUpBtn />
         </div>
     );
 };

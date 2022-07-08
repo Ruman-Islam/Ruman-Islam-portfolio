@@ -1,5 +1,6 @@
 import AllProjects from '../../components/AllProjects';
 import PageTitle from '../../components/PageTitle';
+import ScrollUpBtn from '../../components/ScrollUpBtn';
 
 const Projects = () => {
 
@@ -15,6 +16,7 @@ const Projects = () => {
                 </div>
             </div>
             <AllProjects />
+            <ScrollUpBtn />
         </div>
     );
 };

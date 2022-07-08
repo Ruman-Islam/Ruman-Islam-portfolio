@@ -1,6 +1,7 @@
 import React from 'react';
 import MyArticles from '../../components/MyArticles';
 import PageTitle from '../../components/PageTitle';
+import ScrollUpBtn from '../../components/ScrollUpBtn';
 
 const Blog = () => {
     return (
@@ -11,6 +12,7 @@ const Blog = () => {
                 <p style={{ textDecoration: 'none' }} className='text-[18px]'>Welcome to my blog.</p>
             </div>
             <MyArticles />
+            <ScrollUpBtn />
         </div>
     );
 };

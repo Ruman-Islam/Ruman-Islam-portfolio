@@ -14,6 +14,7 @@ import {
     education2, education3,
     course1, course2
 } from '../../data/data';
+import ScrollUpBtn from '../../components/ScrollUpBtn';
 
 
 const AboutMe = () => {
@@ -139,6 +140,7 @@ const AboutMe = () => {
                     </div>
                 </div>
             </div>
+            <ScrollUpBtn />
         </div>
 
     );

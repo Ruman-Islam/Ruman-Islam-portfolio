@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const MenuItem = ({ item: { icon, key, routeName, route } }) => {
     const { pathname } = useLocation();
-    console.log(pathname);
 
     return (
         <Menu.Item key={key}>
