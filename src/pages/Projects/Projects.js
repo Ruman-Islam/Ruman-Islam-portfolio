@@ -1,11 +1,12 @@
 import AllProjects from '../../components/AllProjects';
 import PageTitle from '../../components/PageTitle';
 import ScrollUpBtn from '../../components/ScrollUpBtn';
+import CopyRight from '../../components/CopyRight';
 
 const Projects = () => {
 
     return (
-        <div className='py-10 flex flex-col h-full 
+        <div className='pt-10 flex flex-col h-full 
         justify-center items-center'>
             <PageTitle title="Projects" />
             <div className='light-border-bottom text-center'>
@@ -17,6 +18,8 @@ const Projects = () => {
             </div>
             <AllProjects />
             <ScrollUpBtn />
+            <br /> <br /> <br />
+            <CopyRight />
         </div>
     );
 };

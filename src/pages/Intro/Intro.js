@@ -1,5 +1,6 @@
 import React from 'react';
 import About from '../../components/About';
+import CopyRight from '../../components/CopyRight';
 import MyArticles from '../../components/MyArticles';
 import MyWorks from '../../components/MyWorks';
 import PageTitle from '../../components/PageTitle';
@@ -32,6 +33,7 @@ const Intro = () => {
                 <WhatNext />
             </div>
             <ScrollUpBtn />
+            <CopyRight />
         </div>
     );
 };

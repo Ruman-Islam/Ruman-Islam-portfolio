@@ -1,7 +1,7 @@
 import React from 'react';
 import PageTitle from '../../components/PageTitle';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedinIn, faGithubSquare, faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
 import { faSquarePhone, faSquareEnvelope, faLocationPin } from '@fortawesome/free-solid-svg-icons';
 import ResumeProjectCard from '../../components/ResumeProjectCard';
 import SkillExperties from '../../components/SkillExperties';
@@ -9,12 +9,13 @@ import SkillComfortable from '../../components/SkillComfortable';
 import SkillTools from '../../components/SkillTools';
 import EducationCard from '../../components/EducationCard';
 import CourseCard from '../../components/CourseCard';
+import ScrollUpBtn from '../../components/ScrollUpBtn';
+import CopyRight from '../../components/CopyRight';
 import {
     projects, education1,
     education2, education3,
     course1, course2
 } from '../../data/data';
-import ScrollUpBtn from '../../components/ScrollUpBtn';
 
 
 const AboutMe = () => {
@@ -46,7 +47,8 @@ const AboutMe = () => {
                                 </div>
                                 <div className='contact-item display-flex'>
                                     <FontAwesomeIcon icon={faLinkedinIn} className='item' />
-                                    <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/ruman-islam-6a567016a/'>LinkedIn/RumanIslam</a>
+                                    <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/ruman-islam-6a567016a/'>LinkedIn/RumanIslam
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -138,9 +140,32 @@ const AboutMe = () => {
 
                         </div>
                     </div>
+                    <div className='contact-items-container flex flex-col
+                     md:flex-row justify-around w-6/12 mx-auto mt-6 mb-3'>
+                        <div className='contact-item display-flex'>
+                            <FontAwesomeIcon icon={faLinkedinIn} className='item' />
+                            <a className='text-[15px] text-[#919DAE]' target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/ruman-islam-6a567016a/'>
+                                <span className='gray-text'> LinkedIn/RumanIslam</span>
+                            </a>
+                        </div>
+                        <div className='contact-item display-flex'>
+                            <FontAwesomeIcon icon={faGithubSquare} className='item' />
+                            <a className='text-[15px] text-[#919DAE]' target='_blank' rel='noreferrer' href='https://github.com/Ruman-Islam'>
+                                <span className='gray-text'>Github/RumanIslam</span>
+                            </a>
+                        </div>
+                        <div className='contact-item display-flex'>
+                            <FontAwesomeIcon icon={faInstagramSquare} className='item' />
+                            <a className='text-[15px]' target='_blank' rel='noreferrer' href='https://github.com/Ruman-Islam'>
+                                <span className='gray-text'>Insta/RumanIslam</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <ScrollUpBtn />
+            <br /><br /><br />
+            <CopyRight />
         </div>
 
     );

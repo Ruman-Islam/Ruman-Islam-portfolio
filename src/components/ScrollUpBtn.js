@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowAltCircleUp } from '@fortawesome/free-solid-svg-icons';
+import { faCircleArrowUp } from '@fortawesome/free-solid-svg-icons';
 import UseJumpTopAnimation from '../hooks/UseJumpTopAnimation';
 
 const ScrollUpBtn = () => {
@@ -11,7 +11,7 @@ const ScrollUpBtn = () => {
     }
 
     return (
-        <FontAwesomeIcon icon={faArrowAltCircleUp}
+        <FontAwesomeIcon icon={faCircleArrowUp}
             onClick={() => goToTop()} type='button'
             className={`text-white scrollUpBtn ${distance >= 200 && 'scrollUpBtn-show'}`} />
     );
