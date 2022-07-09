@@ -22,10 +22,10 @@ const ProjectCard = ({ project, project: { id, img, name, description } }) => {
                     <h1 className={`text-[18px] 2xl:text-[20px] font-semibold text-white
                      ${pathname.includes('/projects') ? 'my-2' : 'my-1'}`}>Technology Used</h1>
                     <div className='text-[14px] 2xl:text-[16px] flex justify-between'>
-                        <span className={`px-5 ${pathname.includes('/projects') ? 'md:px-10 2xl:px-16' : 'md:px-8'} py-1 rounded text-white bg-[#29303D]`}>HTML</span>
-                        <span className={`px-5 ${pathname.includes('/projects') ? 'md:px-10 2xl:px-16' : 'md:px-8'} py-1 rounded text-white bg-[#29303D]`}>CSS</span>
-                        <span className={`px-5 ${pathname.includes('/projects') ? 'md:px-10 2xl:px-16' : 'md:px-8'} py-1 rounded text-white bg-[#29303D]`}>JS</span>
-                        <span className={`px-5 ${pathname.includes('/projects') ? 'md:px-10 2xl:px-12' : 'md:px-8'} py-1 rounded text-white bg-[#29303D]`}>MERN</span>
+                        <span className={`px-5 ${pathname.includes('/projects') ? 'md:px-12 2xl:px-16' : 'md:px-8 2xl:px-10'} py-1 rounded text-white bg-[#29303D]`}>HTML</span>
+                        <span className={`px-5 ${pathname.includes('/projects') ? 'md:px-12 2xl:px-16' : 'md:px-8 2xl:px-10'} py-1 rounded text-white bg-[#29303D]`}>CSS</span>
+                        <span className={`px-5 ${pathname.includes('/projects') ? 'md:px-12 2xl:px-16' : 'md:px-8 2xl:px-10'} py-1 rounded text-white bg-[#29303D]`}>JS</span>
+                        <span className={`px-5 ${pathname.includes('/projects') ? 'md:px-12 2xl:px-16' : 'md:px-8 2xl:px-10'} py-1 rounded text-white bg-[#29303D]`}>MERN</span>
                     </div>
                     <div className='mt-3 text-white project'>
                         <a

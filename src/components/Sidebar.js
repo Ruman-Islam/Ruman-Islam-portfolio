@@ -17,6 +17,7 @@ const Sidebar = () => {
         <DisplayContainer />
         <MenuContainer />
         <ResumeButton />
+        <br />
       </Sider>
       <Layout
         className="site-layout">
