@@ -491,19 +491,23 @@ li::marker {
 }
 .scrollUpBtn {
   position: fixed;
-  bottom: 0;
-  right: 2.8rem;
+  bottom: -3rem;
+  right: 3rem;
   font-size: 2rem;
   color: #54B689;
   background: transparent;
   box-shadow: 0px 0px 10px #54B689;
-  transform: translateY(60px) rotate(180deg);
+  transform: rotate(90deg);
   transition: .5s ease-in-out;
   border-radius: 50%;
   cursor: pointer;
 }
+.scrollUpBtn:hover {
+  animation: scrollScaler .4s ease-in-out 1;
+}
 .scrollUpBtn-show{
-  transform: translateY(-40px) rotate(0);
+  bottom: 3rem;
+  transform: rotate(0);
 }
 .copy-right {
   text-align: center;
@@ -519,6 +523,17 @@ li::marker {
   }
   100%{
    box-shadow: 0 0 0 0 #fff0, 0 0 0 0 #fff0;
+  }
+}
+@keyframes scrollScaler {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.2);
+  }
+  100%{
+    transform: scale(1);
   }
 }
 
