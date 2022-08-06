@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImage from '../assets/profileImage.png';
+import profileImage from '../assets/Ruman.jpg';
 import { NavLink } from 'react-router-dom';
 import resume from '../assets/Ruman-Islam.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
