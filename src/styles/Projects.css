@@ -1,0 +1,19 @@
+.project-tech-wrapper {
+  color: var(--secondary-color);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* padding: 5px; */
+}
+
+.project-tech-wrapper span {
+  background-color: #29303d;
+  padding: 0.25rem 0;
+  margin-right: 4px;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+
+.project a {
+  color: #fff !important;
+  text-decoration: none !important;
+}

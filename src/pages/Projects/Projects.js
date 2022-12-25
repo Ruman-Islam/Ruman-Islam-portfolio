@@ -2,6 +2,7 @@ import AllProjects from '../../components/AllProjects';
 import PageTitle from '../../components/PageTitle';
 import ScrollUpBtn from '../../components/ScrollUpBtn';
 import CopyRight from '../../components/CopyRight';
+import '../../styles/Projects.css';
 
 const Projects = () => {
 
