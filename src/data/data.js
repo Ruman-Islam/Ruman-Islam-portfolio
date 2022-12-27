@@ -77,14 +77,14 @@ const articles = [
     {
         title: 'What is Virtual dom?',
         description: "Virtual DOM is a copy or blueprint of the real DOM kept inside the memory and synced with the real dom. Virtual DOM is the same as real DOM but it doesn’t have the power to directly change the real DOM.",
-        img: "https://miro.medium.com/max/800/1*CqdIWZy0NMPQhYx2rKzo9g.png",
+        img: "https://cdn.hashnode.com/res/hashnode/image/upload/v1649654338675/ne8M7eNqO.png",
         date: '08 July 2022',
         link: 'https://www.techdiary.dev/ruman-islam/86795dcb-aeae-4adc-950e-cfe09710ff04-norv8C'
     },
     {
         title: 'How does JavaScript work?',
         description: "Whenever we attach a script file with an HTML file and run, the JavaScript source file is received by the browser. It sends the source code to JavaScript's engine which is installed inside the browser. The code goes through several steps. Firstly the code gets by the parser. The parser checks the code's syntax type errors line by line. Secondly, after parsing, the JS engine breaks the codes into relevant pieces to interpret the codes effectively. Then the codes are received by the interpreter who interpreted the codes into machine codes. Finally, the machine code is sent to the system, then run by the system.",
-        img: "https://miro.medium.com/max/1600/1*2jgqpiZAf85BQwWUHuv-6Q.png",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0zJXfwMEeDNKC3t5ps8eUaxV8r4Hm_jXa5gufinZ5au8NcnRXnAbRuq_xSMkJMc9zR-w&usqp=CAU",
         date: '08 July 2022',
         link: 'https://www.techdiary.dev/ruman-islam/c581807d-a656-49f8-833c-19b3eb8661bd-EZz6XB'
     },
@@ -105,21 +105,21 @@ const articles = [
     {
         title: 'bind, call and apply',
         description: "Call(): The ‘call’ method is a predefined JavaScript method. With ‘call’ an object can use another object's method. It reduces repeatation of code.",
-        img: "https://miro.medium.com/max/1200/1*HRqVf3HxHR4CvzwKnZTXNA.jpeg",
+        img: "https://cdn-media-1.freecodecamp.org/images/1*2ZGrvPwHxZnbTzABICrEAg.png",
         date: '08 July 2022',
         link: 'https://www.techdiary.dev/ruman-islam/10f85218-a548-4adb-8b45-59051c057f74-RPbJgF'
     },
     {
         title: 'Hoisting in JavaScript',
         description: "When JavaScript’s engine receives a script file and starts executing. The JS engine creates an environment to handle the execution of this JavaScript code. This environment is known as the Global Execution Context. The global execution context goes through two phases – the loading phase, and the execution phase",
-        img: "https://miro.medium.com/max/660/0*YJA6GkbSwgDGOByy.png",
+        img: "https://ruairidh.dev/static/13cb19777c5bd6be3f8d715da3b59529/61a07/banner.png",
         date: '08 July 2022',
         link: 'https://www.techdiary.dev/ruman-islam/09062a7c-0e8c-4534-bb44-fc1b95865f2f-gdh5sP'
     },
     {
         title: 'What are the different data types in JavaScript?',
         description: "Primitive data type is not an object or neither has methods and properties. There are seven types of data types in JS. String, number, Boolean, undefined, symbol, null, and 'bigint'. ",
-        img: "https://miro.medium.com/max/1400/1*HuN_T7uPgeQ33Sg05FBH7Q.jpeg",
+        img: "https://www.tutsmake.com/wp-content/uploads/2020/05/JavaScript-Data-Types-Examples-1.jpeg",
         date: '08 July 2022',
         link: 'https://www.techdiary.dev/ruman-islam/26dc6bbc-b276-49ce-b18c-246be130544b-H977d2'
     },
@@ -133,7 +133,7 @@ const articles = [
     {
         title: 'Call by value vs call by reference',
         description: "Call by value is actually about assigning value to primitive data type variables. Whenever you declared a primitive data type variable JS engine allocates memory for in. So suppose you declared a variable “var myName = ‘Ruman’” and declared ",
-        img: "https://askanydifference.com/wp-content/uploads/2022/02/Call-by-Reference-and-Call-by-Value.jpg",
+        img: "https://programmerbay.com/wp-content/uploads/2019/07/call-by-reference-and-call-by-value.png",
         date: '08 July 2022',
         link: 'https://www.techdiary.dev/ruman-islam/cbc743ab-f936-4532-a4b5-20fedc7eb741-zZA8PI'
     },

@@ -15,11 +15,11 @@ const ProjectCard = ({ project, project: { id, img, name, description } }) => {
           pathname.includes("/projects") ? "2xl:w-8/12" : "2xl:w-12/12"
         }`}
       >
-        <img className="w-full" src={img} alt="" />
+        <img style={{height: '250px'}} className="w-full" src={img} alt="" />
       </div>
       <div className="p-2 md:p-5 2xl:p-10 w-full md:w-10/12 2xl:w-12/12">
         <div>
-          <h1 className="text-[30px] 2xl:text-[35px] text-white font-bold">
+          <h1 className="text-[30px] 2xl:text-[35px] text-[#02cfb4] font-bold">
             {name}
           </h1>
           <p style={{ textDecoration: "none" }} className="gray-text">
@@ -31,7 +31,7 @@ const ProjectCard = ({ project, project: { id, img, name, description } }) => {
             className={`text-[16px] 2xl:text-[18px] font-semibold text-white
                      ${pathname.includes("/projects") ? "my-2" : "my-1"}`}
           >
-            Technology Used -
+            Technology
           </h1>
           <div className="project-tech-wrapper">
             <span>HTML</span>
@@ -41,7 +41,7 @@ const ProjectCard = ({ project, project: { id, img, name, description } }) => {
           </div>
           <div className="mt-3 text-white project">
             <a
-              className="px-5 py-1 hover:text-white bg-[#06283D] hover:bg-[#3CCF91] rounded uppercase mr-1"
+              className="px-5 py-1 hover:text-white bg-[#06283D] hover:bg-[#02cfb4] rounded uppercase mr-1"
               type="button"
               target="_blank"
               rel="noopener noreferrer"
@@ -51,9 +51,9 @@ const ProjectCard = ({ project, project: { id, img, name, description } }) => {
             </a>
             <button
               onClick={() => navigate(`/project-detail/${id}`)}
-              className="px-5 py-1 bg-[#06283D] hover:bg-[#3CCF91] rounded uppercase"
+              className="px-5 py-1 bg-[#06283D] hover:bg-[#02cfb4] rounded uppercase"
             >
-              Explore
+              Detail
             </button>
           </div>
         </div>

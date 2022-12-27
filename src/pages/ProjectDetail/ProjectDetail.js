@@ -1,104 +1,123 @@
-import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
-import { SelectOutlined, DoubleRightOutlined, DoubleLeftOutlined, GithubOutlined } from '@ant-design/icons';
-import ScrollUpBtn from '../../components/ScrollUpBtn';
-import { Carousel } from 'antd';
-const contentStyle = {
-    background: '#F2F3F3',
-};
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import {
+  SelectOutlined,
+  RightOutlined,
+  LeftOutlined,
+  GithubOutlined,
+  SyncOutlined,
+} from "@ant-design/icons";
+// import { Carousel } from "antd";
+import ScrollUpBtn from "../../components/ScrollUpBtn";
+import CopyRight from "../../components/CopyRight";
+import "../../styles/ProjectDetail.css";
+import Carousel from "../../components/Carousel";
 
 const ProjectDetail = () => {
-    const [project, setProject] = useState({});
-    const { id } = useParams();
+  const [loading, setLoading] = useState(true);
+  const [project, setProject] = useState({});
+  const { id } = useParams();
 
-    useEffect(() => {
-        fetch('/projects.json')
-            .then(res => res.json())
-            .then(data => {
-                const project = data?.find(pg => +pg.id === +id);
-                setProject(project)
-            })
-    }, [id])
+  useEffect(() => {
+    fetch("/projects.json")
+      .then((res) => res.json())
+      .then((data) => {
+        const project = data?.find((pg) => +pg.id === +id);
+        setProject(project);
+        setLoading(false);
+      });
+  }, [id]);
 
-
+  if (loading) {
     return (
-        <div className='w-8/12 mx-auto'>
-            <div className='py-10'>
-                <div className='flex justify-between flex-col md:flex-row'>
-                    <div>
-                        <h1 className='text-white text-5xl font-bold'>{project?.name}</h1>
-                        <h1 className='text-[#8A8A8A] text-xl font-bold mt-2 mb-2'>{project?.title}</h1>
-                    </div>
-                    <div className='flex flex-col'>
-                        <a target="_blank" rel="noopener noreferrer" href={project?.liveLink}
-                            className='ml-2 uppercase text-white px-5 py-2 text-md font-semibold
-                         bg-[#3BCF91] flex justify-center items-center rounded-sm
-                          hover:text-white hover:scale-105'>
-                            <SelectOutlined />
-                            <span className='ml-1'>Visit the website</span>
-                        </a>
-                        <div className='flex flex-col md:flex-row justify-between mt-3'>
-                            <a target="_blank" rel="noopener noreferrer" href={project?.gitClient}
-                                className='ml-2 uppercase text-white px-5 py-2 text-md font-semibold
-                         bg-[#00877A] flex justify-center items-center rounded-sm
-                          hover:text-white hover:scale-105 mb-3 md:mb-0'>
-                                <GithubOutlined />
-                                <span className='ml-1'>Client</span>
-                            </a>
-                            <a target="_blank" rel="noopener noreferrer" href={project?.gitServer}
-                                className='ml-2 uppercase text-white px-5 py-2 text-md font-semibold
-                         bg-[#00877A] flex justify-center items-center rounded-sm
-                          hover:text-white hover:scale-105 btn'>
-                                <GithubOutlined />
-                                <span className='ml-1'>Server</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div className='my-10'>
-                    <Carousel swipeToSlide draggable arrows
-                        nextArrow={<DoubleRightOutlined />} prevArrow={<DoubleLeftOutlined />}>
-                        {project?.screenshots?.map((ss, index) =>
-                            <>
-                                <div key={index} style={contentStyle} className='flex w-full
-                             justify-center items-center cursor-grabbing'>
-                                    <img className='w-full h-[50vh]' src={ss} alt="" />
-                                </div>
-                            </>)}
-                    </Carousel>
-                </div>
-                <div>
-                    <h1 className='text-white text-4xl font-semibold border-[#CACACA]
-                     border-t-0 border-l-0 border-r-0 border-b leading-loose'>Overview</h1>
-                    <p className='gray-text text-xl mt-5 no-underline'>{project?.overview}</p>
-                </div>
-                <div className='my-5'>
-                    <h1 className='text-white text-4xl font-semibold border-[#CACACA]
-                     border-t-0 border-l-0 border-r-0 border-b leading-loose'>Features</h1>
-                    <ul className='list-disc text\\-[#3BCF91] pl-5'>
-                        {project?.features?.map((ft, index) =>
-                            <li key={index}
-                                className='text-[#919DAE] text-xl leading-loose '>
-                                {ft}
-                            </li>)}
-                    </ul>
-                </div>
-                <div>
-                    <h1 className='text-white text-4xl font-semibold border-[#CACACA]
-                     border-t-0 border-l-0 border-r-0 border-b leading-loose'>Technology Used</h1>
-                    <ul className='my-5 grid grid-cols-1 md:grid-cols-4 gap-3'>
-                        {project?.technology?.map((tech, index) =>
-                            <li
-                                className='text-xl text-white px-5 py-1 bg-[#06283D]'
-                                key={index}>
-                                {tech}
-                            </li>)}
-                    </ul>
-                </div>
-            </div>
-            <ScrollUpBtn />
-        </div>
+      <div className="flex justify-center items-center h-[80vh]">
+        <SyncOutlined className="text-[#02cfb4] text-[50px]" spin />
+      </div>
     );
+  }
+
+  return (
+    <div className="project-detail-container">
+      <br />
+      <br />
+      <br />
+      <div>
+        <Carousel project={project} />
+        <div className="project-detail-title-container">
+          <div>
+            <h1 className="text-[#cbdceb] text-3xl font-bold">{project?.name}</h1>
+            <h1 className="text-[#02cfb4] text-xl font-bold mt-1 mb-2">
+              {project?.title}
+            </h1>
+          </div>
+          <div>
+            <a
+              title="Live site"
+              target="_blank"
+              rel="noopener noreferrer"
+              href={project?.liveLink}
+            >
+              <SelectOutlined />
+            </a>
+            <a
+              title="Frontend repository"
+              target="_blank"
+              rel="noopener noreferrer"
+              href={project?.gitClient}
+            >
+              <GithubOutlined />
+            </a>
+            <a
+              title="Backend repository"
+              target="_blank"
+              rel="noopener noreferrer"
+              href={project?.gitServer}
+            >
+              <GithubOutlined />
+            </a>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div className="project-detail">
+          <h1 className="projectDetailBorderBottom">Overview</h1>
+          <p>{project?.overview}</p>
+        </div>
+        <br />
+        <div className="project-detail">
+          <h1 className="projectDetailBorderBottom">Features</h1>
+          <ul className="list-disc pl-5">
+            {project?.features?.map((ft, index) => (
+              <li key={index}>{ft}</li>
+            ))}
+          </ul>
+        </div>
+        <br />
+        <div className="project-detail">
+          <h1 className="text-white text-4xl projectDetailBorderBottom">
+            Technology
+          </h1>
+          <ul className="my-5 grid grid-cols-1 md:grid-cols-4 gap-3">
+            {project?.technology?.map((tech, index) => (
+              <li
+                style={{ color: "white" }}
+                className="px-5 py-1 bg-[#06283D]"
+                key={index}
+              >
+                {tech}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+      <ScrollUpBtn />
+      <br />
+      <br />
+      <br />
+      <CopyRight />
+    </div>
+  );
 };
 
 export default ProjectDetail;

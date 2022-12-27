@@ -13,11 +13,11 @@ const MenuItem = ({ item: { icon, key, routeName, route } }) => {
           icon={icon}
           className="w-5"
           style={{
-            color: `${pathname === route ? "#54B689" : "white"}`,
+            color: `${pathname === route ? "#02cfb4" : "white"}`,
           }}
         />
         <NavLink
-          style={{ color: `${pathname === route ? "#54B689" : "white"}` }}
+          style={{ color: `${pathname === route ? "#02cfb4" : "white"}` }}
           to={route}
         >
           {routeName}

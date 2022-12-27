@@ -14,7 +14,7 @@ const MyWorks = () => {
             <AllProjects />
             <div className='w-full flex justify-center mt-8'>
                 <div onClick={() => navigate('/projects')}
-                    className='border border-[#54B689] hover:bg-[#54B689] hover:text-white duration-300 flex items-center text-[#54B689] px-3 py-1'>
+                    className='border border-[#02cfb4] hover:bg-[#02cfb4] hover:text-white duration-300 flex items-center text-[#02cfb4] px-3 py-1'>
                     <FontAwesomeIcon icon={faArrowAltCircleRight} className='mr-2 mb-.5' />
                     <button>See All Projects</button>
                 </div>

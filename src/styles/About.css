@@ -1,13 +1,22 @@
 #box {
-  height: 350px;
-  width: 300px;
+  height: 300px;
+  width: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  margin-bottom: 30px;
   /* margin-left: 18px; */
 }
-#borderLeft {
+#box::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--primary-color);
+  transform: translate(15px, 15px);
+}
+/* #borderLeft {
   border-left: 2px solid #65bd95;
   position: absolute;
   left: 0;
@@ -37,24 +46,25 @@
   top: 80%;
   bottom: 0;
   right: 0;
-}
+} */
 
 .profile-image-container {
-  height: 324px;
-  width: 270px;
+  height: 100%;
+  width: 100%;
   background-image: url("../assets/Ruman.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  z-index: 1;
 }
 
 .my-name-box span {
   display: inline-block;
-  animation: wave-text .6s ease-in-out 1;
+  animation: wave-text 9.7s infinite linear;
 }
 
 .my-name-box span:nth-child(1) {
-  animation-delay: 0.0s;
+  animation-delay: 0s;
 }
 .my-name-box span:nth-child(2) {
   animation-delay: 0.1s;
@@ -109,13 +119,21 @@
 }
 
 @keyframes wave-text {
-  00% {
+  0% {
     transform: translateY(0em);
   }
-  50% {
+  3% {
     transform: translateY(-0.6em);
   }
+  6%,
   100% {
     transform: translateY(0em);
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  #box {
+    height: 300px;
+    width: 250px;
   }
 }

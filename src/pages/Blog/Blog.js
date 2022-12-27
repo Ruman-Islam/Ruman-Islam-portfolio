@@ -10,7 +10,7 @@ const Blog = () => {
             <PageTitle title="Blogs" />
             <div className='text-white text-center'>
                 <p style={{ textDecoration: 'none' }} className='text-[35px] font-bold'>A Blog About Web Developer And Life</p>
-                <p style={{ textDecoration: 'none' }} className='text-[18px]'>Welcome to my blog.</p>
+                <p style={{ textDecoration: 'none', color: '#02cfb4' }} className='text-[18px]'>Welcome to my blog.</p>
             </div>
             <MyArticles />
             <ScrollUpBtn />

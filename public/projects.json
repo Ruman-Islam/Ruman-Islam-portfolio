@@ -3,7 +3,7 @@
         "id": 1,
         "name": "PLEX",
         "title": "Manufacturer website",
-        "img": "https://i.ibb.co/6n4nWdP/Screenshot-52.png",
+        "img": "https://www.simpleimageresizer.com/_uploads/photos/3cab7144/Screenshot_14_1000x450.png",
         "description": "Login system, Separate dashboard for user & admin, user settings. Super admin, add/remove admin, manage products & users, protected route. Book and cancel orders, Purchase and pay through stripe.",
         "overview": "It is a manufacturer company name is PLEX. Basically they manufactures industrial's machines, machineries parts. This website serves as their online shop. Customer can buy products, booked products and payment method is stripe right now. This is a dynamic website. It can used by users and admin both. Admin panel has some extra admin features. Product add, delete, update quantity, delete user, make/remove admin and only one super admin. Any other admin cannot remove or delete super admin. Login system has integrated with Google Firebase. All the customer's, orders information is stored in MongoDB. This website server application was built with node JS, REST API's.",
         "features": [
@@ -16,7 +16,7 @@
             "HTML", "CSS", "Tailwind", "Ant Design", "JavaScript", "React JS", "React Router", "Helmet", "Firebase", "Node JS", "JWT", "MongoDB"
         ],
         "screenshots" : [
-            "https://i.ibb.co/6n4nWdP/Screenshot-52.png",
+            "https://www.simpleimageresizer.com/_uploads/photos/3cab7144/Screenshot_14_1000x450.png",
             "https://i.ibb.co/p3B90Hh/Screenshot-55.png",
             "https://i.ibb.co/Kq9pgC1/Screenshot-53.png",
             "https://i.ibb.co/1TpsJy2/Screenshot-54.png"
@@ -77,5 +77,34 @@
         "liveLink": "https://dream-weaver-91b28.web.app/",
         "gitClient": "https://github.com/Ruman-Islam/dream-weaver-client",
         "gitServer": "https://github.com/Ruman-Islam/dream-weaver-server"
+    },
+    {
+        "id": 4,
+        "name": "বই-ঘর",
+        "title": "Online book store",
+        "img": "https://www.simpleimageresizer.com/_uploads/photos/3cab7144/Screenshot_8_1000x450.png",
+        "description": "This is an individual service provider who provides photography in various event. Admin, Landing page, login system, shipping form, cart etc.",
+        "overview": "This is an individual service provider who provides photography in various event if date is available. There are many types of packages according to price. Customer can choose package from package section. Fill up the form submit. Admin get the email and contact with customer.",
+        "features": [
+            "Login system", "Shipping form", "Cart", "Contact form",
+            "Manage products & orders",
+            "Protected route"
+        ],
+        "technology": [
+            "HTML", "Vanilla CSS", "JavaScript", "React JS", "React Router", "Helmet", "Firebase", "Node JS", "JWT", "MongoDB"
+        ],
+        "screenshots" : [
+            "https://www.simpleimageresizer.com/_uploads/photos/3cab7144/Screenshot_6_1000x450.png",
+            "https://www.simpleimageresizer.com/_uploads/photos/3cab7144/Screenshot_7_1_1000x450.png",
+            "https://www.simpleimageresizer.com/_uploads/photos/3cab7144/Screenshot_8_1000x450.png",
+            "https://www.simpleimageresizer.com/_uploads/photos/3cab7144/Screenshot_9_1000x450.png",
+            "https://www.simpleimageresizer.com/_uploads/photos/3cab7144/Screenshot_10_1000x450.png",
+            "https://www.simpleimageresizer.com/_uploads/photos/3cab7144/Screenshot_11_1000x450.png",
+            "https://www.simpleimageresizer.com/_uploads/photos/3cab7144/Screenshot_12_1000x450.png",
+            "https://www.simpleimageresizer.com/_uploads/photos/3cab7144/Screenshot_13_1000x450.png"
+        ],
+        "liveLink": "https://boighor-client-vz75.vercel.app/",
+        "gitClient": "https://github.com/Ruman-Islam/boighor-client",
+        "gitServer": "https://github.com/Ruman-Islam/boighor-server"
     }
 ]

@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -39,10 +43,10 @@ body::-webkit-scrollbar-thumb:hover,
 }
 
 :root {
-  --primary-color: #54b689;
+  --primary-color: #02cfb4;
   --secondary-color: #cbdceb;
   --hover-color: #919dae;
-  --body-background-color: #10121b;
+  --body-background-color: #191D2B;
   --border-bottom-color: hsla(0, 0%, 100%, 0.05);
   --resume-background: #1e2a3a;
 }
@@ -55,7 +59,7 @@ body::-webkit-scrollbar-thumb:hover,
   /* background: #fff; */
   border-radius: 50%;
   padding: 2px;
-  border: var(--secondary-color) solid 1px;
+  border: var(--primary-color) solid 1px;
 }
 .profile-img-container .profile-img-wrapper {
   border-radius: 50%;
@@ -116,7 +120,14 @@ body::-webkit-scrollbar-thumb:hover,
   min-height: 100vh;
 }
 .site-layout {
-  margin-left: 250px !important;
+  margin-left: 250px;
+}
+
+.site-layout-background .time-box {
+  position: fixed;
+  top: 0;
+  right: 5px;
+  color: var(--secondary-color);
 }
 
 .display-container {
@@ -188,45 +199,6 @@ body::-webkit-scrollbar-thumb:hover,
   margin-left: 0.8rem;
   font-size: 1rem;
   font-weight: 900;
-}
-
-.ant-carousel .slick-prev,
-.ant-carousel .slick-next {
-  color: var(--hover-color);
-  font-size: 2.5rem;
-}
-
-.ant-carousel .slick-prev {
-  position: absolute;
-  left: -40px;
-  z-index: 55;
-}
-.ant-carousel .slick-next {
-  position: absolute;
-  right: -20px;
-  z-index: 55;
-}
-
-.ant-carousel .slick-prev:hover,
-.ant-carousel .slick-next:hover,
-.ant-carousel .slick-prev:focus,
-.ant-carousel .slick-next:focus {
-  color: #fff;
-  transition: 0.3s ease-in;
-  transform: scale(1.5);
-}
-
-.ant-carousel .slick-dots li button {
-  margin-top: 1.5rem;
-  background: var(--hover-color);
-  opacity: 0.4;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-}
-.ant-carousel .slick-dots li.slick-active button {
-  opacity: 1;
-  background: var(--hover-color);
 }
 
 .resume-btn-container {
@@ -455,7 +427,7 @@ p:hover,
 }
 
 li::marker {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .social-icon-container li a {
@@ -522,7 +494,6 @@ li::marker {
 .menu-item {
   border: 1px solid white;
 }
-
 
 @keyframes blinking {
   0% {

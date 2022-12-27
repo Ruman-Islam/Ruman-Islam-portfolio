@@ -24,7 +24,8 @@ const About = () => {
             <span>t</span>
             <span>-</span>
             <span>E</span>
-            <span>nd</span> <span>D</span>
+            <span>n</span> 
+            <span>d</span> <span>D</span>
             <span>e</span>
             <span>v</span>
             <span>e</span>
