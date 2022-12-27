@@ -8,10 +8,9 @@ import "../styles/About.css";
 const About = () => {
   return (
     <div
-      className="display-flex flex-col-reverse md:flex-row
-         justify-between items-center text-white py-8"
+      className="text-white py-8 about-box"
     >
-      <div className="basis-7/12">
+      <div className="about-box-left">
         <div className="about">
           <h1 className="text-white text-4xl md:text-6xl font-extrabold">
             Ruman Islam
@@ -24,8 +23,7 @@ const About = () => {
             <span>t</span>
             <span>-</span>
             <span>E</span>
-            <span>n</span> 
-            <span>d</span> <span>D</span>
+            <span>n</span><span>d</span> <span>D</span>
             <span>e</span>
             <span>v</span>
             <span>e</span>
@@ -67,7 +65,7 @@ const About = () => {
           </button>
         </div>
       </div>
-      <div className="basis-3/12">
+      <div className="about-box-right">
         <div id="box">
           <div id="borderLeft"></div>
           <div id="borderRight"></div>

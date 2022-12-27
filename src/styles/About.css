@@ -1,3 +1,37 @@
+.about-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.about-box-left {
+  flex-basis: 60%;
+  flex-grow: 1;
+}
+
+.about a {
+  color: var(--primary-color);
+}
+
+.about a:hover {
+  text-decoration: underline;
+}
+
+.about .title {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.about-box-right {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  align-items: center;
+}
+
 #box {
   height: 300px;
   width: 250px;

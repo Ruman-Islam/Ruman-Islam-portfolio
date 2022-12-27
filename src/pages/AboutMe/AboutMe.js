@@ -32,8 +32,7 @@ const AboutMe = () => {
   return (
     <div className="about-me-container">
       <PageTitle title="About Me" />
-      <div>
-        <div className="online-resume-container mt-2">
+        <div className="online-resume-container">
           <div className="online-resume-wrapper">
             <div className="resume-header display-flex light-border-bottom">
               <div className="resume-person-title">
@@ -220,7 +219,6 @@ const AboutMe = () => {
             </div>
           </div>
         </div>
-      </div>
       <ScrollUpBtn />
       <br />
       <br />

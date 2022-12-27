@@ -11,6 +11,7 @@ const MyWorks = () => {
         <div className='about text-left mt-5 py-5'>
             <h1 className='title text-left'>Some Of My Works</h1>
             <div className='horizontal-line'></div>
+            <br />
             <AllProjects />
             <div className='w-full flex justify-center mt-8'>
                 <div onClick={() => navigate('/projects')}

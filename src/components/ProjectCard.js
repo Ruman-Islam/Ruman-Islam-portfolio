@@ -8,10 +8,10 @@ const ProjectCard = ({ project, project: { id, img, name, description } }) => {
   return (
     <div
       className="flex flex-col md:flex-row justify-between
-         items-center h-full light-border-bottom"
+         items-center h-full"
     >
       <div
-        className={`p-2 w-full md:w-10/12 ${
+        className={`w-full md:w-10/12 ${
           pathname.includes("/projects") ? "2xl:w-8/12" : "2xl:w-12/12"
         }`}
       >
@@ -39,7 +39,7 @@ const ProjectCard = ({ project, project: { id, img, name, description } }) => {
             <span>JS</span>
             <span>MERN</span>
           </div>
-          <div className="mt-3 text-white project">
+          <div className="mt-3 text-white project light-border-bottom pb-3">
             <a
               className="px-5 py-1 hover:text-white bg-[#06283D] hover:bg-[#02cfb4] rounded uppercase mr-1"
               type="button"

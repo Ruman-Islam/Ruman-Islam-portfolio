@@ -1,3 +1,5 @@
+
+/* Project card styles */
 .project-tech-wrapper {
   color: var(--secondary-color);
   display: grid;
@@ -16,4 +18,11 @@
 .project a {
   color: #fff !important;
   text-decoration: none !important;
+}
+
+
+.projects-container {
+  max-width: 1150px;
+  margin: 40px auto 0;
+  padding: 0 20px;
 }

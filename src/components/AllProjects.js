@@ -27,11 +27,8 @@ const AllProjects = () => {
   }
 
   return (
-    <div
-      className="w-full md:w-11/12 2xl:w-9/12 py-5 flex flex-col h-full 
-        justify-center items-center mx-auto px-2 md:px-0"
-    >
-      <div className="grid grid-cols-1">
+    <div>
+      <div>
         {projects?.map((project) => (
           <ProjectCard project={project} key={project.id} />
         ))}
