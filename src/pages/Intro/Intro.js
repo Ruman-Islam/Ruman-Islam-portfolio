@@ -29,7 +29,7 @@ const Intro = () => {
           </div>
           <MyArticles />
         </div>
-        <div>
+        <div className="w-full">
           <WhatNext />
         </div>
         <ScrollUpBtn />

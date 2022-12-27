@@ -10,19 +10,7 @@
   flex-grow: 1;
 }
 
-.about a {
-  color: var(--primary-color);
-}
 
-.about a:hover {
-  text-decoration: underline;
-}
-
-.about .title {
-  color: #fff;
-  font-size: 2rem;
-  font-weight: 900;
-}
 
 .about-box-right {
   flex-basis: 40%;

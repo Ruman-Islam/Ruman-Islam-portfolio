@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import {
   SelectOutlined,
-  RightOutlined,
-  LeftOutlined,
+  // RightOutlined,
+  // LeftOutlined,
   GithubOutlined,
   SyncOutlined,
 } from "@ant-design/icons";

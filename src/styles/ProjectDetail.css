@@ -4,8 +4,9 @@
 }
 
 .project-detail-container {
-  width: 90%;
+  max-width: 1150px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .custom-carousel {
@@ -133,9 +134,6 @@
 }
 
 @media only screen and (min-width: 1500px) {
-  .project-detail-container {
-    width: 60%;
-  }
   .custom-carousel {
     height: 500px;
   }
