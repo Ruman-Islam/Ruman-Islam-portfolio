@@ -14,13 +14,12 @@ const Sidebar = () => {
       <Sider
         width={250}
         className="sider-style"
-        breakpoint="xl"
+        breakpoint="lg"
         collapsedWidth="0"
       >
         <DisplayContainer />
         <MenuContainer />
         <ResumeButton />
-        <br />
       </Sider>
       <Layout className="site-layout">
         <Content className="site-layout-background">

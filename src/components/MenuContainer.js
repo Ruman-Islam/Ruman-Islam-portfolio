@@ -5,7 +5,7 @@ import { menuItems } from "../data/data";
 
 const MenuContainer = () => {
   return (
-    <Menu theme="dark" className="menu-style" mode="inline">
+    <Menu  width={200} theme="dark" className="menu-style" style={{ width: 250 }} mode="inline">
       {menuItems?.map((item) => (
         <MenuItem key={item?.key} item={item} />
       ))}
