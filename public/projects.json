@@ -1,90 +1,11 @@
 [
     {
         "id": 1,
-        "name": "PLEX",
-        "title": "Manufacturer website",
-        "img": "https://www.simpleimageresizer.com/_uploads/photos/3cab7144/Screenshot_14_1000x450.png",
-        "description": "Login system, Separate dashboard for user & admin, user settings. Super admin, add/remove admin, manage products & users, protected route. Book and cancel orders, Purchase and pay through stripe.",
-        "overview": "It is a manufacturer company name is PLEX. Basically they manufactures industrial's machines, machineries parts. This website serves as their online shop. Customer can buy products, booked products and payment method is stripe right now. This is a dynamic website. It can used by users and admin both. Admin panel has some extra admin features. Product add, delete, update quantity, delete user, make/remove admin and only one super admin. Any other admin cannot remove or delete super admin. Login system has integrated with Google Firebase. All the customer's, orders information is stored in MongoDB. This website server application was built with node JS, REST API's.",
-        "features": [
-            "Login system", "Dashboard",
-            "User setting", "Manage admin & user",
-            "Manage products & orders",
-            "Protected route, Super admin"
-        ],
-        "technology": [
-            "HTML", "CSS", "Tailwind", "Ant Design", "JavaScript", "React JS", "React Router", "Helmet", "Firebase", "Node JS", "JWT", "MongoDB"
-        ],
-        "screenshots" : [
-            "https://www.simpleimageresizer.com/_uploads/photos/3cab7144/Screenshot_14_1000x450.png",
-            "https://i.ibb.co/p3B90Hh/Screenshot-55.png",
-            "https://i.ibb.co/Kq9pgC1/Screenshot-53.png",
-            "https://i.ibb.co/1TpsJy2/Screenshot-54.png"
-        ],
-        "liveLink": "https://plex-4449f.firebaseapp.com/",
-        "gitClient": "https://github.com/Ruman-Islam/plex-client",
-        "gitServer": "https://github.com/Ruman-Islam/plex-server"
-    },
-    {
-        "id": 2,
-        "name": "Shelter",
-        "title": "Warehouse management system",
-        "img": "https://i.ibb.co/z4LPdp2/warehouse.png",
-        "description": "This website is for only admin. They can manage and update products. Login system, secured API with JWT, dashboard, separate vendor. CRUD operation, user settings, top sellers and products dynamically.",
-        "overview": "This is an online warehouse management application built as a single page application (SPA). There are two types of admin. The main admin and seller. They will have authentication. In this application an admin can delete product, add product, stock update or remove. Every seller can check their investment, profit etc. Product sequence and investment/profit, product quantity, delivery can be maintain. User has to be logged in with valid email either he/she cannot.",
-        "features": [
-            "Login system", "Dashboard",
-            "User setting", "Manage admin & user",
-            "Manage products & orders",
-            "Protected route"
-        ],
-        "technology": [
-            "HTML", "CSS", "Tailwind", "JavaScript", "React JS", "React Router", "Helmet", "Firebase", "Node JS", "JWT", "MongoDB"
-        ],
-        "screenshots" : [
-            "https://i.ibb.co/z4LPdp2/warehouse.png",
-            "https://i.ibb.co/Xb3N9Cq/Screenshot-2.png",
-            "https://i.ibb.co/vYtMCm9/Screenshot-3.png",
-            "https://i.ibb.co/Qf6rXTP/Screenshot-4.png",
-            "https://i.ibb.co/vX1XxG6/Screenshot-1.png"
-        ],
-        "liveLink": "https://warehouse-47f11.web.app/",
-        "gitClient": "https://github.com/Ruman-Islam/warehouse-management-client",
-        "gitServer": "https://github.com/Ruman-Islam/warehouse-management-server"
-    },
-    {
-        "id": 3,
-        "name": "Photometry",
-        "title": "Independent service provider",
-        "img": "https://i.ibb.co/CnZ3MzP/photometry-1.png",
-        "description": "This is an individual service provider who provides photography in various event. Admin, Landing page, login system, shipping form, cart etc.",
-        "overview": "This is an individual service provider who provides photography in various event if date is available. There are many types of packages according to price. Customer can choose package from package section. Fill up the form submit. Admin get the email and contact with customer.",
-        "features": [
-            "Login system", "Shipping form", "Cart", "Contact form",
-            "Manage products & orders",
-            "Protected route"
-        ],
-        "technology": [
-            "HTML", "Vanilla CSS", "JavaScript", "React JS", "React Router", "Helmet", "Firebase", "Node JS", "JWT", "MongoDB"
-        ],
-        "screenshots" : [
-            "https://i.ibb.co/CnZ3MzP/photometry-1.png",
-            "https://i.ibb.co/MBCxhz3/Screenshot-3-1.png",
-            "https://i.ibb.co/mRz5fhD/Screenshot-4.png",
-            "https://i.ibb.co/H2sJwWc/Screenshot-2.png",
-            "https://i.ibb.co/gDQDjvD/Screenshot-1.png"
-        ],
-        "liveLink": "https://dream-weaver-91b28.web.app/",
-        "gitClient": "https://github.com/Ruman-Islam/dream-weaver-client",
-        "gitServer": "https://github.com/Ruman-Islam/dream-weaver-server"
-    },
-    {
-        "id": 4,
         "name": "বই-ঘর",
         "title": "Online book store",
-        "img": "https://www.simpleimageresizer.com/_uploads/photos/3cab7144/Screenshot_8_1000x450.png",
-        "description": "This is an individual service provider who provides photography in various event. Admin, Landing page, login system, shipping form, cart etc.",
-        "overview": "This is an individual service provider who provides photography in various event if date is available. There are many types of packages according to price. Customer can choose package from package section. Fill up the form submit. Admin get the email and contact with customer.",
+        "img": "https://i.ibb.co/k307MTc/Screenshot-1.png",
+        "description": "An online book store. A variety of books are available. User friendly UI. Login system, Dashboard for user & admin, user settings. Super admin, manage products & users, protected route. Book and cancel orders.",
+        "overview": "",
         "features": [
             "Login system", "Shipping form", "Cart", "Contact form",
             "Manage products & orders",
@@ -94,17 +15,100 @@
             "HTML", "Vanilla CSS", "JavaScript", "React JS", "React Router", "Helmet", "Firebase", "Node JS", "JWT", "MongoDB"
         ],
         "screenshots" : [
-            "https://www.simpleimageresizer.com/_uploads/photos/3cab7144/Screenshot_6_1000x450.png",
-            "https://www.simpleimageresizer.com/_uploads/photos/3cab7144/Screenshot_7_1_1000x450.png",
-            "https://www.simpleimageresizer.com/_uploads/photos/3cab7144/Screenshot_8_1000x450.png",
-            "https://www.simpleimageresizer.com/_uploads/photos/3cab7144/Screenshot_9_1000x450.png",
-            "https://www.simpleimageresizer.com/_uploads/photos/3cab7144/Screenshot_10_1000x450.png",
-            "https://www.simpleimageresizer.com/_uploads/photos/3cab7144/Screenshot_11_1000x450.png",
-            "https://www.simpleimageresizer.com/_uploads/photos/3cab7144/Screenshot_12_1000x450.png",
-            "https://www.simpleimageresizer.com/_uploads/photos/3cab7144/Screenshot_13_1000x450.png"
+            "https://i.ibb.co/k307MTc/Screenshot-1.png",
+            "https://i.ibb.co/CMPvck2/Screenshot-1.png",
+            "https://i.ibb.co/MnJXCvR/Screenshot-1.png",
+            "https://i.ibb.co/Bz4ff9T/Screenshot-1.png",
+            "https://i.ibb.co/bg0jRcK/Screenshot-1.png",
+            "https://i.ibb.co/17DCh4t/Screenshot-1.png",
+            "https://i.ibb.co/vdg5rqZ/Screenshot-1.png",
+            "https://i.ibb.co/qm5xkDz/Screenshot-1.png",
+            "https://i.ibb.co/Q9c2XnM/Screenshot-1.png",
+            "https://i.ibb.co/sFj2S4g/Screenshot-1.png",
+            "https://i.ibb.co/2ShMG3n/Screenshot-1.png",
+            "https://i.ibb.co/MyzYTHJ/Screenshot-1.png"
         ],
         "liveLink": "https://boighor-client-vz75.vercel.app/",
         "gitClient": "https://github.com/Ruman-Islam/boighor-client",
         "gitServer": "https://github.com/Ruman-Islam/boighor-server"
-    }
+    },
+    {
+            "id": 2,
+            "name": "PLEX",
+            "title": "Manufacturer website",
+            "img": "https://i.ibb.co/r2tDJ7P/Screenshot-1-1000x450.png",
+            "description": "Login system, Separate dashboard for user & admin, user settings. Super admin, add/remove admin, manage products & users, protected route. Book and cancel orders, Purchase and pay through stripe.",
+            "overview": "It is a manufacturer company name is PLEX. Basically they manufactures industrial's machines, machineries parts. This website serves as their online shop. Customer can buy products, booked products and payment method is stripe right now. This is a dynamic website. It can used by users and admin both. Admin panel has some extra admin features. Product add, delete, update quantity, delete user, make/remove admin and only one super admin. Any other admin cannot remove or delete super admin. Login system has integrated with Google Firebase. All the customer's, orders information is stored in MongoDB. This website server application was built with node JS, REST API's.",
+            "features": [
+                "Login system", "Dashboard",
+                "User setting", "Manage admin & user",
+                "Manage products & orders",
+                "Protected route, Super admin"
+            ],
+            "technology": [
+                "HTML", "CSS", "Tailwind", "Ant Design", "JavaScript", "React JS", "React Router", "Helmet", "Firebase", "Node JS", "JWT", "MongoDB"
+            ],
+            "screenshots" : [
+                "https://i.ibb.co/r2tDJ7P/Screenshot-1-1000x450.png",
+                "https://i.ibb.co/KLRZdZX/Screenshot-1-1-1000x450.png",
+                "https://i.ibb.co/zN3njxw/Screenshot-53.png",
+                "https://i.ibb.co/1TpsJy2/Screenshot-54.png"
+            ],
+            "liveLink": "https://plex-4449f.firebaseapp.com/",
+            "gitClient": "https://github.com/Ruman-Islam/plex-client",
+            "gitServer": "https://github.com/Ruman-Islam/plex-server"
+        },
+        {
+            "id": 3,
+            "name": "Shelter",
+            "title": "Warehouse management system",
+            "img": "https://i.ibb.co/z4LPdp2/warehouse.png",
+            "description": "This website is for only admin. They can manage and update products. Login system, secured API with JWT, dashboard, separate vendor. CRUD operation, user settings, top sellers and products dynamically.",
+            "overview": "This is an online warehouse management application built as a single page application (SPA). There are two types of admin. The main admin and seller. They will have authentication. In this application an admin can delete product, add product, stock update or remove. Every seller can check their investment, profit etc. Product sequence and investment/profit, product quantity, delivery can be maintain. User has to be logged in with valid email either he/she cannot.",
+            "features": [
+                "Login system", "Dashboard",
+                "User setting", "Manage admin & user",
+                "Manage products & orders",
+                "Protected route"
+            ],
+            "technology": [
+                "HTML", "CSS", "Tailwind", "JavaScript", "React JS", "React Router", "Helmet", "Firebase", "Node JS", "JWT", "MongoDB"
+            ],
+            "screenshots" : [
+                "https://i.ibb.co/z4LPdp2/warehouse.png",
+                "https://i.ibb.co/Xb3N9Cq/Screenshot-2.png",
+                "https://i.ibb.co/vYtMCm9/Screenshot-3.png",
+                "https://i.ibb.co/Qf6rXTP/Screenshot-4.png",
+                "https://i.ibb.co/vX1XxG6/Screenshot-1.png"
+            ],
+            "liveLink": "https://warehouse-47f11.web.app/",
+            "gitClient": "https://github.com/Ruman-Islam/warehouse-management-client",
+            "gitServer": "https://github.com/Ruman-Islam/warehouse-management-server"
+        },
+        {
+            "id": 4,
+            "name": "Photometry",
+            "title": "Independent service provider",
+            "img": "https://i.ibb.co/CnZ3MzP/photometry-1.png",
+            "description": "This is an individual service provider who provides photography in various event. Admin, Landing page, login system, shipping form, cart etc.",
+            "overview": "This is an individual service provider who provides photography in various event if date is available. There are many types of packages according to price. Customer can choose package from package section. Fill up the form submit. Admin get the email and contact with customer.",
+            "features": [
+                "Login system", "Shipping form", "Cart", "Contact form",
+                "Manage products & orders",
+                "Protected route"
+            ],
+            "technology": [
+                "HTML", "Vanilla CSS", "JavaScript", "React JS", "React Router", "Helmet", "Firebase", "Node JS", "JWT", "MongoDB"
+            ],
+            "screenshots" : [
+                "https://i.ibb.co/CnZ3MzP/photometry-1.png",
+                "https://i.ibb.co/MBCxhz3/Screenshot-3-1.png",
+                "https://i.ibb.co/mRz5fhD/Screenshot-4.png",
+                "https://i.ibb.co/H2sJwWc/Screenshot-2.png",
+                "https://i.ibb.co/gDQDjvD/Screenshot-1.png"
+            ],
+            "liveLink": "https://dream-weaver-91b28.web.app/",
+            "gitClient": "https://github.com/Ruman-Islam/dream-weaver-client",
+            "gitServer": "https://github.com/Ruman-Islam/dream-weaver-server"
+        }
 ]

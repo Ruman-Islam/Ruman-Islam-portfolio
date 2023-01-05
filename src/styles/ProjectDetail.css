@@ -6,7 +6,7 @@
 .project-detail-container {
   max-width: 1150px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 30px;
 }
 
 .custom-carousel {
@@ -43,7 +43,7 @@
 
 .custom-carousel-image {
   width: 100%;
-  /* object-fit: cover; */
+  object-fit: cover;
 }
 
 .custom-carousel-arrow-left,
