@@ -16,14 +16,18 @@ const About = () => {
             Ruman Islam
           </h1>
           <h2 className="text-white text-2xl pl-1 mt-2 mb-5 my-name-box">
-            <span>F</span>
-            <span>r</span>
-            <span>o</span>
-            <span>n</span>
-            <span>t</span>
-            <span>-</span>
+            <span>M</span>
             <span>E</span>
-            <span>n</span><span>d</span> <span>D</span>
+            <span>R</span>
+            <span>N</span>
+            <span>-</span>
+            <span>S</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            {" "}
+            <span>D</span>
             <span>e</span>
             <span>v</span>
             <span>e</span>

@@ -47,7 +47,7 @@ const education1 = {
     degree: 'Bachelor of Science in CSE',
     institution: 'Tejgaon College',
     session: '2017 - 2022',
-    gpa: '2.36'
+    gpa: '2.75'
 }
 const education2 = {
     degree: 'Higher Secondary School Certificate',
