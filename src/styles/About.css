@@ -140,6 +140,9 @@
 .my-name-box span:nth-child(18) {
   animation-delay: 1.7s;
 }
+.my-name-box span:nth-child(19) {
+  animation-delay: 1.8s;
+}
 
 @keyframes wave-text {
   0% {
