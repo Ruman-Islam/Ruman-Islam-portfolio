@@ -68,7 +68,7 @@ const About = () => {
           </button>
         </div>
       </div>
-      <div className="about-box-right">
+      {/* <div className="about-box-right">
         <div id="box">
           <div id="borderLeft"></div>
           <div id="borderRight"></div>
@@ -76,7 +76,7 @@ const About = () => {
           <div id="borderBottom"></div>
           <div className="profile-image-container"></div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
