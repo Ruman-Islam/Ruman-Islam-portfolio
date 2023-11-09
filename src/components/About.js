@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import resume from "../assets/Ruman-Islam.pdf";
+import resume from "../assets/Ruman Islam(Resume).pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileLines, faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import "../styles/About.css";
@@ -39,8 +39,7 @@ const About = () => {
           </h2>
           <p className="text-[16px] gray-text no-underline">
             A self-motivated, ambitious and enthusiastic web designer and
-            developer with highly interested in JavaScript, HTML5, CSS3, and
-            front-end web development with modern web tech like React.js. To
+            developer with highly interested in MERN stack development. To
             work in software industry with modern web technologies of different
             local and multinational Software/IT agency of Bangladesh and
             world-wide and grow rapidly with increasing skills and
@@ -49,7 +48,7 @@ const About = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1m1d_a3cao5woTDYLhhdO7x4hW3D5RZ9i/view?usp=sharing"
+              href="https://drive.google.com/file/d/1lxNW0UIIS9aVtzbmfd6mMDgdyL8vIdPk/view?usp=sharing"
             >
               online resume
             </a>

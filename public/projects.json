@@ -1,18 +1,136 @@
-[
+[ {
+    "id": 1,
+    "name": "Tours & Travel",
+    "title": "Online travel website",
+    "img": "https://i.ibb.co/s9W3zfN/Screenshot-132.png",
+    "description": "An online travel booking website. A variety of tour packages are available here. User friendly UI. Authentication system, Dashboard for user & admin, user settings. Super admin, manage packages & users, protected route. Booking and cancel orders.",
+    "overview": "<p>A Tours & Travel website is an online platform that offers a wide range of travel packages for tourists, providing them with the opportunity to explore and enjoy various destinations. This website caters to both local and foreign travelers, offering them a diverse selection of tour packages. The website can be categorized into two main package types: 'Regular' and 'Foreigner.' The 'Foreigner' package is specifically tailored to meet the needs of tourists coming from abroad who want to explore the beauty of Bangladesh.</p><br/><p>Key Features of the Tours & Travel Website:</p> <br/> <ul class='list-disc'><li><p><span class='font-bold text-white'>Dynamic Banner and Search Option:</span> The landing page of the website features a dynamic banner that showcases stunning visuals of travel destinations. Users can utilize the search option in the navbar to find specific packages based on their preferences, such as location, duration, or price.</p></li><li><p><span class='font-bold text-white'>Foreigner Packages:</span> A dedicated section for foreign tourists, highlighting special packages designed to provide them with an exceptional travel experience in Bangladesh.</p></li></li><li><p><span class='font-bold text-white'>Popular Packages:</span> This section showcases the most sought-after and highly-rated travel packages, making it easier for users to discover trending options.</p></li></li></li><li><p><span class='font-bold text-white'>Beautiful Window Glass Cards:</span> Visually appealing cards that display enticing travel destinations, piquing users' interest in exploring those locations.</p></li><li><p><span class='font-bold text-white'>Video and Photo Galleries:</span> Users can view videos and photos that provide an immersive experience of the destinations they may visit, helping them make informed decisions about their travel plans.</p></li><li><p><span class='font-bold text-white'>Customer Reviews:</span> This section contains feedback and testimonials from previous travelers, allowing prospective customers to gain insights into the platform's reliability and the quality of the travel packages.</p></li><li><p><span class='font-bold text-white'>Backend Control:</span> The platform's content and data, including package details, customer reviews, and FAQs, are managed by administrators through the backend. Admins can update, add, or remove content as needed.</p></li><li><p><span class='font-bold text-white'>Search Algorithm:</span> The website employs a sophisticated search algorithm that provides accurate results based on user input, ensuring that customers find the most relevant travel options.</p></li><li><p><span class='font-bold text-white'>Booking System:</span> Users can browse through the available packages, view details, and proceed to book their preferred travel packages, with options for selecting dates and additional services.</p></li><li><p><span class='font-bold text-white'>Discount System: </span> The website offers discounts on specific packages, and users can take advantage of these offers when booking their tours.</p></li><li><p><span class='font-bold text-white'>Filtering Options:</span> Users can filter packages based on tags, such as adventure, relaxation, or cultural experiences. They can also filter by price range, making it easier to find packages that fit their budget.</p></li><li><p><span class='font-bold text-white'>Login with Google:</span> Users can log in or register using their Google accounts, making the registration process quick and convenient.</p></li><li><p><span class='font-bold text-white'>Manual Login and Registration:</span> Users also have the option to manually create an account and log in with their credentials.</p></li></ul> <br/> <p>Admin Capabilities:</p> <br/> <ul class='list-disc'><li><span class='font-bold text-white'>Customer and Admin Management:</span> Administrators can manage customer accounts and create or manage admin accounts to ensure smooth platform operations.</li><li><span class='font-bold text-white'>Package Management:</span> Admins have control over the packages listed on the website. They can add, update, or remove packages, adjusting details like pricing, itineraries, and availability.</li><li><span class='font-bold text-white'>Messages and Questions:</span> Administrators can handle user inquiries, messages, and questions, providing prompt responses and assistance.</li><li><span class='font-bold text-white'>FAQ Management:</span> The FAQ section can be updated and expanded as needed, ensuring that users have access to the most up-to-date information.</li><li><span class='font-bold text-white'>Booking Management:</span> Admins can manage bookings, including verifying reservations, updating booking statuses, and handling any issues that may arise.</li></ul> <br/> <p>In summary, the Tours & Travel website offers an extensive range of travel packages, catering to a diverse clientele. Its user-friendly features, dynamic content, and backend control ensure an engaging and reliable experience for both travelers and administrators. Whether you're a local or a foreigner, this platform provides an all-encompassing solution for planning your next adventure.</p>",
+    "features": [
+        "Login system", "Booking system", "Cart", "Contact form",
+        "Manage products & orders",
+        "Protected route"
+    ],
+    "technology": [
+        "React JS", "Tailwind css", "ant design", "JavaScript", "React Router", "react-redux","react-helmet","react-icons", "axios","react-autosuggest","react-hook-form","react-quill", "react-hot-toast","rc-pagination",  "Node JS","express", "mongoose", "jsonwebtoken", "bcrypt", "cloudinary", "express-rate-limit", "google-auth", "multer", "nodemailer", "zod"
+    ],
+    "screenshots" : [
+        "https://i.ibb.co/s9W3zfN/Screenshot-132.png",
+        "https://i.ibb.co/d27YBDL/Screenshot-133.png",
+        "https://i.ibb.co/kxyL0fg/Screenshot-134.png",
+        "https://i.ibb.co/0Ms926P/Screenshot-135.png",
+        "https://i.ibb.co/w4qxF8T/Screenshot-136.png",
+        "https://i.ibb.co/Hn0Fb2j/Screenshot-137.png",
+        "https://i.ibb.co/z6VPYRm/Screenshot-138.png",
+        "https://i.ibb.co/h2mcLz1/Screenshot-139.png",
+        "https://i.ibb.co/NSJJmPH/Screenshot-140.png",
+        "https://i.ibb.co/BHJHXNw/Screenshot-141.png",
+        "https://i.ibb.co/1GchX5n/Screenshot-131.png",
+        "https://i.ibb.co/X3Y3sQn/Screenshot-132.png",
+        "https://i.ibb.co/W5sD33Z/Screenshot-133.png",
+        "https://i.ibb.co/2g1fBbC/Screenshot-134.png",
+        "https://i.ibb.co/ySyc6Mx/Screenshot-135.png",
+        "https://i.ibb.co/N13KJW0/Screenshot-136.png",
+        "https://i.ibb.co/82rMJ79/Screenshot-137.png"
+    ],
+    "liveLink": "https://insignia-dev.pingdashtech.org",
+    "gitClient": "https://github.com/Ruman-Islam/Insignia_Frontend",
+    "gitServer": "https://github.com/Ruman-Islam/Insignia_Backend"
+},
     {
-        "id": 1,
-        "name": "বই-ঘর",
-        "title": "Online book store",
-        "img": "https://i.ibb.co/k307MTc/Screenshot-1.png",
-        "description": "An online book store. A variety of books are available. User friendly UI. Login system, Dashboard for user & admin, user settings. Super admin, manage products & users, protected route. Book and cancel orders.",
-        "overview": "",
+        "id": 2,
+        "name": "DMS",
+        "title": "Document Management System",
+        "img": "https://i.ibb.co/HPxknPr/Screenshot-138.png",
+        "description": "An online document management portal. An employee and admin can easily maintain and share documents and knowledge among employees. User friendly UI. Authentication system, Dashboard for admin & employees.",
+        "overview": "<p>DMS (Document Management System) is an internal portal of PURBANI Group. By This portal any company can manages their internal documents like pdf, videos, form and etc. It makes easy to share informative documents to all the employees to the company without wasting time to find appropriate storage. This portal has its own security for different role based authority.</p><br/><p>Key Features of the DMS Website:</p><br/> <ul class='list-disc'><li><span class='font-bold text-white'>Login & Registration:</span> Admin creates account for employees. And then employee can only login to this portal</li><li><span class='font-bold text-white'>Authentication & Authorization:</span> Super admin can manage all things. Different role base admins and users maintains their things.</li><li><span class='font-bold text-white'>Notice:</span> Employees can get office notices through portal at anytime.</li><li><span class='font-bold text-white'>Policies:</span> New and old employees can aware about office policies through the portal.</li><li><span class='font-bold text-white'>Knowledge:</span> Employees can get knowledge about office work. Get training by themselves.</li><li><span class='font-bold text-white'>Download and Watch:</span> Employees can downloads the documents and watch the videos online easily.</li></ul>",
         "features": [
             "Login system", "Shipping form", "Cart", "Contact form",
             "Manage products & orders",
             "Protected route"
         ],
         "technology": [
-            "HTML", "Vanilla CSS", "JavaScript", "React JS", "React Router", "Helmet", "Firebase", "Node JS", "JWT", "MongoDB"
+            "HTML", "Vanilla CSS", "Tailwind css", "JavaScript", "Next JS", "Node JS","express", "mongoose", "jsonwebtoken", "bcrypt", "cloudinary", "express-rate-limit", "google-auth", "multer", "nodemailer", "zod"
+        ],
+        "screenshots" : [
+            "https://i.ibb.co/HPxknPr/Screenshot-138.png",
+            "https://i.ibb.co/Tw4X6q7/Screenshot-139.png",
+            "https://i.ibb.co/zmBNL9b/Screenshot-140.png",
+            "https://i.ibb.co/LJtVW77/Screenshot-141.png",
+            "https://i.ibb.co/c1Y2CQF/Screenshot-142.png"
+        ],
+        "liveLink": "https://purbani-dms-test.vercel.app/",
+        "gitClient": "https://github.com/Ruman-Islam/DMS",
+        "gitServer": "https://github.com/Ruman-Islam/DMS"
+    },
+    {
+        "id": 3,
+        "name": "Tech Hub",
+        "title": "Online tech shop",
+        "img": "https://i.ibb.co/47Wf4hn/Screenshot-145.png",
+        "description": "An online Tech store built by TypeScript with NextJS. A variety of computer parts are available here. User friendly UI. Login system with Next Auth.",
+        "overview": "<p>Crafted a cutting-edge online tech component store using TypeScript and Next.js. This project seamlessly integrates Next Auth, allowing users to log in conveniently with their Google accounts. The primary objective was to leverage TypeScript for a robust and efficient website while incorporating advanced Next.js features, including Static Site Generation (SSG), Server-Side Rendering (SSR), and Incremental Server Rendering (ISR). The result is a high-performance, SEO-friendly platform designed to provide a superior user experience in the tech component shopping arena.</p>",
+        "features": [
+            "Login system", "Shipping form", "Cart", "Contact form",
+            "Manage products & orders",
+            "Protected route"
+        ],
+        "technology": [
+            "HTML", "Vanilla CSS", "Tailwind CSS", "JavaScript", "Next JS", "TypeScript", "Next Auth", "React Redux", "React Hook Form"
+        ],
+        "screenshots" : [
+            "https://i.ibb.co/HhkyJpw/fba38111-1b95-4b38-9082-a5d9ddd77ec2.png",
+            "https://i.ibb.co/8YqZxS2/fba38111-1b95-4b38-9082-a5d9ddd77ec2.png",
+            "https://i.ibb.co/Bt4TxT1/Screenshot-3.png",
+            "https://i.ibb.co/PhcKyss/Screenshot-4.png",
+            "https://i.ibb.co/fND1wbm/Screenshot-5.png",
+            "https://i.ibb.co/X2NQYcz/Screenshot-6.png"
+        ],
+        "liveLink": "https://pc-builder-self.vercel.app/",
+        "gitClient": "https://github.com/Ruman-Islam/Tech-Hub"
+    },
+    {
+        "id": 4,
+        "name": "TimeZee",
+        "title": "Online watch store",
+        "img": "https://i.ibb.co/hcV2zJV/Screenshot-6.png",
+        "description": "An online watch store. NextJS implementation. User friendly UI. Login system, User panel, user settings, protected route. Booking and cancel orders.",
+        "overview": "<p>TimeZee, an elegant online watch store, showcases my craftsmanship in web development. Built with Next.js and fortified by Next Auth, this platform offers a secure and seamless login experience, including protected routes through carefully designed higher-order components. The implementation includes a user-friendly cart system, where items and shipping addresses are efficiently stored in cookies. The result is a sophisticated online watch shopping experience that seamlessly blends style and technology.</p>",
+        "features": [
+            "Login system", "Shipping form", "Cart", "Contact form",
+            "Manage products & orders",
+            "Protected route"
+        ],
+        "technology": [
+            "HTML", "Vanilla CSS", "Tailwind CSS", "JavaScript", "Next JS", "Next Auth", "Node JS", "express", "mongoose", "jsonwebtoken", "bcrypt", "cloudinary"
+        ],
+        "screenshots" : [
+            "https://i.ibb.co/h2T0Vmw/Screenshot-2.png",
+            "https://i.ibb.co/xgLkjjW/Screenshot-1.png",
+            "https://i.ibb.co/dQZhT5h/Screenshot-3.png",
+            "https://i.ibb.co/yhh2hZ3/Screenshot-4.png",
+            "https://i.ibb.co/85vH9nD/Screenshot-5.png",
+            "https://i.ibb.co/n8wJQfY/Screenshot-6-1.png",
+            "https://i.ibb.co/frTcsmh/Screenshot-11.png",
+            "https://i.ibb.co/k9jyGmS/Screenshot-12.png",
+            "https://i.ibb.co/KzYqzvj/Screenshot-13.png"
+        ],
+        "liveLink": "https://timezee.vercel.app/",
+        "gitClient": "https://github.com/Ruman-Islam/timezee"
+    },
+    {
+        "id": 5,
+        "name": "বই-ঘর",
+        "title": "Online book store",
+        "img": "https://i.ibb.co/k307MTc/Screenshot-1.png",
+        "description": "An online book store. A variety of books are available. User friendly UI. Login system, Dashboard for user & admin, user settings. Super admin, manage products & users, protected route. Book and cancel orders.",
+        "overview": "<p>Online book store (বই-ঘর), I inspired from Rokomari. This project was for my varsity final year. In this website customer can view the latest and featured book on the landing page. Dynamic search bar and category page with mega menu. Book detail page and review options are available for customer. Customer can request for any book to the admin through profile. It has the shopping cart, order booking system and order approved by admin. Separate admin panel etc.</p>",
+        "features": [
+            "Login system", "Shipping form", "Cart", "Contact form",
+            "Manage products & orders",
+            "Protected route"
+        ],
+        "technology": [
+            "HTML", "Vanilla CSS", "JavaScript", "React JS", "React Router", "Helmet", "Firebase", "Node JS","express", "mongoose", "jsonwebtoken", "bcrypt", "cloudinary", "express-rate-limit", "google-auth", "multer", "nodemailer", "zod"
         ],
         "screenshots" : [
             "https://i.ibb.co/k307MTc/Screenshot-1.png",
@@ -33,7 +151,7 @@
         "gitServer": "https://github.com/Ruman-Islam/boighor-server"
     },
     {
-            "id": 2,
+            "id": 6,
             "name": "PLEX",
             "title": "Manufacturer website",
             "img": "https://i.ibb.co/r2tDJ7P/Screenshot-1-1000x450.png",
@@ -59,7 +177,7 @@
             "gitServer": "https://github.com/Ruman-Islam/plex-server"
         },
         {
-            "id": 3,
+            "id": 7,
             "name": "Shelter",
             "title": "Warehouse management system",
             "img": "https://i.ibb.co/z4LPdp2/warehouse.png",
@@ -86,7 +204,7 @@
             "gitServer": "https://github.com/Ruman-Islam/warehouse-management-server"
         },
         {
-            "id": 4,
+            "id": 6,
             "name": "Photometry",
             "title": "Independent service provider",
             "img": "https://i.ibb.co/CnZ3MzP/photometry-1.png",

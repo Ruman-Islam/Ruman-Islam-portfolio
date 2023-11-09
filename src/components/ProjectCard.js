@@ -8,14 +8,14 @@ const ProjectCard = ({ project, project: { id, img, name, description } }) => {
   return (
     <div
       className="flex flex-col md:flex-row justify-between
-         items-center h-full"
+         items-center h-full mb-2"
     >
       <div
         className={`w-full md:w-10/12 ${
           pathname.includes("/projects") ? "2xl:w-8/12" : "2xl:w-12/12"
         }`}
       >
-        <img style={{height: '250px'}} className="w-full" src={img} alt="" />
+        <img style={{height: '250px'}} className="w-full object-cover" src={img} alt="" />
       </div>
       <div className="p-2 md:p-5 2xl:p-10 w-full md:w-10/12 2xl:w-12/12">
         <div>
@@ -27,7 +27,7 @@ const ProjectCard = ({ project, project: { id, img, name, description } }) => {
           </p>
         </div>
         <div>
-          <h1
+          {/* <h1
             className={`text-[16px] 2xl:text-[18px] font-semibold text-white
                      ${pathname.includes("/projects") ? "my-2" : "my-1"}`}
           >
@@ -38,7 +38,7 @@ const ProjectCard = ({ project, project: { id, img, name, description } }) => {
             <span>CSS</span>
             <span>JS</span>
             <span>MERN</span>
-          </div>
+          </div> */}
           <div className="mt-3 text-white project light-border-bottom pb-3">
             <a
               className="px-5 py-1 hover:text-white bg-[#06283D] hover:bg-[#02cfb4] rounded uppercase mr-1"

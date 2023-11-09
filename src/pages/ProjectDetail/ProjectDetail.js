@@ -45,7 +45,9 @@ const ProjectDetail = () => {
         <Carousel project={project} />
         <div className="project-detail-title-container">
           <div>
-            <h1 className="text-[#cbdceb] text-3xl font-bold">{project?.name}</h1>
+            <h1 className="text-[#cbdceb] text-3xl font-bold">
+              {project?.name}
+            </h1>
             <h1 className="text-[#02cfb4] text-xl font-bold mt-1 mb-2">
               {project?.title}
             </h1>
@@ -59,40 +61,45 @@ const ProjectDetail = () => {
             >
               <SelectOutlined />
             </a>
-            <a
-              title="Frontend repository"
-              target="_blank"
-              rel="noopener noreferrer"
-              href={project?.gitClient}
-            >
-              <GithubOutlined />
-            </a>
-            <a
-              title="Backend repository"
-              target="_blank"
-              rel="noopener noreferrer"
-              href={project?.gitServer}
-            >
-              <GithubOutlined />
-            </a>
+            {project?.gitClient && (
+              <a
+                title="Frontend repository"
+                target="_blank"
+                rel="noopener noreferrer"
+                href={project?.gitClient}
+              >
+                <GithubOutlined />
+              </a>
+            )}
+            {project?.gitServer && (
+              <a
+                title="Frontend repository"
+                target="_blank"
+                rel="noopener noreferrer"
+                href={project?.gitServer}
+              >
+                <GithubOutlined />
+              </a>
+            )}
           </div>
         </div>
         <br />
         <br />
         <br />
-        <div className="project-detail">
+        <div className="project-detail text-sm leading-normal">
           <h1 className="projectDetailBorderBottom">Overview</h1>
-          <p>{project?.overview}</p>
+          {/* <p>{project?.overview}</p> */}
+          <div dangerouslySetInnerHTML={{ __html: project?.overview }}></div>
         </div>
         <br />
-        <div className="project-detail">
+        {/* <div className="project-detail">
           <h1 className="projectDetailBorderBottom">Features</h1>
           <ul className="list-disc pl-5">
             {project?.features?.map((ft, index) => (
               <li key={index}>{ft}</li>
             ))}
           </ul>
-        </div>
+        </div> */}
         <br />
         <div className="project-detail">
           <h1 className="text-white text-4xl projectDetailBorderBottom">
@@ -102,7 +109,7 @@ const ProjectDetail = () => {
             {project?.technology?.map((tech, index) => (
               <li
                 style={{ color: "white" }}
-                className="px-5 py-1 bg-[#06283D]"
+                className="px-5 py-1 bg-[#06283D] capitalize"
                 key={index}
               >
                 {tech}

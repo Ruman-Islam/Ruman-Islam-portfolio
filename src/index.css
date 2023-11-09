@@ -97,7 +97,7 @@ body::-webkit-scrollbar-thumb:hover,
   padding-left: 2.5rem;
 }
 .sider-style {
-  height: 115vh;
+  height: 100vh;
   position: sticky;
   top: 0;
   z-index: 999;

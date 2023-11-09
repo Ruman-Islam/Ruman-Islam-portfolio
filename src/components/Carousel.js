@@ -11,7 +11,7 @@ const Carousel = ({ project: { screenshots } }) => {
   };
 
   return (
-    <div className="custom-carousel">
+    <div className="custom-carousel w-full h-[250px] sm:h-[350px] md:h-[450px] lg:h-[550px]">
       <div className="custom-carousel-wrapper">
         {screenshots.map((ss, index) => {
           return (
@@ -23,7 +23,7 @@ const Carousel = ({ project: { screenshots } }) => {
                   : "custom-carousel-card"
               }
             >
-              <img className="custom-carousel-image" src={ss} alt="" />
+              <img className="w-full h-[250px] sm:h-[350px] md:h-[450px] lg:h-[550px] object-cover" src={ss} alt="" />
               <div className="custom-carousel-card-overlay"></div>
             </div>
           );

@@ -6,9 +6,7 @@ import "../../styles/Projects.css";
 
 const Projects = () => {
   return (
-    <div
-      className="projects-container"
-    >
+    <div className="projects-container">
       <PageTitle title="Projects" />
       <div className="light-border-bottom text-center">
         <div className="w-8/12 py-5 mx-auto">
@@ -23,6 +21,7 @@ const Projects = () => {
           </p>
         </div>
       </div>
+      <br />
       <AllProjects />
       <ScrollUpBtn />
       <br /> <br /> <br />
