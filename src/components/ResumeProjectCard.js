@@ -46,7 +46,7 @@ const ResumeProjectCard = ({
         <p className="resume-project-detail-title">Features</p>
         <ul className="project-features">
           {features?.map((ft, index) => (
-            <li key={index} className="gray-text">
+            <li key={index} className=" ">
               {ft}
             </li>
           ))}

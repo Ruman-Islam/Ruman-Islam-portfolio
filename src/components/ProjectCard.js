@@ -15,14 +15,19 @@ const ProjectCard = ({ project, project: { id, img, name, description } }) => {
           pathname.includes("/projects") ? "2xl:w-8/12" : "2xl:w-12/12"
         }`}
       >
-        <img style={{height: '250px'}} className="w-full object-cover" src={img} alt="" />
+        <img
+          style={{ height: "250px" }}
+          className="w-full object-cover"
+          src={img}
+          alt=""
+        />
       </div>
       <div className="p-2 md:p-5 2xl:p-10 w-full md:w-10/12 2xl:w-12/12">
         <div>
           <h1 className="text-[30px] 2xl:text-[35px] text-[#02cfb4] font-bold">
             {name}
           </h1>
-          <p style={{ textDecoration: "none" }} className="gray-text">
+          <p style={{ textDecoration: "none" }} className=" ">
             {description}
           </p>
         </div>

@@ -16,9 +16,8 @@ const DisplayContainer = () => {
           <div className="profile-img-wrapper display-img-wrapper"></div>
         </div>
         <div className="display-text">
-          <p className="text-xl py-1.5 no-underline">Ruman Islam</p>
           <p className="no-underline">
-            Hi, my name is Ruman Islam and I'm a MERN Stack developer.
+            Hi, I'm a MERN Stack developer.
             Welcome to my personal website!
           </p>
         </div>

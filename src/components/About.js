@@ -7,9 +7,7 @@ import "../styles/About.css";
 
 const About = () => {
   return (
-    <div
-      className="text-white py-8 about-box"
-    >
+    <div className="text-white py-8 about-box">
       <div className="about-box-left">
         <div className="about">
           <h1 className="text-white text-4xl md:text-6xl font-extrabold">
@@ -25,9 +23,7 @@ const About = () => {
             <span>t</span>
             <span>a</span>
             <span>c</span>
-            <span>k</span>
-            {" "}
-            <span>D</span>
+            <span>k</span> <span>D</span>
             <span>e</span>
             <span>v</span>
             <span>e</span>
@@ -37,14 +33,14 @@ const About = () => {
             <span>e</span>
             <span>r</span>
           </h2>
-          <p className="text-[16px] gray-text no-underline">
+          <p className="text-[16px] no-underline">
             A self-motivated, ambitious and enthusiastic web designer and
-            developer with highly interested in MERN stack development. To
-            work in software industry with modern web technologies of different
-            local and multinational Software/IT agency of Bangladesh and
-            world-wide and grow rapidly with increasing skills and
-            responsibilities. Check out my project{" "}
-            <NavLink to="/projects">project portfolio</NavLink> and{" "}
+            developer with highly interested in MERN stack development. To work
+            in software industry with modern web technologies of different local
+            and multinational Software/IT agency of Bangladesh and world-wide
+            and grow rapidly with increasing skills and responsibilities. Check
+            out my project <NavLink to="/projects">project portfolio</NavLink>{" "}
+            and{" "}
             <a
               target="_blank"
               rel="noreferrer"

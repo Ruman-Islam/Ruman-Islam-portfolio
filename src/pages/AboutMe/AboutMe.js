@@ -99,9 +99,9 @@ const AboutMe = () => {
                     <p className="working-date">January 2023 - March 2023</p>
                   </div>
                   <div>
-                    <p className="gray-text">On Site</p>
-                    <p className="gray-text">Pingdash Technology</p>
-                    <p className="gray-text">Dhaka, Bangladesh</p>
+                    <p className=" ">On Site</p>
+                    <p className=" ">Pingdash Technology</p>
+                    <p className=" ">Dhaka, Bangladesh</p>
                   </div>
                 </div>
                 <div className="company">
@@ -110,9 +110,9 @@ const AboutMe = () => {
                     <p className="working-date">March 2023 - September 2023</p>
                   </div>
                   <div>
-                    <p className="gray-text">Remote</p>
-                    <p className="gray-text">3W Business PVT Ltd.</p>
-                    <p className="gray-text">Noida, India</p>
+                    <p className=" ">Remote</p>
+                    <p className=" ">3W Business PVT Ltd.</p>
+                    <p className=" ">Noida, India</p>
                   </div>
                 </div>
                 <div className="company">
@@ -121,9 +121,9 @@ const AboutMe = () => {
                     <p className="working-date">April 2021 - Dec 2021</p>
                   </div>
                   <div>
-                    <p className="gray-text">Skill - Premium</p>
-                    <p className="gray-text">Grameenphone PVT Ltd.</p>
-                    <p className="gray-text">Dhaka, Bangladesh</p>
+                    <p className=" ">Skill - Premium</p>
+                    <p className=" ">Grameenphone PVT Ltd.</p>
+                    <p className=" ">Dhaka, Bangladesh</p>
                   </div>
                 </div>
                 <div className="company">
@@ -132,8 +132,8 @@ const AboutMe = () => {
                     <p className="working-date">Jan 2020 - Dec 2020</p>
                   </div>
                   <div>
-                    <p className="gray-text">UDVASH</p>
-                    <p className="gray-text">Dhaka, Bangladesh</p>
+                    <p className=" ">UDVASH</p>
+                    <p className=" ">Dhaka, Bangladesh</p>
                   </div>
                 </div>
               </div>
@@ -206,23 +206,23 @@ const AboutMe = () => {
           <div className="contact-item display-flex">
             <FontAwesomeIcon icon={faLinkedinIn} className="item" />
             <a
-              className="text-[15px] text-[#919DAE]"
+              className="text-[15px]   "
               target="_blank"
               rel="noreferrer"
               href="https://www.linkedin.com/in/ruman-islam-6a567016a/"
             >
-              <span className="gray-text"> LinkedIn/RumanIslam</span>
+              <span className=" "> LinkedIn/RumanIslam</span>
             </a>
           </div>
           <div className="contact-item display-flex">
             <FontAwesomeIcon icon={faGithubSquare} className="item" />
             <a
-              className="text-[15px] text-[#919DAE]"
+              className="text-[15px]   "
               target="_blank"
               rel="noreferrer"
               href="https://github.com/Ruman-Islam"
             >
-              <span className="gray-text">Github/RumanIslam</span>
+              <span className=" ">Github/RumanIslam</span>
             </a>
           </div>
           <div className="contact-item display-flex">
@@ -233,7 +233,7 @@ const AboutMe = () => {
               rel="noreferrer"
               href="https://www.youtube.com/@rumanislam7528"
             >
-              <span className="gray-text">Insta/RumanIslam</span>
+              <span className=" ">Insta/RumanIslam</span>
             </a>
           </div>
         </div>

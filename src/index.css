@@ -78,7 +78,7 @@ body::-webkit-scrollbar-thumb:hover,
 .no-underline:hover {
   text-decoration: none;
 }
-.gray-text,
+.,
 .company a {
   color: var(--hover-color);
 }

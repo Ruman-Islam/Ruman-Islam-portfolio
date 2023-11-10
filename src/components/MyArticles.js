@@ -28,7 +28,7 @@ const MyArticles = () => {
                       <p className="text-[18px] font-bold no-underline">
                         {article.title}
                       </p>
-                      <p className="my-5 text-[#919DAE] no-underline">
+                      <p className="my-5    no-underline">
                         {article.description.slice(0, 200)}...
                       </p>
                     </div>
@@ -57,7 +57,7 @@ const MyArticles = () => {
                       <p className="text-[18px] font-bold no-underline">
                         {article.title}
                       </p>
-                      <p className="my-5 text-[#919DAE] no-underline">
+                      <p className="my-5    no-underline">
                         {article.description.slice(0, 200)}...
                       </p>
                     </div>
