@@ -38,7 +38,7 @@ const AboutMe = () => {
             <div className="resume-person-title">
               <p className="person-name no-underline">Ruman Islam</p>
               <p className="person-designation no-underline ">
-                MERN Stack Developer
+                Frontend Developer
               </p>
             </div>
             <div className="contact-items-container">
