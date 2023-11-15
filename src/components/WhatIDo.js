@@ -10,9 +10,9 @@ const WhatIDo = () => {
         <div className="horizontal-line"></div>
         <br />
         <p className="text-[16px]    no-underline">
-          I’m a MERN Stack Developer and Programmer with highly interest in
+          I’m a Frontend Developer and Programmer with highly interest in
           JavaScrips and Modern web tech like ReactJS, NextJS. I have experience
-          in web development using JavaScript. Also I built three MERN Stack web
+          in web development using JavaScript. Also I built many frontend and MERN Stack web
           applications. I’m passionate to make a clean, beautiful, professional,
           responsive website and maximum optimized way so that it performs well.
           As a programmer, I love taking challenges and love being part of the
@@ -22,7 +22,7 @@ const WhatIDo = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://drive.google.com/file/d/1m1d_a3cao5woTDYLhhdO7x4hW3D5RZ9i/view?usp=sharing"
+            href="https://drive.google.com/file/d/1TGHI_gJUaZ32R2yVKxBBh6sMmKrq5bOB/view?usp=sharing"
           >
             online resume
           </a>{" "}

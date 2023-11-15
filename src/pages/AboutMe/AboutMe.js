@@ -72,7 +72,7 @@ const AboutMe = () => {
           <div className="resume-description light-border-bottom">
             <div>
               <p className="no-underline">
-                I'm a MERN Stack web developer. My passion is to involve in the
+                I'm a Frontend developer. My passion is to involve in the
                 programming world for a lifetime. I really enjoy building web
                 applications and adding new features. Patience is one of my
                 god's blessings for me. This is my key power in solving problems
@@ -92,8 +92,8 @@ const AboutMe = () => {
           >
             <div className="experience-container">
               <div>
-                <p className="experience-title">WORKING EXPERIENCE</p>
-                <div className="company">
+                <p className="experience-title">EXPERIENCE</p>
+                {/* <div className="company">
                   <div className="company-experience display-flex">
                     <h3 className="designation">MERN Stack Developer</h3>
                     <p className="working-date">January 2023 - March 2023</p>
@@ -103,11 +103,11 @@ const AboutMe = () => {
                     <p className=" ">Pingdash Technology</p>
                     <p className=" ">Dhaka, Bangladesh</p>
                   </div>
-                </div>
+                </div> */}
                 <div className="company">
                   <div className="company-experience display-flex">
-                    <h3 className="designation">MERN Stack Developer</h3>
-                    <p className="working-date">March 2023 - September 2023</p>
+                    <h3 className="designation">Frontend Developer (Intern)</h3>
+                    <p className="working-date">March 2023 - Aug 2023</p>
                   </div>
                   <div>
                     <p className=" ">Remote</p>
@@ -150,15 +150,16 @@ const AboutMe = () => {
               <div>
                 <p className="skill-title">SKILLS</p>
                 <div className="company">
-                  <h3
+                  <br />
+                  {/* <h3
                     className="designation"
                     style={{ lineHeight: "3", marginBottom: "-10px" }}
                   >
                     Expertise
-                  </h3>
+                  </h3> */}
                   <SkillExperties />
                 </div>
-                <div className="company">
+                {/* <div className="company">
                   <h3
                     className="designation"
                     style={{ lineHeight: "3", marginBottom: "-10px" }}
@@ -175,7 +176,7 @@ const AboutMe = () => {
                     Tools
                   </h3>
                   <SkillTools />
-                </div>
+                </div> */}
               </div>
 
               <br />
@@ -201,7 +202,7 @@ const AboutMe = () => {
         </div>
         <div
           className="contact-items-container flex flex-col
-                     md:flex-row justify-around w-6/12 mx-auto mt-6 mb-3"
+                     md:flex-row justify-around w-6/12 mx-auto mt-6 mb-3 gap-2"
         >
           <div className="contact-item display-flex">
             <FontAwesomeIcon icon={faLinkedinIn} className="item" />

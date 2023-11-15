@@ -13,8 +13,6 @@ const projects = [
   {
     name: "Tours & Travel - Online travel website",
     liveLink: "https://insignia-dev.pingdashtech.org/",
-    clientLink: "https://github.com/Ruman-Islam/Insignia_Frontend",
-    serverLink: "https://github.com/Ruman-Islam/Insignia_Backend",
     features: [
       "Login system, Separate dashboard for user & admin, user settings.",
       "Super admin, add/remove admin, manage bookings & users, protected route.",
@@ -25,8 +23,6 @@ const projects = [
   {
     name: "DMS - Document Management System",
     liveLink: "https://purbani-dms-test.vercel.app/",
-    clientLink: "https://github.com/Ruman-Islam/DMS",
-    serverLink: "https://github.com/Ruman-Islam/DMS",
     features: [
       "Employees & admins can manage internal documents.",
       "Login system, secured API with JWT, dashboard.",
@@ -179,7 +175,7 @@ const articles = [
 
 const menuItems = [
   { key: "1", icon: faHouseUser, routeName: "Home", route: "/" },
-  { key: "2", icon: faUser, routeName: "About me", route: "/about-me" },
+  { key: "2", icon: faUser, routeName: "Experience", route: "/about-me" },
   { key: "3", icon: faLaptopCode, routeName: "Projects", route: "/projects" },
   { key: "4", icon: faBlog, routeName: "Blog", route: "/blog" },
   { key: "5", icon: faAddressCard, routeName: "Contacts", route: "/contacts" },

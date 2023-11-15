@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../assets/Ruman Islam(Resume).pdf';
+import resume from '../assets/Ruman Islam(Resume Frontend).pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileLines } from '@fortawesome/free-solid-svg-icons';
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import resume from "../assets/Ruman Islam(Resume).pdf";
+import resume from "../assets/Ruman Islam(Resume Frontend).pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileLines, faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import "../styles/About.css";
@@ -14,16 +14,15 @@ const About = () => {
             Ruman Islam
           </h1>
           <h2 className="text-white text-2xl pl-1 mt-2 mb-5 my-name-box">
-            <span>M</span>
-            <span>E</span>
-            <span>R</span>
-            <span>N</span>
-            <span>-</span>
-            <span>S</span>
+            <span>F</span>
+            <span>r</span>
+            <span>o</span>
+            <span>n</span>
             <span>t</span>
-            <span>a</span>
-            <span>c</span>
-            <span>k</span> <span>D</span>
+            <span>e</span>
+            <span>n</span>
+            <span>d</span> {" "}
+            <span>D</span>
             <span>e</span>
             <span>v</span>
             <span>e</span>
@@ -44,7 +43,7 @@ const About = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1lxNW0UIIS9aVtzbmfd6mMDgdyL8vIdPk/view?usp=sharing"
+              href="https://drive.google.com/file/d/1TGHI_gJUaZ32R2yVKxBBh6sMmKrq5bOB/view?usp=sharing"
             >
               online resume
             </a>

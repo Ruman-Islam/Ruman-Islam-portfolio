@@ -32,9 +32,7 @@
         "https://i.ibb.co/N13KJW0/Screenshot-136.png",
         "https://i.ibb.co/82rMJ79/Screenshot-137.png"
     ],
-    "liveLink": "https://insignia-dev.pingdashtech.org",
-    "gitClient": "https://github.com/Ruman-Islam/Insignia_Frontend",
-    "gitServer": "https://github.com/Ruman-Islam/Insignia_Backend"
+    "liveLink": "https://insignia-dev.pingdashtech.org"
 },
     {
         "id": 2,
@@ -58,9 +56,7 @@
             "https://i.ibb.co/LJtVW77/Screenshot-141.png",
             "https://i.ibb.co/c1Y2CQF/Screenshot-142.png"
         ],
-        "liveLink": "https://purbani-dms-test.vercel.app/",
-        "gitClient": "https://github.com/Ruman-Islam/DMS",
-        "gitServer": "https://github.com/Ruman-Islam/DMS"
+        "liveLink": "https://purbani-dms-test.vercel.app/"
     },
     {
         "id": 3,

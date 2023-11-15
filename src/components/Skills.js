@@ -69,7 +69,7 @@ const Skills = () => {
   return (
     <div className="skill-logo-container">
       <p className="text-[24px] font-bold mb-5 no-underline">
-        Technologies I know and familiar with
+        Technologies I worked on and familiar with
       </p>
       <div class="flag">
         <div class="flagWave">

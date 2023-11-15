@@ -11,7 +11,7 @@ const ResumeProjectCard = ({
   return (
     <div className="resume-project-card">
       <div className="project-title display-flex">
-        <h3 className="project-name">{name}</h3>
+        <h3 className="project-name mr-1">{name}</h3>
         <p className="project-links">
           {liveLink && (
             <a target="_blank" rel="noreferrer" href={liveLink}>
