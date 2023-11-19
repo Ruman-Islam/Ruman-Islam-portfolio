@@ -93,17 +93,16 @@ const AboutMe = () => {
             <div className="experience-container">
               <div>
                 <p className="experience-title">EXPERIENCE</p>
-                {/* <div className="company">
+                <div className="company">
                   <div className="company-experience display-flex">
                     <h3 className="designation">MERN Stack Developer</h3>
-                    <p className="working-date">January 2023 - March 2023</p>
+                    <p className="working-date">January 2023 - November 2023</p>
                   </div>
                   <div>
-                    <p className=" ">On Site</p>
-                    <p className=" ">Pingdash Technology</p>
+                    <p className=" ">Freelancing</p>
                     <p className=" ">Dhaka, Bangladesh</p>
                   </div>
-                </div> */}
+                </div>
                 <div className="company">
                   <div className="company-experience display-flex">
                     <h3 className="designation">Frontend Developer (Intern)</h3>

@@ -31,16 +31,15 @@ const projects = [
     techItems: ["HTML", "CSS", "JS", "MERN"],
   },
   {
-    name: "Tech Hub - Online tech shop",
-    liveLink: "https://pc-builder-self.vercel.app/",
-    clientLink: "https://github.com/Ruman-Islam/Tech-Hub",
+    name: "Taskplanet - Multilevel Marketing website",
+    liveLink: "https://www.taskplanet.org/",
     features: [
-      "Product listing. Product view",
-      "Pc builder",
+      "Various way of income",
+      "Advertising own business",
       "Landing page, login system, etc.",
     ],
-    techItems: ["HTML", "CSS", "TypeScript", "NEXT JS"],
-  },
+    techItems: ["HTML", "SASS", "JavaScript", "React JS"],
+  }
 ];
 
 const education1 = {
