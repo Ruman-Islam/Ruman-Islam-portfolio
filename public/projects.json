@@ -38,9 +38,9 @@
         "id": 2,
         "name": "DMS",
         "title": "Document Management System",
-        "img": "https://i.ibb.co/HPxknPr/Screenshot-138.png",
+        "img": "https://i.ibb.co/KF0GDWN/Screenshot-41-1-1.png",
         "description": "An online document management portal. An employee and admin can easily maintain and share documents and knowledge among employees. User friendly UI. Authentication system, Dashboard for admin & employees.",
-        "overview": "<p>DMS (Document Management System) is an internal portal of PURBANI Group. By This portal any company can manages their internal documents like pdf, videos, form and etc. It makes easy to share informative documents to all the employees to the company without wasting time to find appropriate storage. This portal has its own security for different role based authority.</p><br/><p>Key Features of the DMS Website:</p><br/> <ul class='list-disc'><li><span class='font-bold text-white'>Login & Registration:</span> Admin creates account for employees. And then employee can only login to this portal</li><li><span class='font-bold text-white'>Authentication & Authorization:</span> Super admin can manage all things. Different role base admins and users maintains their things.</li><li><span class='font-bold text-white'>Notice:</span> Employees can get office notices through portal at anytime.</li><li><span class='font-bold text-white'>Policies:</span> New and old employees can aware about office policies through the portal.</li><li><span class='font-bold text-white'>Knowledge:</span> Employees can get knowledge about office work. Get training by themselves.</li><li><span class='font-bold text-white'>Download and Watch:</span> Employees can downloads the documents and watch the videos online easily.</li></ul>",
+        "overview": "<p>DMS (Document Management System) is an internal portal of XYZ Group. By This portal any company can manages their internal documents like pdf, videos, form and etc. It makes easy to share informative documents to all the employees to the company without wasting time to find appropriate storage. This portal has its own security for different role based authority.</p><br/><p>Key Features of the DMS Website:</p><br/> <ul class='list-disc'><li><span class='font-bold text-white'>Login & Registration:</span> Admin creates account for employees. And then employee can only login to this portal</li><li><span class='font-bold text-white'>Authentication & Authorization:</span> Super admin can manage all things. Different role base admins and users maintains their things.</li><li><span class='font-bold text-white'>Notice:</span> Employees can get office notices through portal at anytime.</li><li><span class='font-bold text-white'>Policies:</span> New and old employees can aware about office policies through the portal.</li><li><span class='font-bold text-white'>Knowledge:</span> Employees can get knowledge about office work. Get training by themselves.</li><li><span class='font-bold text-white'>Download and Watch:</span> Employees can downloads the documents and watch the videos online easily.</li></ul>",
         "features": [
             "Login system", "Shipping form", "Cart", "Contact form",
             "Manage products & orders",
@@ -50,11 +50,9 @@
             "HTML", "Vanilla CSS", "Tailwind css", "JavaScript", "Next JS", "Node JS","express", "mongoose", "jsonwebtoken", "bcrypt", "cloudinary", "express-rate-limit", "google-auth", "multer", "nodemailer", "zod"
         ],
         "screenshots" : [
-            "https://i.ibb.co/HPxknPr/Screenshot-138.png",
-            "https://i.ibb.co/Tw4X6q7/Screenshot-139.png",
-            "https://i.ibb.co/zmBNL9b/Screenshot-140.png",
-            "https://i.ibb.co/LJtVW77/Screenshot-141.png",
-            "https://i.ibb.co/c1Y2CQF/Screenshot-142.png"
+            "https://i.ibb.co/S08JGWY/Screenshot-41.png",
+            "https://i.ibb.co/5WxhzsK/Screenshot-42.png",
+            "https://i.ibb.co/wQsFGbW/Screenshot-43.png"
         ],
         "liveLink": "https://purbani-dms-test.vercel.app/"
     },
