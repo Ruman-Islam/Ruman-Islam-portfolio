@@ -96,7 +96,7 @@ const AboutMe = () => {
                 <div className="company">
                   <div className="company-experience display-flex">
                     <h3 className="designation">MERN Stack Developer</h3>
-                    <p className="working-date">January 2023 - November 2023</p>
+                    <p className="working-date">January 2023 - Present</p>
                   </div>
                   <div>
                     <p className=" ">Freelancing</p>
