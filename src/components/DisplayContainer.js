@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedinIn,
-  faFacebookF,
+  // faFacebookF,
   faGithub,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
@@ -23,7 +23,7 @@ const DisplayContainer = () => {
         </div>
       </div>
       <div className="social-icon-container display-flex">
-        <a
+        {/* <a
           target="_blank"
           rel="noreferrer"
           href="https://www.facebook.com/zayedkhan.ruman"
@@ -31,7 +31,7 @@ const DisplayContainer = () => {
           <span className="social-icon display-flex">
             <FontAwesomeIcon icon={faFacebookF} className="item" />
           </span>
-        </a>
+        </a> */}
 
         <a
           target="_blank"

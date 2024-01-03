@@ -40,11 +40,11 @@ const Contacts = () => {
                         </div>
 
                         <div className='social-icon-container-div flex justify-between w-6/12 md:w-3/12 m-auto md:ml-0'>
-                            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/zayedkhan.ruman">
+                            {/* <a target="_blank" rel="noreferrer" href="https://www.facebook.com/zayedkhan.ruman">
                                 <span className='social-icon display-flex mr-2.5'>
                                     <FontAwesomeIcon icon={faFacebookF} className='item' />
                                 </span>
-                            </a>
+                            </a> */}
 
                             <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/ruman-islam-6a567016a/">
                                 <span className='social-icon display-flex mr-2.5'>
