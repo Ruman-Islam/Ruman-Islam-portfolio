@@ -42,7 +42,7 @@ const ProjectDetail = () => {
       <br />
       <br />
       <div>
-        <Carousel project={project} />
+        {project?.screenshots?.length > 0 && <Carousel project={project} />}
         <div className="project-detail-title-container">
           <div>
             <h1 className="text-[#cbdceb] text-3xl font-bold">

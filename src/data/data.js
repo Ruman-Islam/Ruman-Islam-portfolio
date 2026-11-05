@@ -11,34 +11,131 @@ import {
 
 const projects = [
   {
-    name: "Tours & Travel - Online travel website",
-    liveLink: "https://insignia-dev.pingdashtech.org/",
-    features: [
-      "Login system, Separate dashboard for user & admin, user settings.",
-      "Super admin, add/remove admin, manage bookings & users, protected route.",
-      "Booking and cancel tours, Purchase and pay through SSLCOMMERZ.",
+    "name": "Tony's Collection | Solo Full-Stack Developer",
+    "liveLink": "https://tonyscollection.shop/en",
+    "features": [
+      "Built the storefront, regional storefront, admin dashboard and API independently.",
+      "Implemented localized routing, product variants, promotions, Stripe checkout and order management.",
+      "Integrated real-time support, livestreaming, media processing and a Google Merchant product feed."
     ],
-    techItems: ["HTML", "CSS", "JS", "MERN"],
+    "techItems": [
+      "Next.js",
+      "React",
+      "next-intl",
+      "Redux Toolkit",
+      "Express",
+      "MongoDB",
+      "Redis",
+      "Stripe",
+      "Socket.IO",
+      "Agora",
+      "Sharp",
+      "FFmpeg"
+    ]
   },
   {
-    name: "DMS - Document Management System",
-    liveLink: "https://purbani-dms-test.vercel.app/",
-    features: [
-      "Employees & admins can manage internal documents.",
-      "Login system, secured API with JWT, dashboard.",
-      "CRUD operation, user settings.",
+    "name": "Church Logo | Solo Full-Stack Developer",
+    "liveLink": "https://churchlogo.co",
+    "features": [
+      "Built the storefront, backend and admin dashboard independently.",
+      "Implemented logo packages, customer orders, invoices, gallery and client management.",
+      "Integrated Stripe, Google sign-in, live chat and role-based administration."
     ],
-    techItems: ["HTML", "CSS", "JS", "MERN"],
+    "techItems": [
+      "Next.js",
+      "React",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "Ant Design",
+      "Express",
+      "MongoDB",
+      "Stripe",
+      "Socket.IO",
+      "Cloudinary",
+      "JWT"
+    ]
   },
   {
-    name: "Taskplanet - Multilevel Marketing website",
-    liveLink: "https://www.taskplanet.org/",
-    features: [
-      "Various way of income",
-      "Advertising own business",
-      "Landing page, login system, etc.",
+    "name": "Well Tea | Solo Full-Stack Developer",
+    "liveLink": "https://www.welltea.co.uk",
+    "features": [
+      "Built the storefront, admin dashboard and backend independently.",
+      "Implemented product variants, search, filters, cart, wishlist, coupons and Stripe checkout.",
+      "Added tagged cache revalidation, SEO metadata, sitemaps, a Merchant Center feed and regression tests with GitHub Actions."
     ],
-    techItems: ["HTML", "SASS", "JavaScript", "React JS"],
+    "techItems": [
+      "Next.js",
+      "React",
+      "Redux Toolkit",
+      "HeroUI",
+      "Tailwind CSS",
+      "Express",
+      "MongoDB",
+      "Stripe",
+      "Cloudinary",
+      "Sharp",
+      "GitHub Actions"
+    ]
+  },
+  {
+    "name": "ANDO Water | Solo Full-Stack Developer",
+    "liveLink": "https://andowater.com",
+    "features": [
+      "Built the website, admin dashboard and API independently.",
+      "Implemented product content, founding-access enquiries and lead management.",
+      "Added protected admin routes and image and video upload workflows."
+    ],
+    "techItems": [
+      "Next.js",
+      "React",
+      "Redux Toolkit",
+      "GSAP",
+      "Framer Motion",
+      "Vite",
+      "Ant Design",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "Zod",
+      "Sharp",
+      "FFmpeg"
+    ]
+  },
+  {
+    "name": "Jannah Express | Solo Full-Stack Developer",
+    "liveLink": "https://jannahexpress.com",
+    "features": [
+      "Built the website, admin dashboard and backend independently.",
+      "Implemented address search, distance-based fares, instant quotes and Stripe payments.",
+      "Built booking, pricing, customer, role and activity-log administration."
+    ],
+    "techItems": [
+      "React",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Google Places API",
+      "Distance Matrix API",
+      "Stripe",
+      "JWT",
+      "Nodemailer"
+    ]
+  },
+  {
+    "name": "Taskplanet MLM | Backend Developer",
+    "liveLink": "https://taskplanet.org",
+    "features": [
+      "Contributed as a backend developer during the 3W Business internship.",
+      "Developed backend APIs and business logic for user tasks, earning workflows, advertising, account settings and dashboard data."
+    ],
+    "techItems": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT"
+    ]
   }
 ];
 

@@ -32,11 +32,11 @@ const Contacts = () => {
                         </div>
                         <div className='flex items-center my-4 text-[18px] justify-center md:justify-start'>
                             <FontAwesomeIcon icon={faPhone} className='item text-[#02cfb4] mr-2' />
-                            <span>+880 153616-0661</span>
+                            <a href="tel:+8616681380580">16681380580</a>
                         </div>
                         <div className='flex items-center my-4 text-[18px] justify-center md:justify-start'>
                             <FontAwesomeIcon icon={faMapMarker} className='item text-[#02cfb4] mr-2' />
-                            <span>Dhaka, Bangladesh</span>
+                            <span>Hunan, China</span>
                         </div>
 
                         <div className='social-icon-container-div flex justify-between w-6/12 md:w-3/12 m-auto md:ml-0'>

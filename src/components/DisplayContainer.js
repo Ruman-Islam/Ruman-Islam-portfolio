@@ -17,7 +17,7 @@ const DisplayContainer = () => {
         </div>
         <div className="display-text">
           <p className="no-underline">
-            Hi, I'm a Frontend developer.
+            Hi, I'm a full-stack and mobile app developer.
             Welcome to my personal website!
           </p>
         </div>

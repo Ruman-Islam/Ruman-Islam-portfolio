@@ -10,7 +10,7 @@ const ProjectCard = ({ project, project: { id, img, name, description } }) => {
       className="flex flex-col md:flex-row justify-between
          items-center h-full mb-2"
     >
-      <div
+      {img && <div
         className={`w-full md:w-10/12 ${
           pathname.includes("/projects") ? "2xl:w-8/12" : "2xl:w-12/12"
         }`}
@@ -19,9 +19,9 @@ const ProjectCard = ({ project, project: { id, img, name, description } }) => {
           style={{ height: "250px" }}
           className="w-full object-cover"
           src={img}
-          alt=""
+          alt={name}
         />
-      </div>
+      </div>}
       <div className="p-2 md:p-5 2xl:p-10 w-full md:w-10/12 2xl:w-12/12">
         <div>
           <h1 className="text-[30px] 2xl:text-[35px] text-[#02cfb4] font-bold">

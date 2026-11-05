@@ -1,3 +1,4 @@
+import SkillExperties from "./SkillExperties";
 import SkillCard from "./SkillCard";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
@@ -71,8 +72,9 @@ const Skills = () => {
       <p className="text-[24px] font-bold mb-5 no-underline">
         Technologies I worked on and familiar with
       </p>
-      <div class="flag">
-        <div class="flagWave">
+      <SkillExperties />
+      <div className="flag">
+        <div className="flagWave">
           {allSkills1?.map((skill, index) => (
             <SkillCard key={index} img={skill?.img} css={skill?.css} />
           ))}

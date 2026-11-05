@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import resume from "../assets/Ruman Islam(Resume Frontend).pdf";
+import resume from "../assets/Ruman_Islam_Resume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileLines, faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import "../styles/About.css";
@@ -14,36 +14,14 @@ const About = () => {
             Ruman Islam
           </h1>
           <h2 className="text-white text-2xl pl-1 mt-2 mb-5 my-name-box">
-            <span>F</span>
-            <span>r</span>
-            <span>o</span>
-            <span>n</span>
-            <span>t</span>
-            <span>e</span>
-            <span>n</span>
-            <span>d</span> {" "}
-            <span>D</span>
-            <span>e</span>
-            <span>v</span>
-            <span>e</span>
-            <span>l</span>
-            <span>o</span>
-            <span>p</span>
-            <span>e</span>
-            <span>r</span>
-          </h2>
+            Full-Stack &amp; Mobile App Developer</h2>
           <p className="text-[16px] no-underline">
-            A self-motivated, ambitious and enthusiastic web designer and
-            developer with highly interested in MERN stack development. To work
-            in software industry with modern web technologies of different local
-            and multinational Software/IT agency of Bangladesh and world-wide
-            and grow rapidly with increasing skills and responsibilities. Check
-            out my project <NavLink to="/projects">project portfolio</NavLink>{" "}
+            I’m a full-stack and mobile app developer based in Hunan, China, currently working at DevRiser. I build React and Next.js websites, Node.js APIs and React Native mobile apps. I independently developed five client websites from end to end. Explore my <NavLink to="/projects">project portfolio</NavLink>{" "}
             and{" "}
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1TGHI_gJUaZ32R2yVKxBBh6sMmKrq5bOB/view?usp=sharing"
+              href={resume}
             >
               online resume
             </a>
