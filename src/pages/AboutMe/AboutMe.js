@@ -38,17 +38,17 @@ const AboutMe = () => {
             <div className="resume-person-title">
               <p className="person-name no-underline">Ruman Islam</p>
               <p className="person-designation no-underline ">
-                Frontend Developer
+                Full-Stack &amp; Mobile App Developer
               </p>
             </div>
             <div className="contact-items-container">
               <div className="contact-item display-flex">
                 <FontAwesomeIcon icon={faLocationPin} className="item" />
-                <p>Dhaka, Bangladesh</p>
+                <p>Hunan, China</p>
               </div>
               <div className="contact-item display-flex">
                 <FontAwesomeIcon icon={faSquarePhone} className="item" />
-                <a href="tel:+8801536160661">+880 1536-160661</a>
+                <a href="tel:+8616681380580">16681380580</a>
               </div>
               <div className="contact-item display-flex">
                 <FontAwesomeIcon icon={faSquareEnvelope} className="item" />
@@ -72,14 +72,7 @@ const AboutMe = () => {
           <div className="resume-description light-border-bottom">
             <div>
               <p className="no-underline">
-                I'm a Frontend developer. My passion is to involve in the
-                programming world for a lifetime. I really enjoy building web
-                applications and adding new features. Patience is one of my
-                god's blessings for me. This is my key power in solving problems
-                in programming. Furthermore, as I am really ambitious, I can,
-                and want to work with the organizational team and will be
-                through every thick and thin. Lastly, I find this sector very
-                spellbinding and will always work with my full enthusiasm.
+                I’m a full-stack and mobile app developer at DevRiser, based in Hunan, China. I build React and Next.js websites, Node.js and Express APIs, MongoDB data models and React Native mobile apps. My client work includes e-commerce, booking platforms, admin dashboards, payments and real-time communication.
               </p>
             </div>
           </div>
@@ -95,17 +88,24 @@ const AboutMe = () => {
                 <p className="experience-title">EXPERIENCE</p>
                 <div className="company">
                   <div className="company-experience display-flex">
-                    <h3 className="designation">MERN Stack Developer</h3>
+                    <h3 className="designation">Full-Stack and Mobile App Developer</h3>
+                    <p className="working-date">December 2025 - Present</p>
+                  </div>
+                  <p>DevRiser</p>
+                </div>
+                <div className="company">
+                  <div className="company-experience display-flex">
+                    <h3 className="designation">Full-Stack Developer</h3>
                     <p className="working-date">January 2023 - Present</p>
                   </div>
                   <div>
                     <p className=" ">Freelancing</p>
-                    <p className=" ">Dhaka, Bangladesh</p>
+                    <p className=" ">Hunan, China</p>
                   </div>
                 </div>
                 <div className="company">
                   <div className="company-experience display-flex">
-                    <h3 className="designation">Frontend Developer (Intern)</h3>
+                    <h3 className="designation">Backend Developer (Intern)</h3>
                     <p className="working-date">March 2023 - Aug 2023</p>
                   </div>
                   <div>
@@ -233,7 +233,7 @@ const AboutMe = () => {
               rel="noreferrer"
               href="https://www.youtube.com/@rumanislam7528"
             >
-              <span className=" ">Insta/RumanIslam</span>
+              <span className=" ">YouTube/RumanIslam</span>
             </a>
           </div>
         </div>

@@ -1,37 +1,105 @@
-import React from 'react';
+import React from "react";
 
-const SkillExperties = () => {
-    return (
-        <div className='skill-experties display-flex'>
-            <span>JavaScript (ES6) </span>
-            <span>TypeScript</span>
-            <span>ReactJS</span>
-            <span>NextJS</span>
-            <span>Firebase</span>
-            <span>REST API</span>
-            <span>JWT</span>
-            <span>Tailwind CSS</span>
-            <span>Ant Design</span>
-            <span>Material UI</span>
-            <span>Daisy UI</span>
-            <span>Bootstrap</span>
-            <span>Redux (RTK)</span>
-            <span>Axios</span>
-            <span>React hook form (Validation)</span>
-            <span>ChartJS</span>
-            <span>HTML5</span>
-            <span>CSS3</span>
-            <span>SASS</span>
-            <span>VS Code</span>
-            <span>Postman</span>
-            <span>Git</span>
-            <span>Netlify</span>
-            <span>Vercel</span>
-            <span>Jira</span>
-            <span>Trello</span>
-            <span>Teamwork</span>
-        </div>
-    );
-};
+const skills = [
+  "JavaScript",
+  "TypeScript",
+  "HTML5",
+  "CSS3",
+  "Sass",
+  "React",
+  "React Native",
+  "Next.js",
+  "Cocos Creator",
+  "Vite",
+  "Redux Toolkit",
+  "React Router",
+  "Axios",
+  "React Hook Form",
+  "Tailwind CSS",
+  "Ant Design",
+  "Material UI / Joy UI",
+  "HeroUI",
+  "Headless UI",
+  "DaisyUI",
+  "Bootstrap",
+  "Emotion",
+  "styled-components",
+  "GSAP",
+  "Framer Motion",
+  "Swiper",
+  "Keen Slider",
+  "Slick",
+  "Node.js",
+  "Express",
+  "MongoDB",
+  "Mongoose",
+  "Redis / ioredis",
+  "NodeCache",
+  "Firebase",
+  "REST APIs",
+  "Aggregation and pagination",
+  "Socket.IO",
+  "Socket.IO Redis adapter",
+  "Zod",
+  "JWT",
+  "bcrypt",
+  "Google OAuth",
+  "Role-based access",
+  "Rate limiting",
+  "CORS",
+  "Stripe",
+  "Agora RTC",
+  "Google Places API",
+  "Distance Matrix API",
+  "Google Merchant Center feeds",
+  "Google Analytics",
+  "Google Tag Manager",
+  "Meta Pixel",
+  "Cloudinary",
+  "Sharp",
+  "FFmpeg / ffprobe",
+  "Multer",
+  "Busboy",
+  "Nodemailer",
+  "EJS",
+  "node-cron",
+  "Winston",
+  "DOMPurify",
+  "ApexCharts",
+  "Chart.js",
+  "Quill",
+  "Lexical",
+  "jsPDF",
+  "html2canvas",
+  "Git",
+  "GitHub Actions",
+  "Node.js test runner",
+  "ESLint",
+  "Prettier",
+  "Husky",
+  "lint-staged",
+  "Postman",
+  "VS Code",
+  "VPS hosting",
+  "Hostinger",
+  "Cloudflare",
+  "Vercel",
+  "Netlify",
+  "Jira",
+  "Trello",
+  "App Router",
+  "SSR / SSG",
+  "Tagged caching and revalidation",
+  "Internationalized routing",
+  "SEO metadata and sitemaps",
+  "Protected routes",
+  "Regression testing"
+];
+
+const SkillExperties = () => (
+  <div className="skill-experties display-flex">
+    {skills.map((skill) => <span key={skill}>{skill}</span>)}
+  </div>
+);
 
 export default SkillExperties;
