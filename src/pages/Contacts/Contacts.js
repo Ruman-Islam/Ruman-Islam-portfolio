@@ -2,7 +2,7 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import PageTitle from '../../components/PageTitle';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedinIn, faFacebookF, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faPhone, faMapMarker } from '@fortawesome/free-solid-svg-icons';
 import CopyRight from '../../components/CopyRight';
 

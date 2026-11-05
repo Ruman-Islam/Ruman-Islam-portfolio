@@ -13,8 +13,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import ResumeProjectCard from "../../components/ResumeProjectCard";
 import SkillExperties from "../../components/SkillExperties";
-import SkillComfortable from "../../components/SkillComfortable";
-import SkillTools from "../../components/SkillTools";
 import EducationCard from "../../components/EducationCard";
 import CourseCard from "../../components/CourseCard";
 import ScrollUpBtn from "../../components/ScrollUpBtn";
